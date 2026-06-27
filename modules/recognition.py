@@ -73,7 +73,7 @@ class PriceRecognizer:
     def recognize_and_extract(self, crop: np.ndarray) -> tuple:
         """
         Runs OCR on the price crop and extracts only the first Arabic digit sequence.
-        Defaults to '0' if no digits are found.
+        Defaults to 'MISSING_PRICE' if no digits are found.
         Enforces zero character translation logic for Kannada digits by matching
         strictly against ASCII Arabic numerals (0-9).
         
@@ -81,7 +81,7 @@ class PriceRecognizer:
         :return: Tuple of (extracted_digits_text, raw_text, confidence_score)
         """
         if crop.size == 0:
-            return "0", "", 0.0
+            return "MISSING_PRICE", "", 0.0
         try:
             predictor = self.reader.paddlex_pipeline._pipeline.text_rec_model
             results = list(predictor.predict(crop))
@@ -101,7 +101,7 @@ class PriceRecognizer:
             digits = re.findall(r'[0-9]+', str(text))
             if digits:
                 return "".join(digits), text, score
-            return "0", text, score
+            return "MISSING_PRICE", text, score
         except Exception as e:
             logger.error(f"Error during price extraction: {e}")
-            return "0", "", 0.0
+            return "MISSING_PRICE", "", 0.0

@@ -53,7 +53,7 @@ class OcrOrchestrator:
     def pair_detections(self, detections: list, img_w: float, max_y_diff: float = 100.0) -> tuple:
         """
         Groups detections by left/right side based on the X-axis midpoint of the image,
-        and pairs vegetables with prices using a strict Row-Anchored Grid Parser.
+        and pairs vegetables with prices using a Strict Grid-Anchor Parser.
         
         :param detections: All detections from YOLO.
         :param img_w: Width of the input image.
@@ -64,95 +64,84 @@ class OcrOrchestrator:
         midpoint_x = img_w / 2.0
         logger.info(f"X-Midpoint Enforcement: Calculated image midpoint X = {midpoint_x:.1f}")
         
-        # 1. Column Splitting: Split detected boxes into Left-Grid and Right-Grid based strictly on center X
-        left_detections = []
-        right_detections = []
+        # 1. Median Row Height: Calculate the median height of all detected boxes to determine row_threshold
+        if detections:
+            heights = [d['box'][3] - d['box'][1] for d in detections]
+            row_threshold = float(np.median(heights))
+            logger.info(f"Strict Grid-Anchor Parser: Calculated median height = {row_threshold:.2f}px (row_threshold)")
+        else:
+            row_threshold = 50.0  # Fallback
+            logger.info(f"Strict Grid-Anchor Parser: No detections. Using fallback row_threshold = {row_threshold:.2f}px")
+            
+        # 2. Bucket Creation: Iterate through all detected boxes and sort them into buckets where Y-center is within ±0.5 * row_threshold
+        sorted_boxes = sorted(detections, key=lambda d: self._get_center_y(d['box']))
+        row_buckets = []  # list of lists of detections
         
-        for d in detections:
-            box = d['box']
-            center_x = self._get_center_x(box)
-            if center_x < midpoint_x:
-                left_detections.append(d)
+        for box in sorted_boxes:
+            y_center = self._get_center_y(box['box'])
+            matched_bucket = None
+            for bucket in row_buckets:
+                avg_y = sum(self._get_center_y(b['box']) for b in bucket) / len(bucket)
+                if abs(y_center - avg_y) <= (0.5 * row_threshold):
+                    matched_bucket = bucket
+                    break
+            if matched_bucket is not None:
+                matched_bucket.append(box)
             else:
-                right_detections.append(d)
+                row_buckets.append([box])
                 
-        # 2. Strict Y-Axis Sorting and Row Bucket Assignment (tolerance = 20 pixels)
-        def cluster_rows_strict(side_detections):
-            if not side_detections:
-                return []
-            
-            # Sort all detected boxes by their Y-center coordinate
-            sorted_boxes = sorted(side_detections, key=lambda d: self._get_center_y(d['box']))
-            
-            # Row Bucket Assignment: If Y-center is within 20px of the previous box, group them
-            buckets = [[sorted_boxes[0]]]
-            for box in sorted_boxes[1:]:
-                prev_box = buckets[-1][-1]
-                prev_y = self._get_center_y(prev_box['box'])
-                curr_y = self._get_center_y(box['box'])
-                
-                if abs(curr_y - prev_y) <= 20.0:
-                    buckets[-1].append(box)
-                else:
-                    buckets.append([box])
-            return buckets
+        logger.info(f"Strict Grid-Anchor Parser: Grouped into {len(row_buckets)} total Row Buckets using threshold={0.5 * row_threshold:.2f}px")
 
-        left_buckets = cluster_rows_strict(left_detections)
-        right_buckets = cluster_rows_strict(right_detections)
-        
-        logger.info(f"Row-Anchored Grid Parser: Grouped into {len(left_buckets)} Row Buckets on Left, {len(right_buckets)} on Right")
-
-        # 3. Cell Identification: Inside each bucket, sort by X and map to Vegetable/Price or guess if single item
-        def pair_row_bucket_strict(bucket, is_left_side):
-            pairs = []
-            if not bucket:
-                return pairs
-                
-            # Sort the boxes by X-coordinate
-            sorted_bucket = sorted(bucket, key=lambda d: self._get_center_x(d['box']))
+        # 3. Grid Splitting: For every bucket, sort by X and assign slots 0, 1 (Left) and 2, 3 (Right)
+        def pair_row_bucket_slots(bucket):
+            left_side_boxes = [d for d in bucket if self._get_center_x(d['box']) < midpoint_x]
+            right_side_boxes = [d for d in bucket if self._get_center_x(d['box']) >= midpoint_x]
             
-            if len(sorted_bucket) >= 2:
-                # Map first item to Vegetable, second item to Price
-                veg_det = sorted_bucket[0]
-                price_det = sorted_bucket[1]
-                pairs.append((veg_det, price_det))
-            elif len(sorted_bucket) == 1:
-                # Guess based on width/position
-                det = sorted_bucket[0]
-                box = det['box']
-                center_x = self._get_center_x(box)
-                width = box[2] - box[0]
-                label_lower = det['label'].lower()
-                
-                is_price = 'price' in label_lower
-                if not is_price:
-                    # Position/width heuristic
-                    if is_left_side:
-                        is_price = center_x > (midpoint_x * 0.65) or width < (midpoint_x * 0.4)
-                    else:
-                        is_price = center_x > (midpoint_x + (img_w - midpoint_x) * 0.65) or width < ((img_w - midpoint_x) * 0.4)
-                
-                if is_price:
-                    pairs.append((None, det))
-                else:
-                    pairs.append((det, None))
+            # Sort each side by X-coordinate
+            left_side_boxes.sort(key=lambda d: self._get_center_x(d['box']))
+            right_side_boxes.sort(key=lambda d: self._get_center_x(d['box']))
+            
+            def assign_slots(side_boxes, is_left_side):
+                if len(side_boxes) >= 2:
+                    # Slot 0/2 is Vegetable, Slot 1/3 is Price
+                    return side_boxes[0], side_boxes[1]
+                elif len(side_boxes) == 1:
+                    det = side_boxes[0]
+                    box = det['box']
+                    center_x = self._get_center_x(box)
+                    width = box[2] - box[0]
+                    label_lower = det['label'].lower()
                     
-            return pairs
+                    is_price = 'price' in label_lower
+                    if not is_price:
+                        # Position/width heuristic to guess cell type
+                        if is_left_side:
+                            is_price = center_x > (midpoint_x * 0.65) or width < (midpoint_x * 0.4)
+                        else:
+                            is_price = center_x > (midpoint_x + (img_w - midpoint_x) * 0.65) or width < ((img_w - midpoint_x) * 0.4)
+                    
+                    if is_price:
+                        return None, det
+                    else:
+                        return det, None
+                return None, None
+
+            left_veg, left_price = assign_slots(left_side_boxes, is_left_side=True)
+            right_veg, right_price = assign_slots(right_side_boxes, is_left_side=False)
+            
+            return left_veg, left_price, right_veg, right_price
 
         left_pairs = []
-        for idx, bucket in enumerate(left_buckets):
-            avg_y = sum(self._get_center_y(b['box']) for b in bucket) / len(bucket)
-            bucket_pairs = pair_row_bucket_strict(bucket, is_left_side=True)
-            for veg, price in bucket_pairs:
-                left_pairs.append((veg, price, idx + 1, avg_y))
-                
         right_pairs = []
-        for idx, bucket in enumerate(right_buckets):
+        for idx, bucket in enumerate(row_buckets):
             avg_y = sum(self._get_center_y(b['box']) for b in bucket) / len(bucket)
-            bucket_pairs = pair_row_bucket_strict(bucket, is_left_side=False)
-            for veg, price in bucket_pairs:
-                right_pairs.append((veg, price, idx + 1, avg_y))
+            left_veg, left_price, right_veg, right_price = pair_row_bucket_slots(bucket)
             
+            if left_veg or left_price:
+                left_pairs.append((left_veg, left_price, idx + 1, avg_y))
+            if right_veg or right_price:
+                right_pairs.append((right_veg, right_price, idx + 1, avg_y))
+                
         return left_pairs, right_pairs
 
     def process_image(self, 
@@ -234,9 +223,9 @@ class OcrOrchestrator:
                 price_crop = self._crop_box(image, price_det['box'])
                 cleaned_price, raw_price_text, price_conf = self.price_recognizer.recognize_and_extract(price_crop)
                 
-                # Check if digits were found. If cleaned_price is empty or "0", price defaults to "0".
-                if cleaned_price == "0" or not cleaned_price:
-                    cleaned_price = "0"
+                # Check if digits were found. If cleaned_price is empty or "MISSING_PRICE", price defaults to "MISSING_PRICE".
+                if cleaned_price == "MISSING_PRICE" or not cleaned_price:
+                    cleaned_price = "MISSING_PRICE"
                 
                 # Store the exact, uncleaned string from the OCR engine (use [Empty OCR] if empty)
                 raw_ocr_price = raw_price_text if raw_price_text else "[Empty OCR]"
@@ -260,19 +249,19 @@ class OcrOrchestrator:
                 'Vegetable': cleaned_veg,
                 'Price': cleaned_price,
                 'raw_ocr_price': raw_ocr_price,
-                'Row_Index': f"{side_name}-Row-{bucket_idx}",
-                'Y_Coord': round(avg_y, 1),
+                'Row_Bucket_ID': f"{side_name}-Bucket-{bucket_idx}",
+                'Raw_Y_Coord': round(avg_y, 1),
                 'raw_veg_diagnostic': raw_veg_text,
                 'raw_price_diagnostic': raw_price_text
             })
             
-            logger.info(f"Row {serial_no} ({side_name}): Raw='{raw_veg_text}' (conf={veg_conf:.2f}) -> Cleaned='{cleaned_veg}' | Price={cleaned_price} | raw_ocr_price='{raw_ocr_price}' | Row_Index={side_name}-Row-{bucket_idx} | Y_Coord={avg_y:.1f}")
+            logger.info(f"Row {serial_no} ({side_name}): Raw='{raw_veg_text}' (conf={veg_conf:.2f}) -> Cleaned='{cleaned_veg}' | Price={cleaned_price} | raw_ocr_price='{raw_ocr_price}' | Row_Bucket_ID={side_name}-Bucket-{bucket_idx} | Raw_Y_Coord={avg_y:.1f}")
             serial_no += 1
             
-        # 3. Write to CSV enforcing the schema: [No., Vegetable, Price, raw_ocr_price, Row_Index, Y_Coord]
+        # 3. Write to CSV enforcing the schema: [No., Vegetable, Price, raw_ocr_price, Row_Bucket_ID, Raw_Y_Coord]
         # Using extrasaction='ignore' to omit the raw diagnostic trace columns from the written file
         with open(output_csv_path, mode='w', encoding='utf-8-sig', newline='') as csv_file:
-            fieldnames = ['No.', 'Vegetable', 'Price', 'raw_ocr_price', 'Row_Index', 'Y_Coord']
+            fieldnames = ['No.', 'Vegetable', 'Price', 'raw_ocr_price', 'Row_Bucket_ID', 'Raw_Y_Coord']
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames, extrasaction='ignore')
             
             writer.writeheader()
