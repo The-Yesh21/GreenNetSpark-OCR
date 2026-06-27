@@ -1,0 +1,7 @@
+--- LOW CONFIDENCE OCR READS LOG ---
+Source Image: datasets/test1.jpg
+Threshold: < 0.50
+Total Low Confidence Reads Found: 1
+============================================================
+
+[laptop] Box: [297.8, 0.0, 1200.0, 916.4] | Raw Text: '' | Confidence: 0.0000
