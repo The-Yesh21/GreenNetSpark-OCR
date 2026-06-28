@@ -70,18 +70,23 @@ class PriceRecognizer:
         )
         self.regex = re.compile(r'[0-9]+')
 
-    def recognize_and_extract(self, crop: np.ndarray) -> tuple:
+    def extract_price_strict(self, crop: np.ndarray) -> tuple:
         """
         Runs OCR on the price crop and extracts only the first Arabic digit sequence.
-        Defaults to 'MISSING_PRICE' if no digits are found.
-        Enforces zero character translation logic for Kannada digits by matching
-        strictly against ASCII Arabic numerals (0-9).
+        If no digits are found, returns "0" and logs raw OCR text to price_debug.log.
+        Prints 'DEBUG: Price Logic Running' to terminal.
         
         :param crop: Cropped price bounding box region.
         :return: Tuple of (extracted_digits_text, raw_text, confidence_score)
         """
+        print("DEBUG: Price Logic Running")
         if crop.size == 0:
-            return "MISSING_PRICE", "", 0.0
+            try:
+                with open("price_debug.log", "a", encoding="utf-8") as f:
+                    f.write("Raw input: '[Empty Crop]'\n")
+            except Exception as le:
+                logger.error(f"Failed to write to price_debug.log: {le}")
+            return "0", "", 0.0
         try:
             predictor = self.reader.paddlex_pipeline._pipeline.text_rec_model
             results = list(predictor.predict(crop))
@@ -101,7 +106,23 @@ class PriceRecognizer:
             digits = re.findall(r'[0-9]+', str(text))
             if digits:
                 return "".join(digits), text, score
-            return "MISSING_PRICE", text, score
+            
+            # Log the raw input string to price_debug.log
+            try:
+                with open("price_debug.log", "a", encoding="utf-8") as f:
+                    f.write(f"Raw input: '{text}'\n")
+            except Exception as le:
+                logger.error(f"Failed to write to price_debug.log: {le}")
+                
+            return "0", text, score
         except Exception as e:
             logger.error(f"Error during price extraction: {e}")
-            return "MISSING_PRICE", "", 0.0
+            try:
+                with open("price_debug.log", "a", encoding="utf-8") as f:
+                    f.write(f"Raw input: '[Exception: {e}]'\n")
+            except Exception as le:
+                logger.error(f"Failed to write to price_debug.log: {le}")
+            return "0", "", 0.0
+
+    # Alias for compatibility
+    recognize_and_extract = extract_price_strict

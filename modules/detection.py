@@ -94,3 +94,61 @@ class YoloDetector:
             logger.debug(f"Class: {d['label']}, Conf: {d['confidence']:.2f}, Box: {d['box']}")
             
         return detections
+
+def split_image_into_zones(detections: list, img_w: float) -> dict:
+    """
+    Splits the detections into 4 vertical zones based on X-coordinates:
+    'Left-Veg', 'Left-Price', 'Right-Veg', 'Right-Price'.
+    """
+    # Group detections by their center X coordinates to determine boundaries.
+    left_veg_x = []
+    left_price_x = []
+    right_veg_x = []
+    right_price_x = []
+    
+    for d in detections:
+        x_center = (d['box'][0] + d['box'][2]) / 2.0
+        label_lower = d.get('label', '').lower()
+        if 'left_veg' in label_lower:
+            left_veg_x.append(x_center)
+        elif 'left_price' in label_lower:
+            left_price_x.append(x_center)
+        elif 'right_veg' in label_lower:
+            right_veg_x.append(x_center)
+        elif 'right_price' in label_lower:
+            right_price_x.append(x_center)
+            
+    # Calculate median X coordinates for each column, fallback to percentage of width if empty
+    import numpy as np
+    m_lv = float(np.median(left_veg_x)) if left_veg_x else 0.15 * img_w
+    m_lp = float(np.median(left_price_x)) if left_price_x else 0.30 * img_w
+    m_rv = float(np.median(right_veg_x)) if right_veg_x else 0.50 * img_w
+    m_rp = float(np.median(right_price_x)) if right_price_x else 0.70 * img_w
+    
+    # Calculate split lines between adjacent columns
+    split_1 = (m_lv + m_lp) / 2.0
+    split_2 = (m_lp + m_rv) / 2.0
+    split_3 = (m_rv + m_rp) / 2.0
+    
+    logger.info(f"Four-Zone Slicing Boundaries: split_1 (LV/LP)={split_1:.1f}, split_2 (LP/RV)={split_2:.1f}, split_3 (RV/RP)={split_3:.1f}")
+    
+    zones = {
+        'Left-Veg': [],
+        'Left-Price': [],
+        'Right-Veg': [],
+        'Right-Price': []
+    }
+    
+    for d in detections:
+        x_center = (d['box'][0] + d['box'][2]) / 2.0
+        if x_center < split_1:
+            zones['Left-Veg'].append(d)
+        elif split_1 <= x_center < split_2:
+            zones['Left-Price'].append(d)
+        elif split_2 <= x_center < split_3:
+            zones['Right-Veg'].append(d)
+        else:
+            zones['Right-Price'].append(d)
+            
+    return zones
+

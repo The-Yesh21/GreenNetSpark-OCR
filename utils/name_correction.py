@@ -66,16 +66,15 @@ def load_veg_dictionary() -> dict:
         logger.warning(f"Vegetable dictionary file not found at {VEG_DICT_PATH}. Using empty dictionary.")
     return {}
 
-def correct_vegetable_name(ocr_text: str, cutoff: float = 0.5) -> str:
+def get_corrected_name(ocr_text: str, cutoff: float = 0.5) -> str:
     """
-    Corrects the OCR-recognized Kannada vegetable name using a loaded JSON dictionary
-    and fuzzy matching against a list of valid names.
-    
-    :param ocr_text: Raw OCR recognized text.
-    :param cutoff: Fuzzy match similarity threshold (between 0.0 and 1.0).
-    :return: Cleaned and corrected Kannada vegetable name.
+    Corrects the OCR-recognized Kannada vegetable name.
+    If no match is found, returns the raw text with a prefix 'UNCORRECTED_'.
+    Also prints input and output directly to the terminal.
     """
+    print(f"DEBUG: get_corrected_name Input -> '{ocr_text}'")
     if not ocr_text:
+        print("DEBUG: get_corrected_name Output -> ''")
         return ""
         
     cleaned_text = ocr_text.strip()
@@ -94,21 +93,26 @@ def correct_vegetable_name(ocr_text: str, cutoff: float = 0.5) -> str:
             
     if best_score > 0.6 and best_key is not None:
         corrected = veg_dict[best_key]
-        logger.info(f"Dictionary Best-Match lookup: '{cleaned_text}' matched '{best_key}' (score={best_score:.2f} > 0.6) -> '{corrected}'")
+        print(f"DEBUG: get_corrected_name Output (Dict Best-Match) -> '{corrected}'")
         return corrected
         
     # 2. Check exact/direct local dictionary mapping fallback
     if cleaned_text in KANNADA_VEG_MAPPING:
         corrected = KANNADA_VEG_MAPPING[cleaned_text]
-        logger.debug(f"Direct mapping match fallback: '{cleaned_text}' -> '{corrected}'")
+        print(f"DEBUG: get_corrected_name Output (Direct Map) -> '{corrected}'")
         return corrected
         
-    # 3. Use difflib for fuzzy matching fallback
+    # 3. Use difflib for fuzzy matching fallback against VALID_KANNADA_VEGETABLES
     matches = difflib.get_close_matches(cleaned_text, VALID_KANNADA_VEGETABLES, n=1, cutoff=cutoff)
     if matches:
         corrected = matches[0]
-        logger.debug(f"Fuzzy match match (cutoff={cutoff}): '{cleaned_text}' -> '{corrected}'")
+        print(f"DEBUG: get_corrected_name Output (Fuzzy) -> '{corrected}'")
         return corrected
         
-    logger.debug(f"No match found for: '{cleaned_text}'. Returning original.")
-    return cleaned_text
+    # If no match is found, return raw text prefixed with UNCORRECTED_
+    output = f"UNCORRECTED_{cleaned_text}"
+    print(f"DEBUG: get_corrected_name Output (Uncorrected) -> '{output}'")
+    return output
+
+# Alias for compatibility
+correct_vegetable_name = get_corrected_name

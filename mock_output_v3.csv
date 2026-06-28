@@ -1,21 +1,21 @@
 ﻿No.,Vegetable,Price,raw_ocr_price,Row_Bucket_ID,Raw_Y_Coord
-1,ನಎೆ,MISSING_PRICE,[Empty OCR],Left-Grid-Bucket-1,285.0
-2,..Ma?,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-1,285.0
-3,ಕಳ್ಕ,3,3,Left-Grid-Bucket-2,385.0
-4,ಕಫಮಣಸುಾ,MISSING_PRICE,A,Right-Grid-Bucket-2,385.0
+1,UNCORRECTED_ನಎೆ,MISSING_PRICE,[Empty OCR],Left-Grid-Bucket-1,285.0
+2,UNCORRECTED_..Ma?,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-1,285.0
+3,UNCORRECTED_ಕಳ್ಕ,3,3,Left-Grid-Bucket-2,385.0
+4,UNCORRECTED_ಕಫಮಣಸುಾ,MISSING_PRICE,A,Right-Grid-Bucket-2,385.0
 5,ಸೌತೆಕಾಯಿ,8,8,Left-Grid-Bucket-3,485.0
-6,ುದನ್ವೈಲ್,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-3,485.0
-7,ಸುನಗ,MISSING_PRICE,[Empty OCR],Left-Grid-Bucket-4,585.0
-8,ೋಸು-ಚಾಗಾತಿಸಿ,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-4,585.0
-9,ಯಳವನ,3,3,Left-Grid-Bucket-5,685.0
+6,UNCORRECTED_ುದನ್ವೈಲ್,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-3,485.0
+7,UNCORRECTED_ಸುನಗ,MISSING_PRICE,[Empty OCR],Left-Grid-Bucket-4,585.0
+8,UNCORRECTED_ೋಸು-ಚಾಗಾತಿಸಿ,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-4,585.0
+9,UNCORRECTED_ಯಳವನ,3,3,Left-Grid-Bucket-5,685.0
 10,ಬದನೆಕಾಯಿ,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-5,685.0
 11,ಬದನೆಕಾಯಿ,MISSING_PRICE,[Empty OCR],Left-Grid-Bucket-6,785.0
-12,ಭಿನಾಟು--ನ,5,5,Right-Grid-Bucket-6,785.0
+12,UNCORRECTED_ಭಿನಾಟು--ನ,5,5,Right-Grid-Bucket-6,785.0
 13,ಹೀರೆಕಾಯಿ,18,18,Left-Grid-Bucket-7,885.0
-14,ಂಡಿಕoತ,3,3,Right-Grid-Bucket-7,885.0
+14,UNCORRECTED_ಂಡಿಕoತ,3,3,Right-Grid-Bucket-7,885.0
 15,ಪಡುವಲಕಾಯಿ,15,15,Left-Grid-Bucket-8,985.0
-16,ವೋಗ--ಹುಳ,MISSING_PRICE,B,Right-Grid-Bucket-8,985.0
-17,ಪಾಲಕ್,0,d0,Left-Grid-Bucket-9,1085.0
-18,ುಲೆಲ್ಮಣಸುೆ,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-9,1085.0
-19,-ಹಾಗಲ--ೀನ್,30,30,Left-Grid-Bucket-10,1185.0
-20,ನt.ಆ.,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-10,1185.0
+16,UNCORRECTED_ವೋಗ--ಹುಳ,MISSING_PRICE,B,Right-Grid-Bucket-8,985.0
+17,ಪಾಲಕ್,MISSING_PRICE,d0,Left-Grid-Bucket-9,1085.0
+18,UNCORRECTED_ುಲೆಲ್ಮಣಸುೆ,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-9,1085.0
+19,UNCORRECTED_-ಹಾಗಲ--ೀನ್,30,30,Left-Grid-Bucket-10,1185.0
+20,UNCORRECTED_ನt.ಆ.,MISSING_PRICE,[Empty OCR],Right-Grid-Bucket-10,1185.0
