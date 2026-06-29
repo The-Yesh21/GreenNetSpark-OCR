@@ -22,7 +22,7 @@ class YoloDetector:
         # Expected classes
         self.expected_classes = {'left_veg', 'left_price', 'right_veg', 'right_price'}
         
-    def detect(self, image_path: str, conf_threshold: float = 0.25, iou_threshold: float = 0.6) -> list:
+    def detect(self, image_path: str, conf_threshold: float = 0.15, iou_threshold: float = 0.45) -> list:
         """
         Runs inference on the input image and returns sorted detections.
         
@@ -54,19 +54,12 @@ class YoloDetector:
                 # Get the class name from model names
                 label = self.model.names.get(cls_id, str(cls_id))
                 
-                # Context-Aware Cropping: add a padding factor of 15% (broadened to 20% for price boxes)
-                w = x2 - x1
-                h = y2 - y1
-                is_price = 'price' in label.lower()
-                pad_factor = 0.20 if is_price else 0.15
-                pad_x = w * pad_factor
-                pad_y = h * pad_factor
-                
-                # Apply padding and clamp to image boundaries
-                x1_pad = max(0.0, x1 - pad_x)
-                y1_pad = max(0.0, y1 - pad_y)
-                x2_pad = min(float(img_w), x2 + pad_x)
-                y2_pad = min(float(img_h), y2 + pad_y)
+                # Static padding of 10 pixels on all sides
+                pad = 10.0
+                x1_pad = max(0.0, x1 - pad)
+                y1_pad = max(0.0, y1 - pad)
+                x2_pad = min(float(img_w), x2 + pad)
+                y2_pad = min(float(img_h), y2 + pad)
                 
                 detections.append({
                     'box': [x1_pad, y1_pad, x2_pad, y2_pad],
@@ -100,7 +93,9 @@ def split_image_into_zones(detections: list, img_w: float) -> dict:
     Splits the detections into 4 vertical zones based on X-coordinates:
     'Left-Veg', 'Left-Price', 'Right-Veg', 'Right-Price'.
     """
-    # Group detections by their center X coordinates to determine boundaries.
+    # Hard midpoint separation
+    split_2 = img_w / 2.0
+    
     left_veg_x = []
     left_price_x = []
     right_veg_x = []
@@ -109,28 +104,29 @@ def split_image_into_zones(detections: list, img_w: float) -> dict:
     for d in detections:
         x_center = (d['box'][0] + d['box'][2]) / 2.0
         label_lower = d.get('label', '').lower()
-        if 'left_veg' in label_lower:
-            left_veg_x.append(x_center)
-        elif 'left_price' in label_lower:
-            left_price_x.append(x_center)
-        elif 'right_veg' in label_lower:
-            right_veg_x.append(x_center)
-        elif 'right_price' in label_lower:
-            right_price_x.append(x_center)
+        if x_center < split_2:
+            if 'veg' in label_lower:
+                left_veg_x.append(x_center)
+            elif 'price' in label_lower:
+                left_price_x.append(x_center)
+        else:
+            if 'veg' in label_lower:
+                right_veg_x.append(x_center)
+            elif 'price' in label_lower:
+                right_price_x.append(x_center)
             
     # Calculate median X coordinates for each column, fallback to percentage of width if empty
     import numpy as np
     m_lv = float(np.median(left_veg_x)) if left_veg_x else 0.15 * img_w
     m_lp = float(np.median(left_price_x)) if left_price_x else 0.30 * img_w
-    m_rv = float(np.median(right_veg_x)) if right_veg_x else 0.50 * img_w
-    m_rp = float(np.median(right_price_x)) if right_price_x else 0.70 * img_w
+    m_rv = float(np.median(right_veg_x)) if right_veg_x else 0.65 * img_w
+    m_rp = float(np.median(right_price_x)) if right_price_x else 0.80 * img_w
     
-    # Calculate split lines between adjacent columns
+    # Calculate split lines between adjacent columns within their respective halves
     split_1 = (m_lv + m_lp) / 2.0
-    split_2 = (m_lp + m_rv) / 2.0
     split_3 = (m_rv + m_rp) / 2.0
     
-    logger.info(f"Four-Zone Slicing Boundaries: split_1 (LV/LP)={split_1:.1f}, split_2 (LP/RV)={split_2:.1f}, split_3 (RV/RP)={split_3:.1f}")
+    logger.info(f"Four-Zone Slicing Boundaries: split_1 (LV/LP)={split_1:.1f}, split_2 (L/R Midpoint)={split_2:.1f}, split_3 (RV/RP)={split_3:.1f}")
     
     zones = {
         'Left-Veg': [],
@@ -141,14 +137,16 @@ def split_image_into_zones(detections: list, img_w: float) -> dict:
     
     for d in detections:
         x_center = (d['box'][0] + d['box'][2]) / 2.0
-        if x_center < split_1:
-            zones['Left-Veg'].append(d)
-        elif split_1 <= x_center < split_2:
-            zones['Left-Price'].append(d)
-        elif split_2 <= x_center < split_3:
-            zones['Right-Veg'].append(d)
+        if x_center < split_2:
+            if x_center < split_1:
+                zones['Left-Veg'].append(d)
+            else:
+                zones['Left-Price'].append(d)
         else:
-            zones['Right-Price'].append(d)
+            if x_center < split_3:
+                zones['Right-Veg'].append(d)
+            else:
+                zones['Right-Price'].append(d)
             
     return zones
 

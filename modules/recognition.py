@@ -101,9 +101,23 @@ class PriceRecognizer:
                     text = getattr(res, 'rec_text', '')
                     score = float(getattr(res, 'rec_score', 0.0))
             
+            # Save raw string to ocr_raw_log.txt
+            try:
+                import os
+                workspace_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+                log_path = os.path.join(workspace_dir, "ocr_raw_log.txt")
+                with open(log_path, "a", encoding="utf-8") as lf:
+                    lf.write(f"Digit Parser Input: '{text}'\n")
+            except Exception as le:
+                logger.error(f"Failed to log to ocr_raw_log.txt: {le}")
+            
+            # Apply a string translation map: str.maketrans('lIO', '110')
+            translation_map = str.maketrans('lIO', '110')
+            translated_text = str(text).translate(translation_map)
+            
             # Extractor using strictly ASCII [0-9]+ to grab only Arabic numerals (0-9)
             # This implements the no-translate rule, ignoring Kannada Unicode digits.
-            digits = re.findall(r'[0-9]+', str(text))
+            digits = re.findall(r'[0-9]+', translated_text)
             if digits:
                 return "".join(digits), text, score
             

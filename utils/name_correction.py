@@ -79,21 +79,22 @@ def get_corrected_name(ocr_text: str, cutoff: float = 0.5) -> str:
         
     cleaned_text = ocr_text.strip()
     
-    # 1. Load dictionary from JSON and perform 'Best-Match' lookup
+    # Save raw string to ocr_raw_log.txt
+    try:
+        workspace_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        log_path = os.path.join(workspace_dir, "ocr_raw_log.txt")
+        with open(log_path, "a", encoding="utf-8") as lf:
+            lf.write(f"Dictionary Input: '{ocr_text}'\n")
+    except Exception as le:
+        logger.error(f"Failed to log to ocr_raw_log.txt: {le}")
+        
+    # 1. Load dictionary from JSON and perform 'Best-Match' lookup using difflib
     veg_dict = load_veg_dictionary()
     
-    best_key = None
-    best_score = 0.0
-    
-    for key in veg_dict.keys():
-        score = difflib.SequenceMatcher(None, cleaned_text, key).ratio()
-        if score > best_score:
-            best_score = score
-            best_key = key
-            
-    if best_score > 0.6 and best_key is not None:
-        corrected = veg_dict[best_key]
-        print(f"DEBUG: get_corrected_name Output (Dict Best-Match) -> '{corrected}'")
+    matches = difflib.get_close_matches(cleaned_text, veg_dict.keys(), n=1, cutoff=0.4)
+    if matches:
+        corrected = veg_dict[matches[0]]
+        print(f"DEBUG: get_corrected_name Output (Dict Fuzzy) -> '{corrected}'")
         return corrected
         
     # 2. Check exact/direct local dictionary mapping fallback

@@ -4,4 +4,4 @@ Threshold: < 0.50
 Total Low Confidence Reads Found: 1
 ============================================================
 
-[laptop] Box: [297.8, 0.0, 1200.0, 916.4] | Raw Text: '' | Confidence: 0.0000
+[orange] Box: [364.4, 1413.8, 663.6, 1600.0] | Raw Text: '0' | Confidence: 0.3029

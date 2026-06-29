@@ -53,7 +53,7 @@ class OcrOrchestrator:
     def process_image(self, 
                       image_path: str, 
                       output_csv_path: str, 
-                      conf_threshold: float = 0.25,
+                      conf_threshold: float = 0.15,
                       max_y_diff: float = 100.0,
                       visualize_path: str = None) -> tuple:
         """
@@ -67,7 +67,10 @@ class OcrOrchestrator:
         :return: Tuple of (rows_data, low_confidence_reads)
         """
         # 1. Detection
-        detections = self.detector.detect(image_path, conf_threshold=conf_threshold)
+        detections = self.detector.detect(image_path, conf_threshold=conf_threshold, iou_threshold=0.45)
+        
+        # Confidence-Based Filtering: reject any detection with confidence score below 0.35
+        detections = [d for d in detections if d.get('confidence', 0.0) >= 0.35]
         
         # Save visualization if requested
         if visualize_path:
@@ -159,11 +162,26 @@ class OcrOrchestrator:
         while len(right_price) < max_len:
             right_price.append("MISSING")
             
+        # Result Sanitization: If a 'Veg' cell is found but corresponding 'Price' is missing/invalid, use 'PENDING_REVIEW'
+        for i in range(max_len):
+            if left_veg[i] != "MISSING" and left_price[i] in ("MISSING_PRICE", "MISSING"):
+                left_price[i] = "PENDING_REVIEW"
+            if right_veg[i] != "MISSING" and right_price[i] in ("MISSING_PRICE", "MISSING"):
+                right_price[i] = "PENDING_REVIEW"
+                
+        # Count empty price cells (missing, invalid, or pending review)
+        empty_price_count = 0
+        for i in range(max_len):
+            if left_price[i] in ("PENDING_REVIEW", "MISSING_PRICE", "MISSING"):
+                empty_price_count += 1
+            if right_price[i] in ("PENDING_REVIEW", "MISSING_PRICE", "MISSING"):
+                empty_price_count += 1
+            
         rows_data = []
         
         # 4. Forced Data Injection & Print Validation
         for i in range(max_len):
-            # Print Validation statement: Inside this new loop, add a print(f'Row {i}: Veg={left_veg[i]}, Price={left_price[i]}') statement.
+            # Print Validation statement
             print(f"Row {i}: Veg={left_veg[i]}, Price={left_price[i]}")
             
             row = {
@@ -180,14 +198,78 @@ class OcrOrchestrator:
             }
             rows_data.append(row)
             
-        # Raw Save: Write this list of dictionaries directly to output_csv_path
-        with open(output_csv_path, mode='w', encoding='utf-8-sig', newline='') as csv_file:
-            fieldnames = ['No.', 'Left_Veg', 'Left_Price', 'Right_Veg', 'Right_Price']
-            writer = csv.DictWriter(csv_file, fieldnames=fieldnames, extrasaction='ignore')
+        # Missing Row Diagnostic: log a 'MISSING_BOX' alert if it detects fewer than 28 pairs
+        if max_len < 28:
+            row_y_centers = []
+            for i in range(max_len):
+                y_vals = []
+                for zone_name in ['Left-Veg', 'Left-Price', 'Right-Veg', 'Right-Price']:
+                    if i < len(zones[zone_name]):
+                        d = zones[zone_name][i]
+                        y_vals.append(self._get_center_y(d['box']))
+                if y_vals:
+                    row_y_centers.append(sum(y_vals) / len(y_vals))
+            row_y_centers.sort()
             
-            writer.writeheader()
-            for row in rows_data:
-                writer.writerow(row)
+            # Calculate average Y vertical spacing between rows
+            spacings = [row_y_centers[j+1] - row_y_centers[j] for j in range(len(row_y_centers) - 1)]
+            avg_spacing = sum(spacings) / len(spacings) if spacings else 100.0
+            
+            # Estimate Y center of missing top row
+            expected_top_y = row_y_centers[0] - avg_spacing if row_y_centers else 100.0
+            
+            # Get dimensions of vegetable boxes to calculate bounds
+            veg_boxes = []
+            for zone_name in ['Left-Veg', 'Right-Veg']:
+                for d in zones[zone_name]:
+                    veg_boxes.append(d['box'])
+            if veg_boxes:
+                avg_w = sum(b[2] - b[0] for b in veg_boxes) / len(veg_boxes)
+                avg_h = sum(b[3] - b[1] for b in veg_boxes) / len(veg_boxes)
+            else:
+                avg_w = 0.20 * img_w
+                avg_h = 0.05 * img_h
                 
-        logger.info(f"Successfully wrote {len(rows_data)} rows to {output_csv_path}")
+            left_veg_boxes = [d['box'] for d in zones['Left-Veg']]
+            avg_lv_x = sum((b[0] + b[2]) / 2.0 for b in left_veg_boxes) / len(left_veg_boxes) if left_veg_boxes else 0.15 * img_w
+            
+            right_veg_boxes = [d['box'] for d in zones['Right-Veg']]
+            avg_rv_x = sum((b[0] + b[2]) / 2.0 for b in right_veg_boxes) / len(right_veg_boxes) if right_veg_boxes else 0.65 * img_w
+            
+            lv_coords = [avg_lv_x - avg_w / 2.0, expected_top_y - avg_h / 2.0, avg_lv_x + avg_w / 2.0, expected_top_y + avg_h / 2.0]
+            rv_coords = [avg_rv_x - avg_w / 2.0, expected_top_y - avg_h / 2.0, avg_rv_x + avg_w / 2.0, expected_top_y + avg_h / 2.0]
+            
+            lv_coords = [max(0.0, lv_coords[0]), max(0.0, lv_coords[1]), min(float(img_w), lv_coords[2]), min(float(img_h), lv_coords[3])]
+            rv_coords = [max(0.0, rv_coords[0]), max(0.0, rv_coords[1]), min(float(img_w), rv_coords[2]), min(float(img_h), rv_coords[3])]
+            
+            alert_msg = (
+                f"MISSING_BOX Alert: Detected {max_len} pairs, which is fewer than the expected 28.\n"
+                f"Based on average grid spacing of {avg_spacing:.1f}px, the missing top-row vegetable boxes are expected at:\n"
+                f"  Left-Veg Expected Box: [{', '.join(f'{c:.1f}' for c in lv_coords)}]\n"
+                f"  Right-Veg Expected Box: [{', '.join(f'{c:.1f}' for c in rv_coords)}]"
+            )
+            logger.warning(alert_msg)
+            print(alert_msg)
+            
+        # Validation Print: add a summary print: 'Pipeline completed. Rows mapped: X. Empty price cells: Y.'
+        summary_msg = f"Pipeline completed. Rows mapped: {max_len}. Empty price cells: {empty_price_count}."
+        print(summary_msg)
+        logger.info(summary_msg)
+
+        # Raw Save: Write this list of dictionaries directly to output_csv_path
+        try:
+            with open(output_csv_path, mode='w', encoding='utf-8-sig', newline='') as csv_file:
+                fieldnames = ['No.', 'Left_Veg', 'Left_Price', 'Right_Veg', 'Right_Price']
+                writer = csv.DictWriter(csv_file, fieldnames=fieldnames, extrasaction='ignore')
+                
+                writer.writeheader()
+                for row in rows_data:
+                    writer.writerow(row)
+            logger.info(f"Successfully wrote {len(rows_data)} rows to {output_csv_path}")
+        except PermissionError:
+            err_msg = f"ERROR: Permission denied writing to '{output_csv_path}'. Please close the file in Excel and re-run."
+            logger.error(err_msg)
+            print(err_msg)
+            raise PermissionError(f"Permission denied: '{output_csv_path}'. Please close the file in Excel.")
+            
         return rows_data, low_confidence_reads

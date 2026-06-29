@@ -1,1 +1,10 @@
 datasets/
+__pycache__/
+*.pyc
+ocr_debug*.json
+ocr_debug*_overlay.jpg
+paddle_debug*.json
+paddle_overlay*.jpg
+paddle_output*.csv
+*_output.csv
+digit_samples/

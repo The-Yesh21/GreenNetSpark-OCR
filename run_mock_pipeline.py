@@ -75,12 +75,12 @@ def main():
     orchestrator = OcrOrchestrator(model_path="yolov8n.pt", use_gpu=False)
     
     # Override detector.detect to return our mock boxes
-    orchestrator.detector.detect = lambda img_path, conf_threshold=0.25: get_mock_detections()
+    orchestrator.detector.detect = lambda img_path, conf_threshold=0.15, iou_threshold=0.45: get_mock_detections()
     
     results, low_confidence_reads = orchestrator.process_image(
         image_path=image_path,
         output_csv_path=output_csv,
-        conf_threshold=0.25,
+        conf_threshold=0.15,
         max_y_diff=100.0,
         visualize_path=visualize_path
     )
