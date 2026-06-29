@@ -143,6 +143,21 @@ def _looks_like_vegetable(box: TextBox, image_h: int, min_score: float) -> bool:
     return kannada_chars >= 2
 
 
+def _looks_like_name_fallback(box: TextBox, image_w: int, image_h: int, min_score: float) -> bool:
+    if box.score < min_score:
+        return False
+    if _is_header_or_footer(box, image_h):
+        return False
+    if _digits(box.text):
+        return False
+    text = box.text.lower()
+    if any(token in text for token in ("mys", "apmc", "aug", "mar", "2025", "2026")):
+        return False
+    in_left_name_col = image_w * 0.08 <= box.cx <= image_w * 0.38
+    in_right_name_col = image_w * 0.50 <= box.cx <= image_w * 0.73
+    return (in_left_name_col or in_right_name_col) and len(box.text.strip()) >= 2
+
+
 def _looks_like_price(box: TextBox, image_h: int, min_score: float) -> bool:
     if box.score < min_score:
         return False
@@ -153,6 +168,32 @@ def _looks_like_price(box: TextBox, image_h: int, min_score: float) -> bool:
 
 def _side(box: TextBox, image_w: int) -> str:
     return "left" if box.cx < image_w / 2.0 else "right"
+
+
+def _merge_name_lines(names: list[TextBox]) -> list[TextBox]:
+    if not names:
+        return []
+
+    merged: list[TextBox] = []
+    for box in sorted(names, key=lambda item: (item.cy, item.x1)):
+        if not merged:
+            merged.append(box)
+            continue
+        previous = merged[-1]
+        same_column = abs(previous.cx - box.cx) < 70.0
+        close_y = abs(previous.cy - box.cy) < max(28.0, previous.height * 1.4)
+        if same_column and close_y:
+            previous.text = f"{previous.text} {box.text}".strip()
+            previous.score = min(previous.score, box.score)
+            previous.box = [
+                min(previous.x1, box.x1),
+                min(previous.y1, box.y1),
+                max(previous.x2, box.x2),
+                max(previous.y2, box.y2),
+            ]
+        else:
+            merged.append(box)
+    return merged
 
 
 def _crop_box(image: np.ndarray, box: list[float], pad: int = 4) -> np.ndarray:
@@ -337,6 +378,12 @@ def extract_image(
     vegetable_dictionary = _load_vegetable_dictionary()
 
     names = [box for box in kannada_reads if _looks_like_vegetable(box, image_h, min_name_score)]
+    if not names:
+        names = [
+            box for box in kannada_reads
+            if _looks_like_name_fallback(box, image_w, image_h, max(0.20, min_name_score))
+        ]
+    names = _merge_name_lines(names)
     prices = [box for box in english_reads if _looks_like_price(box, image_h, min_price_score)]
     for box in names:
         box.text = _correct_name(box.text, vegetable_dictionary)

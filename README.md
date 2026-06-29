@@ -51,12 +51,18 @@ For handwritten English prices, train the local digit model:
 python train_digit_model.py --output models/digit_knn.npz --samples-per-digit 900
 ```
 
+For stronger handwritten-number pretraining, use MNIST:
+
+```powershell
+python train_mnist_digit_model.py --mnist-dir datasets/mnist --output models/digit_knn.npz --max-per-digit 1500
+```
+
 To improve it with real handwriting from your images, first run OCR to create `ocr_debug.json`, then bootstrap confident price crops:
 
 ```powershell
 python -X utf8 main.py --image datasets/test1.jpg --output output.csv
 python bootstrap_digit_samples.py --image datasets/test1.jpg --debug-json ocr_debug.json --output-dir digit_samples
-python train_digit_model.py --output models/digit_knn.npz --real-samples-dir digit_samples
+python train_mnist_digit_model.py --mnist-dir datasets/mnist --output models/digit_knn.npz --real-samples-dir digit_samples
 ```
 
 The best version will come from manually checking `digit_samples/0` through `digit_samples/9` and moving any wrong crops into the correct digit folder before retraining. True OCR fine-tuning needs labelled text crops/transcriptions; the current `test1.jpg`, `test2.jpeg`, etc. images are not enough by themselves to fine-tune a Kannada OCR recognizer.
