@@ -1,0 +1,11 @@
+﻿No.,Side,Vegetable,Price,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Name_Crop,Price_Crop,Correct_Vegetable,Correct_Price
+1,left,PENDING_REVIEW,PENDING_REVIEW,,,0.0,review_crops\test2\01_left_name.png,review_crops\test2\01_left_price.png,,
+12,left,PENDING_REVIEW,PENDING_REVIEW,,4777,0.4337,review_crops\test2\12_left_name.png,review_crops\test2\12_left_price.png,,
+13,left,PENDING_REVIEW,PENDING_REVIEW,,2,0.3064,review_crops\test2\13_left_name.png,review_crops\test2\13_left_price.png,,
+14,left,PENDING_REVIEW,PENDING_REVIEW,,,0.0,review_crops\test2\14_left_name.png,review_crops\test2\14_left_price.png,,
+15,left,PENDING_REVIEW,PENDING_REVIEW,,27,0.2576,review_crops\test2\15_left_name.png,review_crops\test2\15_left_price.png,,
+16,right,PENDING_REVIEW,PENDING_REVIEW,,40,0.4079,review_crops\test2\16_right_name.png,review_crops\test2\16_right_price.png,,
+24,right,ou ai. hlheten.,PENDING_REVIEW,一,14,0.3592,review_crops\test2\24_right_name.png,review_crops\test2\24_right_price.png,,
+27,right,PENDING_REVIEW,PENDING_REVIEW,,325727,0.391,review_crops\test2\27_right_name.png,review_crops\test2\27_right_price.png,,
+29,right,PENDING_REVIEW,PENDING_REVIEW,,29,0.2068,review_crops\test2\29_right_name.png,review_crops\test2\29_right_price.png,,
+30,right,PENDING_REVIEW,PENDING_REVIEW,,097,0.2734,review_crops\test2\30_right_name.png,review_crops\test2\30_right_price.png,,

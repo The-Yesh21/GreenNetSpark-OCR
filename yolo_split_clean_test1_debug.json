@@ -1,0 +1,1830 @@
+{
+  "image": "datasets\\test1.jpg",
+  "detector_source": "grid_fallback",
+  "yolo_detection_summary": {
+    "expected_total": 60,
+    "min_total": 51,
+    "max_total": 75,
+    "min_per_class": 12,
+    "max_per_class": 18,
+    "counts": {
+      "right_price": 3,
+      "left_veg": 39,
+      "left_price": 7
+    },
+    "missing_or_sparse_classes": [
+      "left_price",
+      "right_veg",
+      "right_price"
+    ],
+    "overfull_classes": [
+      "left_veg"
+    ]
+  },
+  "cells": [
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        323.0,
+        406.0,
+        385.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        323.0,
+        584.0,
+        385.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        323.0,
+        779.0,
+        385.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        323.0,
+        1028.0,
+        385.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        391.0,
+        406.0,
+        453.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        391.0,
+        584.0,
+        453.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        391.0,
+        779.0,
+        453.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        391.0,
+        1028.0,
+        453.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        459.0,
+        406.0,
+        521.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        459.0,
+        584.0,
+        521.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        459.0,
+        779.0,
+        521.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        459.0,
+        1028.0,
+        521.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        527.0,
+        406.0,
+        589.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        527.0,
+        584.0,
+        589.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        527.0,
+        779.0,
+        589.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        527.0,
+        1028.0,
+        589.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        595.0,
+        406.0,
+        657.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        595.0,
+        584.0,
+        657.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        595.0,
+        779.0,
+        657.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        595.0,
+        1028.0,
+        657.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        663.0,
+        406.0,
+        725.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        663.0,
+        584.0,
+        725.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        663.0,
+        779.0,
+        725.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        663.0,
+        1028.0,
+        725.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        731.0,
+        406.0,
+        793.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        731.0,
+        584.0,
+        793.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        731.0,
+        779.0,
+        793.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        731.0,
+        1028.0,
+        793.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        799.0,
+        406.0,
+        861.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        799.0,
+        584.0,
+        861.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        799.0,
+        779.0,
+        861.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        799.0,
+        1028.0,
+        861.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        867.0,
+        406.0,
+        929.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        867.0,
+        584.0,
+        929.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        867.0,
+        779.0,
+        929.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        867.0,
+        1028.0,
+        929.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        935.0,
+        406.0,
+        997.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        935.0,
+        584.0,
+        997.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        935.0,
+        779.0,
+        997.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        935.0,
+        1028.0,
+        997.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        1003.0,
+        406.0,
+        1065.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        1003.0,
+        584.0,
+        1065.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        1003.0,
+        779.0,
+        1065.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        1003.0,
+        1028.0,
+        1065.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        1071.0,
+        406.0,
+        1133.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        1071.0,
+        584.0,
+        1133.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        1071.0,
+        779.0,
+        1133.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        1071.0,
+        1028.0,
+        1133.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        1139.0,
+        406.0,
+        1201.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        1139.0,
+        584.0,
+        1201.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        1139.0,
+        779.0,
+        1201.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        1139.0,
+        1028.0,
+        1201.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        1207.0,
+        406.0,
+        1269.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        1207.0,
+        584.0,
+        1269.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        1207.0,
+        779.0,
+        1269.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        1207.0,
+        1028.0,
+        1269.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        148.0,
+        1275.0,
+        406.0,
+        1337.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        414.0,
+        1275.0,
+        584.0,
+        1337.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        592.0,
+        1275.0,
+        779.0,
+        1337.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        787.0,
+        1275.0,
+        1028.0,
+        1337.0
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "rows": [
+    {
+      "No.": 1,
+      "Side": "left",
+      "Vegetable": "in ieeeet Adee y. eie Inneten.",
+      "Price": "037",
+      "Vegetable_Confidence": 0.2835,
+      "Price_Confidence": 0.672,
+      "Raw_Price_OCR": "OD .37",
+      "Digit_Model_Price": "121744621",
+      "Digit_Model_Confidence": 0.4032,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 2,
+      "Side": "left",
+      "Vegetable": "ಮೆಣಸಿನಕಾಯಿ",
+      "Price": "42",
+      "Vegetable_Confidence": 0.7456,
+      "Price_Confidence": 0.9926,
+      "Raw_Price_OCR": "42",
+      "Digit_Model_Price": "1561",
+      "Digit_Model_Confidence": 0.3856,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 3,
+      "Side": "left",
+      "Vegetable": "ಸೌತೆಕಾಯಿ",
+      "Price": "18",
+      "Vegetable_Confidence": 0.9894,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "18",
+      "Digit_Model_Price": "2",
+      "Digit_Model_Confidence": 0.2071,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 4,
+      "Side": "left",
+      "Vegetable": "ಎಂ.ಸಿ.",
+      "Price": "4",
+      "Vegetable_Confidence": 0.9677,
+      "Price_Confidence": 0.6938,
+      "Raw_Price_OCR": "4",
+      "Digit_Model_Price": "4",
+      "Digit_Model_Confidence": 0.4094,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 5,
+      "Side": "left",
+      "Vegetable": "ಸುರಾಮಿ",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.9189,
+      "Price_Confidence": 0.6673,
+      "Raw_Price_OCR": "H",
+      "Digit_Model_Price": "4",
+      "Digit_Model_Confidence": 0.413,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 6,
+      "Side": "left",
+      "Vegetable": "ಯರಕಾನ",
+      "Price": "3",
+      "Vegetable_Confidence": 0.9999,
+      "Price_Confidence": 0.9993,
+      "Raw_Price_OCR": "3",
+      "Digit_Model_Price": "31",
+      "Digit_Model_Confidence": 0.4579,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 7,
+      "Side": "left",
+      "Vegetable": "ಗುಂಡು ಬದನೆ",
+      "Price": "5",
+      "Vegetable_Confidence": 0.9877,
+      "Price_Confidence": 0.9994,
+      "Raw_Price_OCR": "5",
+      "Digit_Model_Price": "11",
+      "Digit_Model_Confidence": 0.4562,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 8,
+      "Side": "left",
+      "Vegetable": "ಕಂಬಳಕಾಯಿ",
+      "Price": "8",
+      "Vegetable_Confidence": 0.9864,
+      "Price_Confidence": 0.9992,
+      "Raw_Price_OCR": "8",
+      "Digit_Model_Price": "11",
+      "Digit_Model_Confidence": 0.5071,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 9,
+      "Side": "left",
+      "Vegetable": "ಹೀರೆಕಾಯಿ",
+      "Price": "18",
+      "Vegetable_Confidence": 0.9236,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "18",
+      "Digit_Model_Price": "162",
+      "Digit_Model_Confidence": 0.4181,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 10,
+      "Side": "left",
+      "Vegetable": "ಪಡವಲ",
+      "Price": "15",
+      "Vegetable_Confidence": 0.9993,
+      "Price_Confidence": 0.8537,
+      "Raw_Price_OCR": "1.5",
+      "Digit_Model_Price": "157",
+      "Digit_Model_Confidence": 0.447,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 11,
+      "Side": "left",
+      "Vegetable": "ತೊಂಡೆಕಾಯಿ",
+      "Price": "20",
+      "Vegetable_Confidence": 0.94,
+      "Price_Confidence": 0.9517,
+      "Raw_Price_OCR": "20",
+      "Digit_Model_Price": "9789",
+      "Digit_Model_Confidence": 0.4614,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 12,
+      "Side": "left",
+      "Vegetable": "ಹಾಗಲ-ವೈಟ್",
+      "Price": "800",
+      "Vegetable_Confidence": 0.9123,
+      "Price_Confidence": 0.6052,
+      "Raw_Price_OCR": "80 D0",
+      "Digit_Model_Price": "057",
+      "Digit_Model_Confidence": 0.4833,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 13,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "200",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.7301,
+      "Raw_Price_OCR": "20 on",
+      "Digit_Model_Price": "681",
+      "Digit_Model_Confidence": 0.42,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 14,
+      "Side": "left",
+      "Vegetable": "ಕ",
+      "Price": "20",
+      "Vegetable_Confidence": 0.1223,
+      "Price_Confidence": 0.9995,
+      "Raw_Price_OCR": "20",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 15,
+      "Side": "left",
+      "Vegetable": ". ie.",
+      "Price": "11",
+      "Vegetable_Confidence": 0.5877,
+      "Price_Confidence": 0.9992,
+      "Raw_Price_OCR": "11",
+      "Digit_Model_Price": "757",
+      "Digit_Model_Confidence": 0.3752,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 16,
+      "Side": "right",
+      "Vegetable": "ದಪ್ಪ ಮೆಣಸು",
+      "Price": "13031",
+      "Vegetable_Confidence": 0.778,
+      "Price_Confidence": 0.8906,
+      "Raw_Price_OCR": "G1.30 31",
+      "Digit_Model_Price": "7671726122517",
+      "Digit_Model_Confidence": 0.3376,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 17,
+      "Side": "right",
+      "Vegetable": "ಸೋರೆಕಾಯಿ",
+      "Price": "4",
+      "Vegetable_Confidence": 0.9161,
+      "Price_Confidence": 0.9851,
+      "Raw_Price_OCR": "4",
+      "Digit_Model_Price": "121111",
+      "Digit_Model_Confidence": 0.3875,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 18,
+      "Side": "right",
+      "Vegetable": "ಬದನೆ-ವೈಟ್",
+      "Price": "6",
+      "Vegetable_Confidence": 0.9837,
+      "Price_Confidence": 0.993,
+      "Raw_Price_OCR": "6",
+      "Digit_Model_Price": "717",
+      "Digit_Model_Confidence": 0.409,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 19,
+      "Side": "right",
+      "Vegetable": "ಕೋಸು-ಚಪಾತಿ",
+      "Price": "7",
+      "Vegetable_Confidence": 0.8308,
+      "Price_Confidence": 0.9893,
+      "Raw_Price_OCR": "7",
+      "Digit_Model_Price": "177",
+      "Digit_Model_Confidence": 0.4411,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 20,
+      "Side": "right",
+      "Vegetable": "ಕೋಸು-ನ್ಯಾ.ಂ",
+      "Price": "5",
+      "Vegetable_Confidence": 0.9591,
+      "Price_Confidence": 0.8757,
+      "Raw_Price_OCR": "5",
+      "Digit_Model_Price": "1157",
+      "Digit_Model_Confidence": 0.4592,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 21,
+      "Side": "right",
+      "Vegetable": "ಸೀಮು ಬದನೆ",
+      "Price": "15",
+      "Vegetable_Confidence": 0.886,
+      "Price_Confidence": 0.9999,
+      "Raw_Price_OCR": "15",
+      "Digit_Model_Price": "1727",
+      "Digit_Model_Confidence": 0.4095,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 22,
+      "Side": "right",
+      "Vegetable": "ಬಜ್ಜಿ-ನಾಟಿ",
+      "Price": "25",
+      "Vegetable_Confidence": 0.9528,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "25",
+      "Digit_Model_Price": "11157",
+      "Digit_Model_Confidence": 0.4497,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 23,
+      "Side": "right",
+      "Vegetable": "ಬಜ್ಜಿ-ಯುಕೋನ",
+      "Price": "16",
+      "Vegetable_Confidence": 0.9519,
+      "Price_Confidence": 0.999,
+      "Raw_Price_OCR": "16",
+      "Digit_Model_Price": "14167",
+      "Digit_Model_Confidence": 0.4896,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 24,
+      "Side": "right",
+      "Vegetable": "ಬೆಂಡೆಕಾಯಿ",
+      "Price": "24",
+      "Vegetable_Confidence": 0.984,
+      "Price_Confidence": 0.9542,
+      "Raw_Price_OCR": "24",
+      "Digit_Model_Price": "1767",
+      "Digit_Model_Confidence": 0.3836,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 25,
+      "Side": "right",
+      "Vegetable": "ಟೊಮೋಟೋ-ಹುಳಿ",
+      "Price": "18",
+      "Vegetable_Confidence": 0.9925,
+      "Price_Confidence": 0.9976,
+      "Raw_Price_OCR": "18",
+      "Digit_Model_Price": "162",
+      "Digit_Model_Confidence": 0.4833,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 26,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 27,
+      "Side": "right",
+      "Vegetable": "ತ",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.1629,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 28,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "6596",
+      "Digit_Model_Confidence": 0.4151,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 29,
+      "Side": "right",
+      "Vegetable": "h",
+      "Price": "90",
+      "Vegetable_Confidence": 0.9503,
+      "Price_Confidence": 0.8277,
+      "Raw_Price_OCR": "90",
+      "Digit_Model_Price": "0361",
+      "Digit_Model_Confidence": 0.2842,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 30,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    }
+  ],
+  "debug_rows": [
+    {
+      "No.": 1,
+      "Side": "left",
+      "Vegetable": "in ieeeet Adee y. eie Inneten.",
+      "Price": "037",
+      "Vegetable_Confidence": 0.2835,
+      "Price_Confidence": 0.672,
+      "Raw_Price_OCR": "OD .37",
+      "Digit_Model_Price": "121744621",
+      "Digit_Model_Confidence": 0.4032,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        323.0,
+        406.0,
+        385.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        323.0,
+        584.0,
+        385.0
+      ]
+    },
+    {
+      "No.": 2,
+      "Side": "left",
+      "Vegetable": "ಮೆಣಸಿನಕಾಯಿ",
+      "Price": "42",
+      "Vegetable_Confidence": 0.7456,
+      "Price_Confidence": 0.9926,
+      "Raw_Price_OCR": "42",
+      "Digit_Model_Price": "1561",
+      "Digit_Model_Confidence": 0.3856,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        391.0,
+        406.0,
+        453.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        391.0,
+        584.0,
+        453.0
+      ]
+    },
+    {
+      "No.": 3,
+      "Side": "left",
+      "Vegetable": "ಸೌತೆಕಾಯಿ",
+      "Price": "18",
+      "Vegetable_Confidence": 0.9894,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "18",
+      "Digit_Model_Price": "2",
+      "Digit_Model_Confidence": 0.2071,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        459.0,
+        406.0,
+        521.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        459.0,
+        584.0,
+        521.0
+      ]
+    },
+    {
+      "No.": 4,
+      "Side": "left",
+      "Vegetable": "ಎಂ.ಸಿ.",
+      "Price": "4",
+      "Vegetable_Confidence": 0.9677,
+      "Price_Confidence": 0.6938,
+      "Raw_Price_OCR": "4",
+      "Digit_Model_Price": "4",
+      "Digit_Model_Confidence": 0.4094,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        527.0,
+        406.0,
+        589.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        527.0,
+        584.0,
+        589.0
+      ]
+    },
+    {
+      "No.": 5,
+      "Side": "left",
+      "Vegetable": "ಸುರಾಮಿ",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.9189,
+      "Price_Confidence": 0.6673,
+      "Raw_Price_OCR": "H",
+      "Digit_Model_Price": "4",
+      "Digit_Model_Confidence": 0.413,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        595.0,
+        406.0,
+        657.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        595.0,
+        584.0,
+        657.0
+      ]
+    },
+    {
+      "No.": 6,
+      "Side": "left",
+      "Vegetable": "ಯರಕಾನ",
+      "Price": "3",
+      "Vegetable_Confidence": 0.9999,
+      "Price_Confidence": 0.9993,
+      "Raw_Price_OCR": "3",
+      "Digit_Model_Price": "31",
+      "Digit_Model_Confidence": 0.4579,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        663.0,
+        406.0,
+        725.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        663.0,
+        584.0,
+        725.0
+      ]
+    },
+    {
+      "No.": 7,
+      "Side": "left",
+      "Vegetable": "ಗುಂಡು ಬದನೆ",
+      "Price": "5",
+      "Vegetable_Confidence": 0.9877,
+      "Price_Confidence": 0.9994,
+      "Raw_Price_OCR": "5",
+      "Digit_Model_Price": "11",
+      "Digit_Model_Confidence": 0.4562,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        731.0,
+        406.0,
+        793.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        731.0,
+        584.0,
+        793.0
+      ]
+    },
+    {
+      "No.": 8,
+      "Side": "left",
+      "Vegetable": "ಕಂಬಳಕಾಯಿ",
+      "Price": "8",
+      "Vegetable_Confidence": 0.9864,
+      "Price_Confidence": 0.9992,
+      "Raw_Price_OCR": "8",
+      "Digit_Model_Price": "11",
+      "Digit_Model_Confidence": 0.5071,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        799.0,
+        406.0,
+        861.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        799.0,
+        584.0,
+        861.0
+      ]
+    },
+    {
+      "No.": 9,
+      "Side": "left",
+      "Vegetable": "ಹೀರೆಕಾಯಿ",
+      "Price": "18",
+      "Vegetable_Confidence": 0.9236,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "18",
+      "Digit_Model_Price": "162",
+      "Digit_Model_Confidence": 0.4181,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        867.0,
+        406.0,
+        929.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        867.0,
+        584.0,
+        929.0
+      ]
+    },
+    {
+      "No.": 10,
+      "Side": "left",
+      "Vegetable": "ಪಡವಲ",
+      "Price": "15",
+      "Vegetable_Confidence": 0.9993,
+      "Price_Confidence": 0.8537,
+      "Raw_Price_OCR": "1.5",
+      "Digit_Model_Price": "157",
+      "Digit_Model_Confidence": 0.447,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        935.0,
+        406.0,
+        997.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        935.0,
+        584.0,
+        997.0
+      ]
+    },
+    {
+      "No.": 11,
+      "Side": "left",
+      "Vegetable": "ತೊಂಡೆಕಾಯಿ",
+      "Price": "20",
+      "Vegetable_Confidence": 0.94,
+      "Price_Confidence": 0.9517,
+      "Raw_Price_OCR": "20",
+      "Digit_Model_Price": "9789",
+      "Digit_Model_Confidence": 0.4614,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        1003.0,
+        406.0,
+        1065.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        1003.0,
+        584.0,
+        1065.0
+      ]
+    },
+    {
+      "No.": 12,
+      "Side": "left",
+      "Vegetable": "ಹಾಗಲ-ವೈಟ್",
+      "Price": "800",
+      "Vegetable_Confidence": 0.9123,
+      "Price_Confidence": 0.6052,
+      "Raw_Price_OCR": "80 D0",
+      "Digit_Model_Price": "057",
+      "Digit_Model_Confidence": 0.4833,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        1071.0,
+        406.0,
+        1133.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        1071.0,
+        584.0,
+        1133.0
+      ]
+    },
+    {
+      "No.": 13,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "200",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.7301,
+      "Raw_Price_OCR": "20 on",
+      "Digit_Model_Price": "681",
+      "Digit_Model_Confidence": 0.42,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        1139.0,
+        406.0,
+        1201.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        1139.0,
+        584.0,
+        1201.0
+      ]
+    },
+    {
+      "No.": 14,
+      "Side": "left",
+      "Vegetable": "ಕ",
+      "Price": "20",
+      "Vegetable_Confidence": 0.1223,
+      "Price_Confidence": 0.9995,
+      "Raw_Price_OCR": "20",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        1207.0,
+        406.0,
+        1269.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        1207.0,
+        584.0,
+        1269.0
+      ]
+    },
+    {
+      "No.": 15,
+      "Side": "left",
+      "Vegetable": ". ie.",
+      "Price": "11",
+      "Vegetable_Confidence": 0.5877,
+      "Price_Confidence": 0.9992,
+      "Raw_Price_OCR": "11",
+      "Digit_Model_Price": "757",
+      "Digit_Model_Confidence": 0.3752,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        148.0,
+        1275.0,
+        406.0,
+        1337.0
+      ],
+      "Price_Cell_Box": [
+        414.0,
+        1275.0,
+        584.0,
+        1337.0
+      ]
+    },
+    {
+      "No.": 16,
+      "Side": "right",
+      "Vegetable": "ದಪ್ಪ ಮೆಣಸು",
+      "Price": "13031",
+      "Vegetable_Confidence": 0.778,
+      "Price_Confidence": 0.8906,
+      "Raw_Price_OCR": "G1.30 31",
+      "Digit_Model_Price": "7671726122517",
+      "Digit_Model_Confidence": 0.3376,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        323.0,
+        779.0,
+        385.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        323.0,
+        1028.0,
+        385.0
+      ]
+    },
+    {
+      "No.": 17,
+      "Side": "right",
+      "Vegetable": "ಸೋರೆಕಾಯಿ",
+      "Price": "4",
+      "Vegetable_Confidence": 0.9161,
+      "Price_Confidence": 0.9851,
+      "Raw_Price_OCR": "4",
+      "Digit_Model_Price": "121111",
+      "Digit_Model_Confidence": 0.3875,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        391.0,
+        779.0,
+        453.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        391.0,
+        1028.0,
+        453.0
+      ]
+    },
+    {
+      "No.": 18,
+      "Side": "right",
+      "Vegetable": "ಬದನೆ-ವೈಟ್",
+      "Price": "6",
+      "Vegetable_Confidence": 0.9837,
+      "Price_Confidence": 0.993,
+      "Raw_Price_OCR": "6",
+      "Digit_Model_Price": "717",
+      "Digit_Model_Confidence": 0.409,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        459.0,
+        779.0,
+        521.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        459.0,
+        1028.0,
+        521.0
+      ]
+    },
+    {
+      "No.": 19,
+      "Side": "right",
+      "Vegetable": "ಕೋಸು-ಚಪಾತಿ",
+      "Price": "7",
+      "Vegetable_Confidence": 0.8308,
+      "Price_Confidence": 0.9893,
+      "Raw_Price_OCR": "7",
+      "Digit_Model_Price": "177",
+      "Digit_Model_Confidence": 0.4411,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        527.0,
+        779.0,
+        589.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        527.0,
+        1028.0,
+        589.0
+      ]
+    },
+    {
+      "No.": 20,
+      "Side": "right",
+      "Vegetable": "ಕೋಸು-ನ್ಯಾ.ಂ",
+      "Price": "5",
+      "Vegetable_Confidence": 0.9591,
+      "Price_Confidence": 0.8757,
+      "Raw_Price_OCR": "5",
+      "Digit_Model_Price": "1157",
+      "Digit_Model_Confidence": 0.4592,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        595.0,
+        779.0,
+        657.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        595.0,
+        1028.0,
+        657.0
+      ]
+    },
+    {
+      "No.": 21,
+      "Side": "right",
+      "Vegetable": "ಸೀಮು ಬದನೆ",
+      "Price": "15",
+      "Vegetable_Confidence": 0.886,
+      "Price_Confidence": 0.9999,
+      "Raw_Price_OCR": "15",
+      "Digit_Model_Price": "1727",
+      "Digit_Model_Confidence": 0.4095,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        663.0,
+        779.0,
+        725.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        663.0,
+        1028.0,
+        725.0
+      ]
+    },
+    {
+      "No.": 22,
+      "Side": "right",
+      "Vegetable": "ಬಜ್ಜಿ-ನಾಟಿ",
+      "Price": "25",
+      "Vegetable_Confidence": 0.9528,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "25",
+      "Digit_Model_Price": "11157",
+      "Digit_Model_Confidence": 0.4497,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        731.0,
+        779.0,
+        793.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        731.0,
+        1028.0,
+        793.0
+      ]
+    },
+    {
+      "No.": 23,
+      "Side": "right",
+      "Vegetable": "ಬಜ್ಜಿ-ಯುಕೋನ",
+      "Price": "16",
+      "Vegetable_Confidence": 0.9519,
+      "Price_Confidence": 0.999,
+      "Raw_Price_OCR": "16",
+      "Digit_Model_Price": "14167",
+      "Digit_Model_Confidence": 0.4896,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        799.0,
+        779.0,
+        861.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        799.0,
+        1028.0,
+        861.0
+      ]
+    },
+    {
+      "No.": 24,
+      "Side": "right",
+      "Vegetable": "ಬೆಂಡೆಕಾಯಿ",
+      "Price": "24",
+      "Vegetable_Confidence": 0.984,
+      "Price_Confidence": 0.9542,
+      "Raw_Price_OCR": "24",
+      "Digit_Model_Price": "1767",
+      "Digit_Model_Confidence": 0.3836,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        867.0,
+        779.0,
+        929.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        867.0,
+        1028.0,
+        929.0
+      ]
+    },
+    {
+      "No.": 25,
+      "Side": "right",
+      "Vegetable": "ಟೊಮೋಟೋ-ಹುಳಿ",
+      "Price": "18",
+      "Vegetable_Confidence": 0.9925,
+      "Price_Confidence": 0.9976,
+      "Raw_Price_OCR": "18",
+      "Digit_Model_Price": "162",
+      "Digit_Model_Confidence": 0.4833,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        935.0,
+        779.0,
+        997.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        935.0,
+        1028.0,
+        997.0
+      ]
+    },
+    {
+      "No.": 26,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        1003.0,
+        779.0,
+        1065.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        1003.0,
+        1028.0,
+        1065.0
+      ]
+    },
+    {
+      "No.": 27,
+      "Side": "right",
+      "Vegetable": "ತ",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.1629,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        1071.0,
+        779.0,
+        1133.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        1071.0,
+        1028.0,
+        1133.0
+      ]
+    },
+    {
+      "No.": 28,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "6596",
+      "Digit_Model_Confidence": 0.4151,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        1139.0,
+        779.0,
+        1201.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        1139.0,
+        1028.0,
+        1201.0
+      ]
+    },
+    {
+      "No.": 29,
+      "Side": "right",
+      "Vegetable": "h",
+      "Price": "90",
+      "Vegetable_Confidence": 0.9503,
+      "Price_Confidence": 0.8277,
+      "Raw_Price_OCR": "90",
+      "Digit_Model_Price": "0361",
+      "Digit_Model_Confidence": 0.2842,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        1207.0,
+        779.0,
+        1269.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        1207.0,
+        1028.0,
+        1269.0
+      ]
+    },
+    {
+      "No.": 30,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        592.0,
+        1275.0,
+        779.0,
+        1337.0
+      ],
+      "Price_Cell_Box": [
+        787.0,
+        1275.0,
+        1028.0,
+        1337.0
+      ]
+    }
+  ]
+}

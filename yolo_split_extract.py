@@ -2,6 +2,7 @@ import argparse
 import csv
 import json
 import tempfile
+from collections import Counter
 from pathlib import Path
 
 import cv2
@@ -65,6 +66,33 @@ def detect_cells(model_path: Path, image_path: Path, confidence: float, imgsz: i
     return sorted(boxes, key=lambda item: (item.cy, item.cx))
 
 
+def needs_grid_fallback(
+    cells: list[CellBox],
+    expected_rows: int,
+    min_complete_ratio: float,
+    max_complete_ratio: float,
+) -> tuple[bool, dict]:
+    counts = Counter(cell.label for cell in cells)
+    expected_total = expected_rows * len(YOLO_CELL_CLASSES)
+    min_total = int(expected_total * min_complete_ratio)
+    max_total = int(expected_total * max_complete_ratio)
+    min_per_class = max(1, int(expected_rows * min_complete_ratio))
+    max_per_class = max(1, int(expected_rows * max_complete_ratio))
+    missing_classes = [label for label in YOLO_CELL_CLASSES if counts[label] < min_per_class]
+    overfull_classes = [label for label in YOLO_CELL_CLASSES if counts[label] > max_per_class]
+    summary = {
+        "expected_total": expected_total,
+        "min_total": min_total,
+        "max_total": max_total,
+        "min_per_class": min_per_class,
+        "max_per_class": max_per_class,
+        "counts": dict(counts),
+        "missing_or_sparse_classes": missing_classes,
+        "overfull_classes": overfull_classes,
+    }
+    return len(cells) < min_total or len(cells) > max_total or bool(missing_classes) or bool(overfull_classes), summary
+
+
 def pair_cells(cells: list[CellBox], max_y_gap: float) -> list[tuple[CellBox, CellBox | None]]:
     rows: list[tuple[CellBox, CellBox | None]] = []
     for side in ("left", "right"):
@@ -113,8 +141,20 @@ def main() -> None:
     parser.add_argument("--digit-model", type=Path, default=DEFAULT_DIGIT_MODEL_PATH)
     parser.add_argument("--digit-model-min-confidence", type=float, default=0.58)
     parser.add_argument("--prefer-digit-model", action="store_true")
-    parser.add_argument("--fallback-grid", action="store_true", help="Use grid-derived boxes if YOLO detects too few cells")
-    parser.add_argument("--min-yolo-cells", type=int, default=20, help="Minimum YOLO detections before accepting YOLO output")
+    parser.add_argument("--fallback-grid", action="store_true", help="Use grid-derived boxes if YOLO cell coverage is incomplete")
+    parser.add_argument("--expected-rows", type=int, default=15, help="Expected table rows per image for fallback coverage checks")
+    parser.add_argument(
+        "--min-complete-ratio",
+        type=float,
+        default=0.85,
+        help="Minimum YOLO coverage ratio per class before accepting YOLO output",
+    )
+    parser.add_argument(
+        "--max-complete-ratio",
+        type=float,
+        default=1.25,
+        help="Maximum YOLO coverage ratio per class before treating detections as duplicates",
+    )
     args = parser.parse_args()
 
     if not args.model.exists():
@@ -130,11 +170,18 @@ def main() -> None:
     dictionary = _load_vegetable_dictionary()
     cells = detect_cells(args.model, args.image, args.conf, args.imgsz)
     detector_source = "yolo"
-    if args.fallback_grid and len(cells) < args.min_yolo_cells:
+    fallback_needed, detection_summary = needs_grid_fallback(
+        cells,
+        args.expected_rows,
+        args.min_complete_ratio,
+        args.max_complete_ratio,
+    )
+    if args.fallback_grid and fallback_needed:
         cells = detect_grid_cell_boxes(args.image)
         detector_source = "grid_fallback"
 
     rows: list[dict] = []
+    debug_rows: list[dict] = []
     for idx, (name_cell, price_cell) in enumerate(pair_cells(cells, args.max_y_gap), start=1):
         side = name_cell.label.split("_")[0]
         raw_name, name_score = read_crop_ocr(kannada_ocr, crop_box(image, name_cell.box))
@@ -161,7 +208,7 @@ def main() -> None:
         )
         final_price = digit_price if use_digit else paddle_price
 
-        rows.append({
+        row = {
             "No.": idx,
             "Side": side,
             "Vegetable": veg_name,
@@ -174,12 +221,24 @@ def main() -> None:
             "Price_Source": "digit_model" if use_digit else ("paddleocr" if paddle_price else "pending_review"),
             "Yolo_Name_Confidence": round(name_cell.confidence, 4),
             "Yolo_Price_Confidence": round(price_cell.confidence, 4) if price_cell else 0.0,
-        })
+        }
+        rows.append(row)
+        debug_row = dict(row)
+        debug_row["Name_Cell_Box"] = name_cell.box
+        debug_row["Price_Cell_Box"] = price_cell.box if price_cell else None
+        debug_rows.append(debug_row)
 
     write_csv(args.output, rows)
     args.debug_json.write_text(
         json.dumps(
-            {"image": str(args.image), "detector_source": detector_source, "cells": [cell.__dict__ for cell in cells], "rows": rows},
+            {
+                "image": str(args.image),
+                "detector_source": detector_source,
+                "yolo_detection_summary": detection_summary,
+                "cells": [cell.__dict__ for cell in cells],
+                "rows": rows,
+                "debug_rows": debug_rows,
+            },
             indent=2,
             ensure_ascii=False,
         ),

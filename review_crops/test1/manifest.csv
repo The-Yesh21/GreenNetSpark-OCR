@@ -1,0 +1,6 @@
+﻿No.,Side,Vegetable,Price,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Name_Crop,Price_Crop,Correct_Vegetable,Correct_Price
+5,left,ಸುರಾಮಿ,PENDING_REVIEW,H,4,0.413,review_crops\test1\05_left_name.png,review_crops\test1\05_left_price.png,,
+26,right,PENDING_REVIEW,PENDING_REVIEW,,,0.0,review_crops\test1\26_right_name.png,review_crops\test1\26_right_price.png,,
+27,right,ತ,PENDING_REVIEW,,,0.0,review_crops\test1\27_right_name.png,review_crops\test1\27_right_price.png,,
+28,right,PENDING_REVIEW,PENDING_REVIEW,,6596,0.4151,review_crops\test1\28_right_name.png,review_crops\test1\28_right_price.png,,
+30,right,PENDING_REVIEW,PENDING_REVIEW,,,0.0,review_crops\test1\30_right_name.png,review_crops\test1\30_right_price.png,,

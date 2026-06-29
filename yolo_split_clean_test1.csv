@@ -1,0 +1,31 @@
+﻿No.,Side,Vegetable,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Yolo_Name_Confidence,Yolo_Price_Confidence
+1,left,in ieeeet Adee y. eie Inneten.,037,0.2835,0.672,OD .37,121744621,0.4032,paddleocr,1.0,1.0
+2,left,ಮೆಣಸಿನಕಾಯಿ,42,0.7456,0.9926,42,1561,0.3856,paddleocr,1.0,1.0
+3,left,ಸೌತೆಕಾಯಿ,18,0.9894,1.0,18,2,0.2071,paddleocr,1.0,1.0
+4,left,ಎಂ.ಸಿ.,4,0.9677,0.6938,4,4,0.4094,paddleocr,1.0,1.0
+5,left,ಸುರಾಮಿ,PENDING_REVIEW,0.9189,0.6673,H,4,0.413,pending_review,1.0,1.0
+6,left,ಯರಕಾನ,3,0.9999,0.9993,3,31,0.4579,paddleocr,1.0,1.0
+7,left,ಗುಂಡು ಬದನೆ,5,0.9877,0.9994,5,11,0.4562,paddleocr,1.0,1.0
+8,left,ಕಂಬಳಕಾಯಿ,8,0.9864,0.9992,8,11,0.5071,paddleocr,1.0,1.0
+9,left,ಹೀರೆಕಾಯಿ,18,0.9236,1.0,18,162,0.4181,paddleocr,1.0,1.0
+10,left,ಪಡವಲ,15,0.9993,0.8537,1.5,157,0.447,paddleocr,1.0,1.0
+11,left,ತೊಂಡೆಕಾಯಿ,20,0.94,0.9517,20,9789,0.4614,paddleocr,1.0,1.0
+12,left,ಹಾಗಲ-ವೈಟ್,800,0.9123,0.6052,80 D0,057,0.4833,paddleocr,1.0,1.0
+13,left,PENDING_REVIEW,200,0.0,0.7301,20 on,681,0.42,paddleocr,1.0,1.0
+14,left,ಕ,20,0.1223,0.9995,20,,0.0,paddleocr,1.0,1.0
+15,left,. ie.,11,0.5877,0.9992,11,757,0.3752,paddleocr,1.0,1.0
+16,right,ದಪ್ಪ ಮೆಣಸು,13031,0.778,0.8906,G1.30 31,7671726122517,0.3376,paddleocr,1.0,1.0
+17,right,ಸೋರೆಕಾಯಿ,4,0.9161,0.9851,4,121111,0.3875,paddleocr,1.0,1.0
+18,right,ಬದನೆ-ವೈಟ್,6,0.9837,0.993,6,717,0.409,paddleocr,1.0,1.0
+19,right,ಕೋಸು-ಚಪಾತಿ,7,0.8308,0.9893,7,177,0.4411,paddleocr,1.0,1.0
+20,right,ಕೋಸು-ನ್ಯಾ.ಂ,5,0.9591,0.8757,5,1157,0.4592,paddleocr,1.0,1.0
+21,right,ಸೀಮು ಬದನೆ,15,0.886,0.9999,15,1727,0.4095,paddleocr,1.0,1.0
+22,right,ಬಜ್ಜಿ-ನಾಟಿ,25,0.9528,1.0,25,11157,0.4497,paddleocr,1.0,1.0
+23,right,ಬಜ್ಜಿ-ಯುಕೋನ,16,0.9519,0.999,16,14167,0.4896,paddleocr,1.0,1.0
+24,right,ಬೆಂಡೆಕಾಯಿ,24,0.984,0.9542,24,1767,0.3836,paddleocr,1.0,1.0
+25,right,ಟೊಮೋಟೋ-ಹುಳಿ,18,0.9925,0.9976,18,162,0.4833,paddleocr,1.0,1.0
+26,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,,0.0,pending_review,1.0,1.0
+27,right,ತ,PENDING_REVIEW,0.1629,0.0,,,0.0,pending_review,1.0,1.0
+28,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,6596,0.4151,pending_review,1.0,1.0
+29,right,h,90,0.9503,0.8277,90,0361,0.2842,paddleocr,1.0,1.0
+30,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,,0.0,pending_review,1.0,1.0

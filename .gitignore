@@ -8,3 +8,4 @@ paddle_overlay*.jpg
 paddle_output*.csv
 *_output.csv
 digit_samples/
+runs/
