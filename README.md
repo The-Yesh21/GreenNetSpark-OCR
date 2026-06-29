@@ -36,6 +36,35 @@ To force the trained digit model when confident:
 python -X utf8 main.py --image datasets/test1.jpg --output output.csv --prefer-digit-model
 ```
 
+## YOLO Splitter
+
+The stronger architecture is:
+
+```text
+image -> YOLO cell splitter -> Kannada OCR for veg cells
+                         -> digit recognizer for price cells
+```
+
+Build an initial YOLO dataset from the green table grid:
+
+```powershell
+python build_yolo_cell_dataset.py --source datasets --output datasets/yolo_cell_split
+```
+
+Train the splitter:
+
+```powershell
+python train_yolo.py --data datasets/yolo_cell_split/data.yaml --model yolov8n.pt --epochs 50 --imgsz 1280 --batch 4 --device cpu
+```
+
+Run the YOLO-split pipeline after training:
+
+```powershell
+python -X utf8 yolo_split_extract.py --image datasets/test1.jpg --model runs/train/yolo_cell_split/weights/best.pt --output yolo_output.csv
+```
+
+The generated labels are a starting point. For best accuracy, inspect and correct the YOLO labels in a labelling tool before final training.
+
 Useful debug files are written by default:
 
 - `ocr_debug.json`: raw Kannada/English OCR reads and the final paired rows

@@ -20,8 +20,8 @@ def main():
     parser.add_argument(
         "--data", 
         type=str, 
-        default="datasets/subset_table_rec/data.yaml", 
-        help="Path to the data.yaml dataset config file (default: datasets/subset_table_rec/data.yaml)"
+        default="datasets/yolo_cell_split/data.yaml", 
+        help="Path to the data.yaml dataset config file (default: datasets/yolo_cell_split/data.yaml)"
     )
     parser.add_argument(
         "--model", 
@@ -62,8 +62,32 @@ def main():
     parser.add_argument(
         "--name", 
         type=str, 
-        default="tabular_layout", 
-        help="Name of the training run (default: tabular_layout)"
+        default="yolo_cell_split", 
+        help="Name of the training run (default: yolo_cell_split)"
+    )
+    parser.add_argument(
+        "--mosaic",
+        type=float,
+        default=0.0,
+        help="Mosaic augmentation probability. Keep 0.0 for table cell detection (default: 0.0)"
+    )
+    parser.add_argument(
+        "--fliplr",
+        type=float,
+        default=0.0,
+        help="Horizontal flip probability. Keep 0.0 because left/right classes matter (default: 0.0)"
+    )
+    parser.add_argument(
+        "--translate",
+        type=float,
+        default=0.03,
+        help="Small translation augmentation (default: 0.03)"
+    )
+    parser.add_argument(
+        "--scale",
+        type=float,
+        default=0.15,
+        help="Small scale augmentation (default: 0.15)"
     )
     
     args = parser.parse_args()
@@ -92,7 +116,12 @@ def main():
             device=args.device,
             project=args.project,
             name=args.name,
-            exist_ok=True
+            exist_ok=True,
+            mosaic=args.mosaic,
+            fliplr=args.fliplr,
+            translate=args.translate,
+            scale=args.scale,
+            workers=0
         )
         
         logger.info("=" * 60)
