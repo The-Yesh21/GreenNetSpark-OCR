@@ -1,0 +1,2090 @@
+{
+  "image": "datasets\\test1.jpg",
+  "rows": [
+    {
+      "vegetable": "ಬೀನ್ಸ್",
+      "raw_vegetable": "ಆಪ",
+      "vegetable_dictionary_match": "ಆಪ",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "35",
+      "vegetable_confidence": 0.2349,
+      "price_confidence": 1.0,
+      "raw_price": "35",
+      "digit_model_price": "1355",
+      "digit_model_confidence": 0.4072,
+      "price_source": "paddleocr",
+      "name_box": [
+        253.0,
+        271.0,
+        336.0,
+        285.0
+      ],
+      "price_box": [
+        440.0,
+        291.0,
+        565.0,
+        343.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಪೋಲ್ ಬೀನ್ಸ್",
+      "raw_vegetable": "ಪನೀಲ್ಬೀನಸ್",
+      "vegetable_dictionary_match": "ಪನೀಲ್ಬೀನಸ್",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "37",
+      "vegetable_confidence": 0.8044,
+      "price_confidence": 0.9999,
+      "raw_price": "37",
+      "digit_model_price": "1544",
+      "digit_model_confidence": 0.3825,
+      "price_source": "paddleocr",
+      "name_box": [
+        226.0,
+        343.0,
+        399.0,
+        369.0
+      ],
+      "price_box": [
+        422.0,
+        340.0,
+        561.0,
+        402.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಪೋಲ್ ಬೀನ್ಸ್",
+      "raw_vegetable": "ರd aನಸ್",
+      "vegetable_dictionary_match": "ರd aನಸ್",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.7166,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "115441",
+      "digit_model_confidence": 0.4133,
+      "price_source": "pending_review",
+      "name_box": [
+        224.0,
+        368.0,
+        382.0,
+        392.0
+      ],
+      "price_box": [
+        408.0,
+        354.8,
+        600.0,
+        405.2
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಮೆಣಸಿನಕಾಯಿ",
+      "raw_vegetable": "ಮಣನನಕಾು",
+      "vegetable_dictionary_match": "ಮಣನನಕಾು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "42",
+      "vegetable_confidence": 0.902,
+      "price_confidence": 0.9943,
+      "raw_price": "42",
+      "digit_model_price": "566",
+      "digit_model_confidence": 0.4404,
+      "price_source": "paddleocr",
+      "name_box": [
+        217.0,
+        407.0,
+        384.0,
+        434.0
+      ],
+      "price_box": [
+        433.0,
+        391.0,
+        562.0,
+        465.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಸೌತೆಕಾಯಿ",
+      "raw_vegetable": "ಸೌತಕಾಂು",
+      "vegetable_dictionary_match": "ಸೌತಕಾಂು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "18",
+      "vegetable_confidence": 0.899,
+      "price_confidence": 1.0,
+      "raw_price": "18",
+      "digit_model_price": "2",
+      "digit_model_confidence": 0.307,
+      "price_source": "paddleocr",
+      "name_box": [
+        210.0,
+        468.0,
+        329.0,
+        493.0
+      ],
+      "price_box": [
+        436.0,
+        455.0,
+        547.0,
+        536.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಎಂ.ಸಿ.",
+      "raw_vegetable": "ಎಂ.ಸ.",
+      "vegetable_dictionary_match": "ಎಂ.ಸ.",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "4",
+      "vegetable_confidence": 0.9739,
+      "price_confidence": 0.6044,
+      "raw_price": "4",
+      "digit_model_price": "4",
+      "digit_model_confidence": 0.5101,
+      "price_source": "paddleocr",
+      "name_box": [
+        199.0,
+        527.0,
+        276.0,
+        562.0
+      ],
+      "price_box": [
+        459.0,
+        521.0,
+        545.0,
+        595.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಸುರಾಮಿ",
+      "raw_vegetable": "ಸುನಾವು",
+      "vegetable_dictionary_match": "ಸುನಾವು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.9179,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "17",
+      "digit_model_confidence": 0.3621,
+      "price_source": "pending_review",
+      "name_box": [
+        197.0,
+        598.0,
+        301.0,
+        630.0
+      ],
+      "price_box": [
+        408.0,
+        580.4,
+        600.0,
+        647.6
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಯರಕಾನ",
+      "raw_vegetable": "ಯಳವನ",
+      "vegetable_dictionary_match": "ಯಳವನ",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "3",
+      "vegetable_confidence": 0.9998,
+      "price_confidence": 0.9967,
+      "raw_price": "3",
+      "digit_model_price": "3",
+      "digit_model_confidence": 0.5094,
+      "price_source": "paddleocr",
+      "name_box": [
+        194.0,
+        667.0,
+        301.0,
+        699.0
+      ],
+      "price_box": [
+        443.0,
+        655.0,
+        531.0,
+        735.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಗುಂಡು ಬದನೆ",
+      "raw_vegetable": "ಗುಂಡುಬದನೆ",
+      "vegetable_dictionary_match": "ಗುಂಡುಬದನೆ",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "5",
+      "vegetable_confidence": 0.9253,
+      "price_confidence": 0.9997,
+      "raw_price": "5",
+      "digit_model_price": "11",
+      "digit_model_confidence": 0.4562,
+      "price_source": "paddleocr",
+      "name_box": [
+        187.0,
+        737.0,
+        362.0,
+        770.0
+      ],
+      "price_box": [
+        433.0,
+        721.0,
+        525.0,
+        804.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಕಂಬಳಕಾಯಿ",
+      "raw_vegetable": "ಕಂಬಳಕಾಯು",
+      "vegetable_dictionary_match": "ಕಂಬಳಕಾಯು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "8",
+      "vegetable_confidence": 0.964,
+      "price_confidence": 1.0,
+      "raw_price": "8",
+      "digit_model_price": "4",
+      "digit_model_confidence": 0.3051,
+      "price_source": "paddleocr",
+      "name_box": [
+        181.0,
+        807.0,
+        335.0,
+        842.0
+      ],
+      "price_box": [
+        429.0,
+        791.0,
+        512.0,
+        876.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಹೀರೆಕಾಯಿ",
+      "raw_vegetable": "೨ೀರೆಕಾಯು",
+      "vegetable_dictionary_match": "೨ೀರೆಕಾಯು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "18",
+      "vegetable_confidence": 0.8051,
+      "price_confidence": 1.0,
+      "raw_price": "18",
+      "digit_model_price": "13",
+      "digit_model_confidence": 0.3635,
+      "price_source": "paddleocr",
+      "name_box": [
+        176.0,
+        878.0,
+        312.0,
+        916.0
+      ],
+      "price_box": [
+        422.0,
+        867.0,
+        527.0,
+        951.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಪಡವಲ",
+      "raw_vegetable": "ಪಡವಲ",
+      "vegetable_dictionary_match": "ಪಡವಲ",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "15",
+      "vegetable_confidence": 0.9991,
+      "price_confidence": 0.8784,
+      "raw_price": "1.5",
+      "digit_model_price": "15",
+      "digit_model_confidence": 0.4629,
+      "price_source": "paddleocr",
+      "name_box": [
+        171.0,
+        950.0,
+        279.0,
+        989.0
+      ],
+      "price_box": [
+        417.0,
+        943.0,
+        529.0,
+        1026.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ತೊಂಡೆಕಾಯಿ",
+      "raw_vegetable": "ತೊಂಡೆಕಾಯು",
+      "vegetable_dictionary_match": "ತೊಂಡೆಕಾಯು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "20",
+      "vegetable_confidence": 0.9453,
+      "price_confidence": 0.9999,
+      "raw_price": "20",
+      "digit_model_price": "67",
+      "digit_model_confidence": 0.3074,
+      "price_source": "paddleocr",
+      "name_box": [
+        167.0,
+        1026.0,
+        332.0,
+        1065.0
+      ],
+      "price_box": [
+        403.0,
+        1019.0,
+        538.0,
+        1102.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಹಾಗಲ-ವೈಟ್",
+      "raw_vegetable": "ಹಾಗಲ--ವೈಟ್",
+      "vegetable_dictionary_match": "ಹಾಗಲ-ವೈಟ್",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "20",
+      "vegetable_confidence": 0.9486,
+      "price_confidence": 1.0,
+      "raw_price": "20",
+      "digit_model_price": "27",
+      "digit_model_confidence": 0.3086,
+      "price_source": "paddleocr",
+      "name_box": [
+        161.0,
+        1104.0,
+        348.0,
+        1146.0
+      ],
+      "price_box": [
+        406.0,
+        1095.0,
+        544.0,
+        1177.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಹಾಗಲ-ಗ್ರೀನ್",
+      "raw_vegetable": "ಹಾಗಲ--ರೀನ್",
+      "vegetable_dictionary_match": "ಹಾಗಲ--ರೀನ್",
+      "vegetable_dictionary_confidence": 0.9474,
+      "vegetable_status": "ok",
+      "price": "20",
+      "vegetable_confidence": 0.9293,
+      "price_confidence": 1.0,
+      "raw_price": "20",
+      "digit_model_price": "642",
+      "digit_model_confidence": 0.3752,
+      "price_source": "paddleocr",
+      "name_box": [
+        159.0,
+        1184.0,
+        346.0,
+        1222.0
+      ],
+      "price_box": [
+        401.0,
+        1173.0,
+        545.0,
+        1258.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಕಾಲಿಫ್ಲವರ್",
+      "raw_vegetable": "ಕಾಲಿಪವರ್",
+      "vegetable_dictionary_match": "ಕಾಲಿಪವರ್",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "11",
+      "vegetable_confidence": 0.9821,
+      "price_confidence": 0.9996,
+      "raw_price": "11",
+      "digit_model_price": "11",
+      "digit_model_confidence": 0.4664,
+      "price_source": "paddleocr",
+      "name_box": [
+        152.0,
+        1261.0,
+        305.0,
+        1296.0
+      ],
+      "price_box": [
+        417.0,
+        1253.0,
+        509.0,
+        1332.0
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ತಾll",
+      "raw_vegetable": "ತಾll",
+      "vegetable_dictionary_match": "ಸೌತಕಾಂು",
+      "vegetable_dictionary_confidence": 0.3636,
+      "vegetable_status": "REVIEW_NAME",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.9179,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "",
+      "digit_model_confidence": 0.0,
+      "price_source": "pending_review",
+      "name_box": [
+        417.0,
+        1339.0,
+        506.0,
+        1384.0
+      ],
+      "price_box": [
+        516.0,
+        1314.25,
+        600.0,
+        1408.75
+      ],
+      "side": "left"
+    },
+    {
+      "vegetable": "ಕಗಕ",
+      "raw_vegetable": "ಕಗಕ",
+      "vegetable_dictionary_match": "ಕಂಬಳಕಾಯು",
+      "vegetable_dictionary_confidence": 0.3636,
+      "vegetable_status": "REVIEW_NAME",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.2827,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "7777740",
+      "digit_model_confidence": 0.3921,
+      "price_source": "pending_review",
+      "name_box": [
+        663.0,
+        272.0,
+        721.0,
+        286.0
+      ],
+      "price_box": [
+        840.0,
+        258.0,
+        1032.0,
+        300.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಪೇರ್ 1ಕೆ",
+      "raw_vegetable": "ವೈo್IJ.Bo GnIBD",
+      "vegetable_dictionary_match": "ವೈo್IJ.Bo GnIBD",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.5439,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "1",
+      "digit_model_confidence": 0.5347,
+      "price_source": "pending_review",
+      "name_box": [
+        605.0,
+        298.0,
+        976.0,
+        350.0
+      ],
+      "price_box": [
+        986.0,
+        269.4,
+        1032.0,
+        378.6
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ದಪ್ಪ ಮೆಣಸು",
+      "raw_vegetable": "ದಪವಣಸು",
+      "vegetable_dictionary_match": "ದಪವಣಸು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "31",
+      "vegetable_confidence": 0.9733,
+      "price_confidence": 0.9997,
+      "raw_price": "31",
+      "digit_model_price": "251",
+      "digit_model_confidence": 0.4837,
+      "price_source": "paddleocr",
+      "name_box": [
+        610.0,
+        360.0,
+        744.0,
+        387.0
+      ],
+      "price_box": [
+        845.0,
+        348.0,
+        943.0,
+        409.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಸೋರೆಕಾಯಿ",
+      "raw_vegetable": "ಸೋರೆಕಾಂು",
+      "vegetable_dictionary_match": "ಸೋರೆಕಾಂು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "4",
+      "vegetable_confidence": 0.93,
+      "price_confidence": 0.9997,
+      "raw_price": "4",
+      "digit_model_price": "4",
+      "digit_model_confidence": 0.41,
+      "price_source": "paddleocr",
+      "name_box": [
+        607.0,
+        413.0,
+        745.0,
+        444.0
+      ],
+      "price_box": [
+        878.0,
+        403.0,
+        946.0,
+        474.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಬದನೆ-ವೈಟ್",
+      "raw_vegetable": "ಬದನೆ-ವೈಟ್",
+      "vegetable_dictionary_match": "ಬದನೆ-ವೈಟ್",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "6",
+      "vegetable_confidence": 0.998,
+      "price_confidence": 0.9804,
+      "raw_price": "6",
+      "digit_model_price": "8",
+      "digit_model_confidence": 0.2048,
+      "price_source": "paddleocr",
+      "name_box": [
+        604.0,
+        474.0,
+        757.0,
+        511.0
+      ],
+      "price_box": [
+        873.0,
+        466.0,
+        943.0,
+        537.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಕೋಸು-ಚಪಾತಿ",
+      "raw_vegetable": "ಕೋಸು--ಚಪಾಶ",
+      "vegetable_dictionary_match": "ಕೋಸು--ಚಪಾಶ",
+      "vegetable_dictionary_confidence": 0.9474,
+      "vegetable_status": "ok",
+      "price": "7",
+      "vegetable_confidence": 0.9391,
+      "price_confidence": 0.9986,
+      "raw_price": "7",
+      "digit_model_price": "7",
+      "digit_model_confidence": 0.3081,
+      "price_source": "paddleocr",
+      "name_box": [
+        605.0,
+        541.0,
+        785.0,
+        574.0
+      ],
+      "price_box": [
+        872.0,
+        524.0,
+        948.0,
+        609.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಕೋಸು-ನ್ಯಾ.ಂ",
+      "raw_vegetable": "ಕೋಸು--ಸಾೈಂ",
+      "vegetable_dictionary_match": "ಕೋಸು--ಸಾೈಂ",
+      "vegetable_dictionary_confidence": 0.9474,
+      "vegetable_status": "ok",
+      "price": "5",
+      "vegetable_confidence": 0.9619,
+      "price_confidence": 0.9893,
+      "raw_price": "5",
+      "digit_model_price": "395",
+      "digit_model_confidence": 0.4072,
+      "price_source": "paddleocr",
+      "name_box": [
+        601.0,
+        606.0,
+        761.0,
+        653.0
+      ],
+      "price_box": [
+        857.0,
+        590.0,
+        947.0,
+        670.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಸೀಮು ಬದನೆ",
+      "raw_vegetable": "ಸೀವಬದನೆ",
+      "vegetable_dictionary_match": "ಸೀವಬದನೆ",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "15",
+      "vegetable_confidence": 0.9102,
+      "price_confidence": 1.0,
+      "raw_price": "15",
+      "digit_model_price": "115",
+      "digit_model_confidence": 0.4151,
+      "price_source": "paddleocr",
+      "name_box": [
+        602.0,
+        677.0,
+        757.0,
+        714.0
+      ],
+      "price_box": [
+        850.0,
+        660.0,
+        951.0,
+        738.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಬಜ್ಜಿ-ನಾಟಿ",
+      "raw_vegetable": "ಬಜಿ-ನಾಟಿ",
+      "vegetable_dictionary_match": "ಬಜಿ-ನಾಟಿ",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "25",
+      "vegetable_confidence": 0.9366,
+      "price_confidence": 1.0,
+      "raw_price": "25",
+      "digit_model_price": "121",
+      "digit_model_confidence": 0.3387,
+      "price_source": "paddleocr",
+      "name_box": [
+        597.0,
+        746.0,
+        732.0,
+        792.0
+      ],
+      "price_box": [
+        842.0,
+        730.0,
+        973.0,
+        816.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಬಜ್ಜಿ-ಯುಕೋನ",
+      "raw_vegetable": "ಬಜಿ--ಯಕೋನ",
+      "vegetable_dictionary_match": "ಬಜಿ--ಯಕೋನ",
+      "vegetable_dictionary_confidence": 0.9412,
+      "vegetable_status": "ok",
+      "price": "16",
+      "vegetable_confidence": 0.9519,
+      "price_confidence": 1.0,
+      "raw_price": "16",
+      "digit_model_price": "15",
+      "digit_model_confidence": 0.3625,
+      "price_source": "paddleocr",
+      "name_box": [
+        600.0,
+        822.0,
+        778.0,
+        860.0
+      ],
+      "price_box": [
+        865.0,
+        801.0,
+        972.0,
+        880.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಬೆಂಡೆಕಾಯಿ",
+      "raw_vegetable": "ಬೆಂಡೆಕಾಯು",
+      "vegetable_dictionary_match": "ಬೆಂಡೆಕಾಯು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "24",
+      "vegetable_confidence": 0.9677,
+      "price_confidence": 0.9978,
+      "raw_price": "24",
+      "digit_model_price": "24",
+      "digit_model_confidence": 0.3075,
+      "price_source": "paddleocr",
+      "name_box": [
+        597.0,
+        891.0,
+        733.0,
+        929.0
+      ],
+      "price_box": [
+        838.0,
+        867.0,
+        978.0,
+        956.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಟೊಮೋಟೋ-ಹುಳಿ",
+      "raw_vegetable": "ಟವೋಟ--ಹುಳಿ",
+      "vegetable_dictionary_match": "ಟವೋಟ--ಹುಳಿ",
+      "vegetable_dictionary_confidence": 0.9474,
+      "vegetable_status": "ok",
+      "price": "18",
+      "vegetable_confidence": 0.9453,
+      "price_confidence": 1.0,
+      "raw_price": "18",
+      "digit_model_price": "13",
+      "digit_model_confidence": 0.4639,
+      "price_source": "paddleocr",
+      "name_box": [
+        599.0,
+        966.0,
+        785.0,
+        1002.0
+      ],
+      "price_box": [
+        863.0,
+        945.0,
+        975.0,
+        1033.0
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಬುಲೆಟ್ ಮೆಣಸು",
+      "raw_vegetable": "ಬುಲೆಟ್ಮಣಸು",
+      "vegetable_dictionary_match": "ಬುಲೆಟ್ಮಣಸು",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.9572,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "1117",
+      "digit_model_confidence": 0.4838,
+      "price_source": "pending_review",
+      "name_box": [
+        595.0,
+        1041.0,
+        809.0,
+        1080.0
+      ],
+      "price_box": [
+        840.0,
+        1019.55,
+        1032.0,
+        1101.45
+      ],
+      "side": "right"
+    },
+    {
+      "vegetable": "ಬೀಟರೂಟ್",
+      "raw_vegetable": "ಬೀಟ್ರೋಟ್",
+      "vegetable_dictionary_match": "ಬೀಟ್ರೋಟ್",
+      "vegetable_dictionary_confidence": 1.0,
+      "vegetable_status": "ok",
+      "price": "PENDING_REVIEW",
+      "vegetable_confidence": 0.9946,
+      "price_confidence": 0.0,
+      "raw_price": "",
+      "digit_model_price": "1111",
+      "digit_model_confidence": 0.4834,
+      "price_source": "pending_review",
+      "name_box": [
+        594.0,
+        1119.0,
+        760.0,
+        1156.0
+      ],
+      "price_box": [
+        840.0,
+        1098.65,
+        1032.0,
+        1176.35
+      ],
+      "side": "right"
+    }
+  ],
+  "kannada_reads": [
+    {
+      "text": "ಬೀನ್ಸ್",
+      "score": 0.23490509390830994,
+      "box": [
+        253.0,
+        271.0,
+        336.0,
+        285.0
+      ],
+      "raw_text": "ಆಪ",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಆಪ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಕ",
+      "score": 0.3025036156177521,
+      "box": [
+        360.0,
+        273.0,
+        400.0,
+        284.0
+      ]
+    },
+    {
+      "text": "Ihi .",
+      "score": 0.34287571907043457,
+      "box": [
+        400.0,
+        267.0,
+        584.0,
+        618.0
+      ]
+    },
+    {
+      "text": "ಕ",
+      "score": 0.2054307758808136,
+      "box": [
+        486.0,
+        274.0,
+        528.0,
+        284.0
+      ]
+    },
+    {
+      "text": "ಕ",
+      "score": 0.1889449656009674,
+      "box": [
+        569.0,
+        273.0,
+        641.0,
+        284.0
+      ]
+    },
+    {
+      "text": "ಕಗಕ",
+      "score": 0.28274771571159363,
+      "box": [
+        663.0,
+        272.0,
+        721.0,
+        286.0
+      ],
+      "raw_text": "ಕಗಕ",
+      "dictionary_confidence": 0.3636,
+      "dictionary_match": "ಕಂಬಳಕಾಯು",
+      "vegetable_status": "REVIEW_NAME"
+    },
+    {
+      "text": "I.",
+      "score": 0.7756770849227905,
+      "box": [
+        754.0,
+        275.0,
+        789.0,
+        289.0
+      ]
+    },
+    {
+      "text": "DeDaI?",
+      "score": 0.37075188755989075,
+      "box": [
+        240.0,
+        294.0,
+        327.0,
+        317.0
+      ]
+    },
+    {
+      "text": "ಪೇರ್ 1ಕೆ",
+      "score": 0.5439308881759644,
+      "box": [
+        605.0,
+        298.0,
+        976.0,
+        350.0
+      ],
+      "raw_text": "ವೈo್IJ.Bo GnIBD",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ವೈo್IJ.Bo GnIBD",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "Ihaeenaet.",
+      "score": 0.44683513045310974,
+      "box": [
+        240.0,
+        315.0,
+        373.0,
+        338.0
+      ]
+    },
+    {
+      "text": "ಪೋಲ್ ಬೀನ್ಸ್",
+      "score": 0.8043718338012695,
+      "box": [
+        226.0,
+        343.0,
+        399.0,
+        369.0
+      ],
+      "raw_text": "ಪನೀಲ್ಬೀನಸ್",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಪನೀಲ್ಬೀನಸ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಪೋಲ್ ಬೀನ್ಸ್",
+      "score": 0.716624915599823,
+      "box": [
+        224.0,
+        368.0,
+        382.0,
+        392.0
+      ],
+      "raw_text": "ರd aನಸ್",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ರd aನಸ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ದಪ್ಪ ಮೆಣಸು",
+      "score": 0.9733443260192871,
+      "box": [
+        610.0,
+        360.0,
+        744.0,
+        387.0
+      ],
+      "raw_text": "ದಪವಣಸು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ದಪವಣಸು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "It udt uis.",
+      "score": 0.5439134240150452,
+      "box": [
+        856.0,
+        394.0,
+        956.0,
+        747.0
+      ]
+    },
+    {
+      "text": "ಮೆಣಸಿನಕಾಯಿ",
+      "score": 0.9019618630409241,
+      "box": [
+        217.0,
+        407.0,
+        384.0,
+        434.0
+      ],
+      "raw_text": "ಮಣನನಕಾು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಮಣನನಕಾು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಸೋರೆಕಾಯಿ",
+      "score": 0.9299930930137634,
+      "box": [
+        607.0,
+        413.0,
+        745.0,
+        444.0
+      ],
+      "raw_text": "ಸೋರೆಕಾಂು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಸೋರೆಕಾಂು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಸೌತೆಕಾಯಿ",
+      "score": 0.8990212678909302,
+      "box": [
+        210.0,
+        468.0,
+        329.0,
+        493.0
+      ],
+      "raw_text": "ಸೌತಕಾಂು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಸೌತಕಾಂು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಬದನೆ-ವೈಟ್",
+      "score": 0.9980413913726807,
+      "box": [
+        604.0,
+        474.0,
+        757.0,
+        511.0
+      ],
+      "raw_text": "ಬದನೆ-ವೈಟ್",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಬದನೆ-ವೈಟ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಎಂ.ಸಿ.",
+      "score": 0.9739179611206055,
+      "box": [
+        199.0,
+        527.0,
+        276.0,
+        562.0
+      ],
+      "raw_text": "ಎಂ.ಸ.",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಎಂ.ಸ.",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಕೋಸು-ಚಪಾತಿ",
+      "score": 0.9391237497329712,
+      "box": [
+        605.0,
+        541.0,
+        785.0,
+        574.0
+      ],
+      "raw_text": "ಕೋಸು--ಚಪಾಶ",
+      "dictionary_confidence": 0.9474,
+      "dictionary_match": "ಕೋಸು--ಚಪಾಶ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಸುರಾಮಿ",
+      "score": 0.9178979992866516,
+      "box": [
+        197.0,
+        598.0,
+        301.0,
+        630.0
+      ],
+      "raw_text": "ಸುನಾವು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಸುನಾವು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "I",
+      "score": 0.5763635039329529,
+      "box": [
+        439.0,
+        590.0,
+        502.0,
+        665.0
+      ]
+    },
+    {
+      "text": "ಕೋಸು-ನ್ಯಾ.ಂ",
+      "score": 0.9619309306144714,
+      "box": [
+        601.0,
+        606.0,
+        761.0,
+        653.0
+      ],
+      "raw_text": "ಕೋಸು--ಸಾೈಂ",
+      "dictionary_confidence": 0.9474,
+      "dictionary_match": "ಕೋಸು--ಸಾೈಂ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಯರಕಾನ",
+      "score": 0.999836802482605,
+      "box": [
+        194.0,
+        667.0,
+        301.0,
+        699.0
+      ],
+      "raw_text": "ಯಳವನ",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಯಳವನ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "?",
+      "score": 0.6422775387763977,
+      "box": [
+        455.0,
+        664.0,
+        520.0,
+        729.0
+      ]
+    },
+    {
+      "text": "ಸೀಮು ಬದನೆ",
+      "score": 0.9101958274841309,
+      "box": [
+        602.0,
+        677.0,
+        757.0,
+        714.0
+      ],
+      "raw_text": "ಸೀವಬದನೆ",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಸೀವಬದನೆ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಡ",
+      "score": 0.2671733796596527,
+      "box": [
+        448.0,
+        727.0,
+        513.0,
+        797.0
+      ]
+    },
+    {
+      "text": "ಗುಂಡು ಬದನೆ",
+      "score": 0.9253289699554443,
+      "box": [
+        187.0,
+        737.0,
+        362.0,
+        770.0
+      ],
+      "raw_text": "ಗುಂಡುಬದನೆ",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಗುಂಡುಬದನೆ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಏ",
+      "score": 0.45242464542388916,
+      "box": [
+        859.0,
+        732.0,
+        965.0,
+        815.0
+      ]
+    },
+    {
+      "text": "ಬಜ್ಜಿ-ನಾಟಿ",
+      "score": 0.9365810751914978,
+      "box": [
+        597.0,
+        746.0,
+        732.0,
+        792.0
+      ],
+      "raw_text": "ಬಜಿ-ನಾಟಿ",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಬಜಿ-ನಾಟಿ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಕಂಬಳಕಾಯಿ",
+      "score": 0.96403568983078,
+      "box": [
+        181.0,
+        807.0,
+        335.0,
+        842.0
+      ],
+      "raw_text": "ಕಂಬಳಕಾಯು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಕಂಬಳಕಾಯು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "೩",
+      "score": 0.31284013390541077,
+      "box": [
+        443.0,
+        801.0,
+        503.0,
+        868.0
+      ]
+    },
+    {
+      "text": "15",
+      "score": 0.49970543384552,
+      "box": [
+        867.0,
+        808.0,
+        960.0,
+        873.0
+      ]
+    },
+    {
+      "text": "ಬಜ್ಜಿ-ಯುಕೋನ",
+      "score": 0.9519292116165161,
+      "box": [
+        600.0,
+        822.0,
+        778.0,
+        860.0
+      ],
+      "raw_text": "ಬಜಿ--ಯಕೋನ",
+      "dictionary_confidence": 0.9412,
+      "dictionary_match": "ಬಜಿ--ಯಕೋನ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಹೀರೆಕಾಯಿ",
+      "score": 0.8051486015319824,
+      "box": [
+        176.0,
+        878.0,
+        312.0,
+        916.0
+      ],
+      "raw_text": "೨ೀರೆಕಾಯು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "೨ೀರೆಕಾಯು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "1೯",
+      "score": 0.6838556528091431,
+      "box": [
+        435.0,
+        874.0,
+        517.0,
+        949.0
+      ]
+    },
+    {
+      "text": "i",
+      "score": 0.2078045755624771,
+      "box": [
+        852.0,
+        875.0,
+        970.0,
+        948.0
+      ]
+    },
+    {
+      "text": "ಬೆಂಡೆಕಾಯಿ",
+      "score": 0.9676693677902222,
+      "box": [
+        597.0,
+        891.0,
+        733.0,
+        929.0
+      ],
+      "raw_text": "ಬೆಂಡೆಕಾಯು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಬೆಂಡೆಕಾಯು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಪಡವಲ",
+      "score": 0.9991047382354736,
+      "box": [
+        171.0,
+        950.0,
+        279.0,
+        989.0
+      ],
+      "raw_text": "ಪಡವಲ",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಪಡವಲ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "I",
+      "score": 0.9483484625816345,
+      "box": [
+        433.0,
+        952.0,
+        520.0,
+        1018.0
+      ]
+    },
+    {
+      "text": "ಟೊಮೋಟೋ-ಹುಳಿ",
+      "score": 0.9452704191207886,
+      "box": [
+        599.0,
+        966.0,
+        785.0,
+        1002.0
+      ],
+      "raw_text": "ಟವೋಟ--ಹುಳಿ",
+      "dictionary_confidence": 0.9474,
+      "dictionary_match": "ಟವೋಟ--ಹುಳಿ",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "Is",
+      "score": 0.7247629761695862,
+      "box": [
+        875.0,
+        957.0,
+        962.0,
+        1023.0
+      ]
+    },
+    {
+      "text": "ತೊಂಡೆಕಾಯಿ",
+      "score": 0.9452547430992126,
+      "box": [
+        167.0,
+        1026.0,
+        332.0,
+        1065.0
+      ],
+      "raw_text": "ತೊಂಡೆಕಾಯು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ತೊಂಡೆಕಾಯು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಬುಲೆಟ್ ಮೆಣಸು",
+      "score": 0.9571565389633179,
+      "box": [
+        595.0,
+        1041.0,
+        809.0,
+        1080.0
+      ],
+      "raw_text": "ಬುಲೆಟ್ಮಣಸು",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಬುಲೆಟ್ಮಣಸು",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಹಾಗಲ-ವೈಟ್",
+      "score": 0.9486068487167358,
+      "box": [
+        161.0,
+        1104.0,
+        348.0,
+        1146.0
+      ],
+      "raw_text": "ಹಾಗಲ--ವೈಟ್",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಹಾಗಲ-ವೈಟ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "೦",
+      "score": 0.5835874676704407,
+      "box": [
+        418.0,
+        1102.0,
+        534.0,
+        1171.0
+      ]
+    },
+    {
+      "text": "ಬೀಟರೂಟ್",
+      "score": 0.9945849776268005,
+      "box": [
+        594.0,
+        1119.0,
+        760.0,
+        1156.0
+      ],
+      "raw_text": "ಬೀಟ್ರೋಟ್",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಬೀಟ್ರೋಟ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "ಹಾಗಲ-ಗ್ರೀನ್",
+      "score": 0.9292652010917664,
+      "box": [
+        159.0,
+        1184.0,
+        346.0,
+        1222.0
+      ],
+      "raw_text": "ಹಾಗಲ--ರೀನ್",
+      "dictionary_confidence": 0.9474,
+      "dictionary_match": "ಹಾಗಲ--ರೀನ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "Y೦",
+      "score": 0.6711429357528687,
+      "box": [
+        416.0,
+        1180.0,
+        535.0,
+        1250.0
+      ]
+    },
+    {
+      "text": "Ah!",
+      "score": 0.46550580859184265,
+      "box": [
+        593.0,
+        1182.0,
+        713.0,
+        1253.0
+      ]
+    },
+    {
+      "text": "ಎo",
+      "score": 0.4268070459365845,
+      "box": [
+        847.0,
+        1185.0,
+        967.0,
+        1244.0
+      ]
+    },
+    {
+      "text": "ಕಾಲಿಫ್ಲವರ್",
+      "score": 0.9821456670761108,
+      "box": [
+        152.0,
+        1261.0,
+        305.0,
+        1296.0
+      ],
+      "raw_text": "ಕಾಲಿಪವರ್",
+      "dictionary_confidence": 1.0,
+      "dictionary_match": "ಕಾಲಿಪವರ್",
+      "vegetable_status": "ok"
+    },
+    {
+      "text": "I g MaR 2020.",
+      "score": 0.800511360168457,
+      "box": [
+        625.0,
+        1320.0,
+        968.0,
+        1400.0
+      ]
+    },
+    {
+      "text": "MYS-APMC",
+      "score": 0.9964743852615356,
+      "box": [
+        159.0,
+        1334.0,
+        394.0,
+        1386.0
+      ]
+    },
+    {
+      "text": "ತಾll",
+      "score": 0.9178605079650879,
+      "box": [
+        417.0,
+        1339.0,
+        506.0,
+        1384.0
+      ],
+      "raw_text": "ತಾll",
+      "dictionary_confidence": 0.3636,
+      "dictionary_match": "ಸೌತಕಾಂು",
+      "vegetable_status": "REVIEW_NAME"
+    }
+  ],
+  "english_reads": [
+    {
+      "text": "3ao",
+      "score": 0.3035489618778229,
+      "box": [
+        251.0,
+        267.0,
+        336.0,
+        285.0
+      ]
+    },
+    {
+      "text": "wee",
+      "score": 0.6313180327415466,
+      "box": [
+        237.0,
+        292.0,
+        329.0,
+        316.0
+      ]
+    },
+    {
+      "text": "35",
+      "score": 0.9999546408653259,
+      "box": [
+        440.0,
+        291.0,
+        565.0,
+        343.0
+      ]
+    },
+    {
+      "text": "0 30 G/30",
+      "score": 0.8681029677391052,
+      "box": [
+        602.0,
+        295.0,
+        982.0,
+        349.0
+      ]
+    },
+    {
+      "text": "(Rie)",
+      "score": 0.7469081282615662,
+      "box": [
+        235.0,
+        311.0,
+        376.0,
+        341.0
+      ]
+    },
+    {
+      "text": "g",
+      "score": 0.4420376121997833,
+      "box": [
+        1155.0,
+        317.0,
+        1200.0,
+        364.0
+      ]
+    },
+    {
+      "text": "ee",
+      "score": 0.5276897549629211,
+      "box": [
+        223.0,
+        341.0,
+        404.0,
+        365.0
+      ]
+    },
+    {
+      "text": "37",
+      "score": 0.9999390840530396,
+      "box": [
+        422.0,
+        340.0,
+        561.0,
+        402.0
+      ]
+    },
+    {
+      "text": "31",
+      "score": 0.9997373819351196,
+      "box": [
+        845.0,
+        348.0,
+        943.0,
+        409.0
+      ]
+    },
+    {
+      "text": "(08T6 2we26)",
+      "score": 0.4537407159805298,
+      "box": [
+        221.0,
+        365.0,
+        386.0,
+        393.0
+      ]
+    },
+    {
+      "text": "X",
+      "score": 0.893864095211029,
+      "box": [
+        1153.0,
+        373.0,
+        1200.0,
+        432.0
+      ]
+    },
+    {
+      "text": "42",
+      "score": 0.9942700862884521,
+      "box": [
+        433.0,
+        391.0,
+        562.0,
+        465.0
+      ]
+    },
+    {
+      "text": "2",
+      "score": 0.421933650970459,
+      "box": [
+        213.0,
+        402.0,
+        387.0,
+        436.0
+      ]
+    },
+    {
+      "text": "d",
+      "score": 0.7042932510375977,
+      "box": [
+        602.0,
+        406.0,
+        749.0,
+        448.0
+      ]
+    },
+    {
+      "text": "4",
+      "score": 0.9997430443763733,
+      "box": [
+        878.0,
+        403.0,
+        946.0,
+        474.0
+      ]
+    },
+    {
+      "text": "1",
+      "score": 0.9334815740585327,
+      "box": [
+        1154.0,
+        433.0,
+        1200.0,
+        485.0
+      ]
+    },
+    {
+      "text": "Z3Oal",
+      "score": 0.5031070709228516,
+      "box": [
+        203.0,
+        458.0,
+        334.0,
+        500.0
+      ]
+    },
+    {
+      "text": "18",
+      "score": 0.9999959468841553,
+      "box": [
+        436.0,
+        455.0,
+        547.0,
+        536.0
+      ]
+    },
+    {
+      "text": "-",
+      "score": 0.9598221778869629,
+      "box": [
+        599.0,
+        464.0,
+        762.0,
+        520.0
+      ]
+    },
+    {
+      "text": "6",
+      "score": 0.9804279208183289,
+      "box": [
+        873.0,
+        466.0,
+        943.0,
+        537.0
+      ]
+    },
+    {
+      "text": "20.2.",
+      "score": 0.7605101466178894,
+      "box": [
+        192.0,
+        518.0,
+        281.0,
+        569.0
+      ]
+    },
+    {
+      "text": "4",
+      "score": 0.6043640375137329,
+      "box": [
+        459.0,
+        521.0,
+        545.0,
+        595.0
+      ]
+    },
+    {
+      "text": "7",
+      "score": 0.9986416697502136,
+      "box": [
+        872.0,
+        524.0,
+        948.0,
+        609.0
+      ]
+    },
+    {
+      "text": "-",
+      "score": 0.5793187022209167,
+      "box": [
+        601.0,
+        535.0,
+        789.0,
+        578.0
+      ]
+    },
+    {
+      "text": "MANJONO The",
+      "score": 0.859700620174408,
+      "box": [
+        0.0,
+        220.0,
+        168.0,
+        590.0
+      ]
+    },
+    {
+      "text": "HH",
+      "score": 0.3642597198486328,
+      "box": [
+        428.0,
+        584.0,
+        507.0,
+        664.0
+      ]
+    },
+    {
+      "text": "-",
+      "score": 0.512294590473175,
+      "box": [
+        596.0,
+        598.0,
+        767.0,
+        659.0
+      ]
+    },
+    {
+      "text": "5",
+      "score": 0.9893333315849304,
+      "box": [
+        857.0,
+        590.0,
+        947.0,
+        670.0
+      ]
+    },
+    {
+      "text": "3",
+      "score": 0.9966512322425842,
+      "box": [
+        443.0,
+        655.0,
+        531.0,
+        735.0
+      ]
+    },
+    {
+      "text": "2 a",
+      "score": 0.692744791507721,
+      "box": [
+        597.0,
+        669.0,
+        760.0,
+        717.0
+      ]
+    },
+    {
+      "text": "15",
+      "score": 0.999961793422699,
+      "box": [
+        850.0,
+        660.0,
+        951.0,
+        738.0
+      ]
+    },
+    {
+      "text": "ao aa",
+      "score": 0.8323694467544556,
+      "box": [
+        182.0,
+        729.0,
+        365.0,
+        774.0
+      ]
+    },
+    {
+      "text": "5",
+      "score": 0.9997003078460693,
+      "box": [
+        433.0,
+        721.0,
+        525.0,
+        804.0
+      ]
+    },
+    {
+      "text": "202-03",
+      "score": 0.5527535080909729,
+      "box": [
+        586.0,
+        734.0,
+        740.0,
+        813.0
+      ]
+    },
+    {
+      "text": "25",
+      "score": 0.9999716281890869,
+      "box": [
+        842.0,
+        730.0,
+        973.0,
+        816.0
+      ]
+    },
+    {
+      "text": "8",
+      "score": 0.9999545812606812,
+      "box": [
+        429.0,
+        791.0,
+        512.0,
+        876.0
+      ]
+    },
+    {
+      "text": "OwGO",
+      "score": 0.5101693272590637,
+      "box": [
+        177.0,
+        801.0,
+        338.0,
+        846.0
+      ]
+    },
+    {
+      "text": "16",
+      "score": 0.9999974966049194,
+      "box": [
+        865.0,
+        801.0,
+        972.0,
+        880.0
+      ]
+    },
+    {
+      "text": "研",
+      "score": 0.4166903793811798,
+      "box": [
+        170.0,
+        871.0,
+        316.0,
+        919.0
+      ]
+    },
+    {
+      "text": "18",
+      "score": 0.9999949932098389,
+      "box": [
+        422.0,
+        867.0,
+        527.0,
+        951.0
+      ]
+    },
+    {
+      "text": "24",
+      "score": 0.9977655410766602,
+      "box": [
+        838.0,
+        867.0,
+        978.0,
+        956.0
+      ]
+    },
+    {
+      "text": "WodFal",
+      "score": 0.6096687316894531,
+      "box": [
+        592.0,
+        883.0,
+        738.0,
+        933.0
+      ]
+    },
+    {
+      "text": "aaac",
+      "score": 0.664767324924469,
+      "box": [
+        165.0,
+        944.0,
+        282.0,
+        995.0
+      ]
+    },
+    {
+      "text": "1.5",
+      "score": 0.8784344792366028,
+      "box": [
+        417.0,
+        943.0,
+        529.0,
+        1026.0
+      ]
+    },
+    {
+      "text": "18",
+      "score": 0.9999903440475464,
+      "box": [
+        863.0,
+        945.0,
+        975.0,
+        1033.0
+      ]
+    },
+    {
+      "text": "B-",
+      "score": 0.8534790277481079,
+      "box": [
+        593.0,
+        958.0,
+        790.0,
+        1006.0
+      ]
+    },
+    {
+      "text": "O",
+      "score": 0.6072648763656616,
+      "box": [
+        164.0,
+        1020.0,
+        335.0,
+        1068.0
+      ]
+    },
+    {
+      "text": "20",
+      "score": 0.9999238848686218,
+      "box": [
+        403.0,
+        1019.0,
+        538.0,
+        1102.0
+      ]
+    },
+    {
+      "text": "c-",
+      "score": 0.7422748804092407,
+      "box": [
+        153.0,
+        1094.0,
+        355.0,
+        1157.0
+      ]
+    },
+    {
+      "text": "20",
+      "score": 0.9999803304672241,
+      "box": [
+        406.0,
+        1095.0,
+        544.0,
+        1177.0
+      ]
+    },
+    {
+      "text": "Jncipeg",
+      "score": 0.6096962094306946,
+      "box": [
+        151.0,
+        1175.0,
+        350.0,
+        1231.0
+      ]
+    },
+    {
+      "text": "20",
+      "score": 0.9999900460243225,
+      "box": [
+        401.0,
+        1173.0,
+        545.0,
+        1258.0
+      ]
+    },
+    {
+      "text": "GH",
+      "score": 0.9988882541656494,
+      "box": [
+        583.0,
+        1173.0,
+        723.0,
+        1263.0
+      ]
+    },
+    {
+      "text": "50",
+      "score": 0.9997154474258423,
+      "box": [
+        837.0,
+        1170.0,
+        977.0,
+        1255.0
+      ]
+    },
+    {
+      "text": "11",
+      "score": 0.9996175765991211,
+      "box": [
+        417.0,
+        1253.0,
+        509.0,
+        1332.0
+      ]
+    },
+    {
+      "text": "MYS-APMC",
+      "score": 0.9579246044158936,
+      "box": [
+        150.0,
+        1321.0,
+        514.0,
+        1393.0
+      ]
+    },
+    {
+      "text": "1 8 MAR 2026",
+      "score": 0.9749776721000671,
+      "box": [
+        616.0,
+        1314.0,
+        975.0,
+        1405.0
+      ]
+    }
+  ]
+}

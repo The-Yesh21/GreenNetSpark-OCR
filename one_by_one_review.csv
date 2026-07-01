@@ -1,0 +1,32 @@
+﻿Image,No.,Side,Vegetable,Raw_Vegetable_OCR,Vegetable_Dictionary_Match,Vegetable_Dictionary_Confidence,Vegetable_Status,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source
+test1.jpg,1,left,ಬೀನ್ಸ್,ಆಪ,ಆಪ,1.0,ok,35,0.2349,1.0,35,1355,0.4072,paddleocr
+test1.jpg,2,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನೀಲ್ಬೀನಸ್,ಪನೀಲ್ಬೀನಸ್,1.0,ok,37,0.8044,0.9999,37,1544,0.3825,paddleocr
+test1.jpg,3,left,ಪೋಲ್ ಬೀನ್ಸ್,ರd aನಸ್,ರd aನಸ್,1.0,ok,PENDING_REVIEW,0.7166,0.0,,115441,0.4133,pending_review
+test1.jpg,4,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣನನಕಾು,ಮಣನನಕಾು,1.0,ok,42,0.902,0.9943,42,566,0.4404,paddleocr
+test1.jpg,5,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಂು,ಸೌತಕಾಂು,1.0,ok,18,0.899,1.0,18,2,0.307,paddleocr
+test1.jpg,6,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸ.,1.0,ok,4,0.9739,0.6044,4,4,0.5101,paddleocr
+test1.jpg,7,left,ಸುರಾಮಿ,ಸುನಾವು,ಸುನಾವು,1.0,ok,PENDING_REVIEW,0.9179,0.0,,17,0.3621,pending_review
+test1.jpg,8,left,ಯರಕಾನ,ಯಳವನ,ಯಳವನ,1.0,ok,3,0.9998,0.9967,3,3,0.5094,paddleocr
+test1.jpg,9,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡುಬದನೆ,1.0,ok,5,0.9253,0.9997,5,11,0.4562,paddleocr
+test1.jpg,10,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯು,1.0,ok,8,0.964,1.0,8,4,0.3051,paddleocr
+test1.jpg,11,left,ಹೀರೆಕಾಯಿ,೨ೀರೆಕಾಯು,೨ೀರೆಕಾಯು,1.0,ok,18,0.8051,1.0,18,13,0.3635,paddleocr
+test1.jpg,12,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,15,0.9991,0.8784,1.5,15,0.4629,paddleocr
+test1.jpg,13,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯು,1.0,ok,20,0.9453,0.9999,20,67,0.3074,paddleocr
+test1.jpg,14,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,20,0.9486,1.0,20,27,0.3086,paddleocr
+test1.jpg,15,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ರೀನ್,ಹಾಗಲ--ರೀನ್,0.9474,ok,20,0.9293,1.0,20,642,0.3752,paddleocr
+test1.jpg,16,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಪವರ್,1.0,ok,11,0.9821,0.9996,11,11,0.4664,paddleocr
+test1.jpg,17,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,PENDING_REVIEW,0.9179,0.0,,,0.0,pending_review
+test1.jpg,18,right,ಕಗಕ,ಕಗಕ,ಕಂಬಳಕಾಯು,0.3636,REVIEW_NAME,PENDING_REVIEW,0.2827,0.0,,7777740,0.3921,pending_review
+test1.jpg,19,right,ಪೇರ್ 1ಕೆ,ವೈo್IJ.Bo GnIBD,ವೈo್IJ.Bo GnIBD,1.0,ok,PENDING_REVIEW,0.5439,0.0,,1,0.5347,pending_review
+test1.jpg,20,right,ದಪ್ಪ ಮೆಣಸು,ದಪವಣಸು,ದಪವಣಸು,1.0,ok,31,0.9733,0.9997,31,251,0.4837,paddleocr
+test1.jpg,21,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಂು,ಸೋರೆಕಾಂು,1.0,ok,4,0.93,0.9997,4,4,0.41,paddleocr
+test1.jpg,22,right,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,6,0.998,0.9804,6,8,0.2048,paddleocr
+test1.jpg,23,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾಶ,ಕೋಸು--ಚಪಾಶ,0.9474,ok,7,0.9391,0.9986,7,7,0.3081,paddleocr
+test1.jpg,24,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು--ಸಾೈಂ,0.9474,ok,5,0.9619,0.9893,5,395,0.4072,paddleocr
+test1.jpg,25,right,ಸೀಮು ಬದನೆ,ಸೀವಬದನೆ,ಸೀವಬದನೆ,1.0,ok,15,0.9102,1.0,15,115,0.4151,paddleocr
+test1.jpg,26,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,1.0,ok,25,0.9366,1.0,25,121,0.3387,paddleocr
+test1.jpg,27,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜಿ--ಯಕೋನ,0.9412,ok,16,0.9519,1.0,16,15,0.3625,paddleocr
+test1.jpg,28,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯು,1.0,ok,24,0.9677,0.9978,24,24,0.3075,paddleocr
+test1.jpg,29,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,0.9474,ok,18,0.9453,1.0,18,13,0.4639,paddleocr
+test1.jpg,30,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ಮಣಸು,1.0,ok,PENDING_REVIEW,0.9572,0.0,,1117,0.4838,pending_review
+test1.jpg,31,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟ್ರೋಟ್,1.0,ok,PENDING_REVIEW,0.9946,0.0,,1111,0.4834,pending_review

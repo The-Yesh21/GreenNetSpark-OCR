@@ -111,18 +111,39 @@ def _load_vegetable_dictionary() -> dict[str, str]:
     return json.loads(VEG_DICT_PATH.read_text(encoding="utf-8"))
 
 
-def _correct_name(text: str, dictionary: dict[str, str]) -> str:
+def _dictionary_match(text: str, dictionary: dict[str, str]) -> tuple[str, float, str]:
     cleaned = re.sub(r"\s+", " ", text.replace("--", "-")).strip()
     if not cleaned:
-        return cleaned
+        return cleaned, 0.0, ""
     if cleaned in dictionary:
-        return dictionary[cleaned]
+        canonical = dictionary[cleaned]
+        return canonical, 1.0, canonical
 
     keys = list(dictionary.keys())
     matches = difflib.get_close_matches(cleaned, keys, n=1, cutoff=0.56)
     if matches:
-        return dictionary[matches[0]]
-    return cleaned
+        match = matches[0]
+        score = difflib.SequenceMatcher(None, cleaned, match).ratio()
+        canonical = dictionary[match]
+        return canonical, round(score, 4), canonical
+
+    values = sorted(set(dictionary.values()))
+    value_matches = difflib.get_close_matches(cleaned, values, n=1, cutoff=0.56)
+    if value_matches:
+        match = value_matches[0]
+        score = difflib.SequenceMatcher(None, cleaned, match).ratio()
+        return match, round(score, 4), match
+
+    best_candidates = keys + values
+    if not best_candidates:
+        return cleaned, 0.0, ""
+    match = max(best_candidates, key=lambda item: difflib.SequenceMatcher(None, cleaned, item).ratio())
+    score = difflib.SequenceMatcher(None, cleaned, match).ratio()
+    return cleaned, round(score, 4), match
+
+
+def _correct_name(text: str, dictionary: dict[str, str]) -> str:
+    return _dictionary_match(text, dictionary)[0]
 
 
 def _is_header_or_footer(box: TextBox, image_h: int) -> bool:
@@ -261,6 +282,10 @@ def _pair_side(
 
         rows.append({
             "vegetable": name.text,
+            "raw_vegetable": getattr(name, "raw_text", name.text),
+            "vegetable_dictionary_match": getattr(name, "dictionary_match", ""),
+            "vegetable_dictionary_confidence": getattr(name, "dictionary_confidence", 0.0),
+            "vegetable_status": getattr(name, "vegetable_status", "unchecked"),
             "price": final_price or "PENDING_REVIEW",
             "vegetable_confidence": round(name.score, 4),
             "price_confidence": round(price.score, 4) if price else 0.0,
@@ -279,6 +304,10 @@ def _write_csv(path: Path, rows: Iterable[dict]) -> None:
         "No.",
         "Side",
         "Vegetable",
+        "Raw_Vegetable_OCR",
+        "Vegetable_Dictionary_Match",
+        "Vegetable_Dictionary_Confidence",
+        "Vegetable_Status",
         "Price",
         "Vegetable_Confidence",
         "Price_Confidence",
@@ -295,6 +324,10 @@ def _write_csv(path: Path, rows: Iterable[dict]) -> None:
                 "No.": idx,
                 "Side": row["side"],
                 "Vegetable": row["vegetable"],
+                "Raw_Vegetable_OCR": row.get("raw_vegetable", ""),
+                "Vegetable_Dictionary_Match": row.get("vegetable_dictionary_match", ""),
+                "Vegetable_Dictionary_Confidence": row.get("vegetable_dictionary_confidence", 0.0),
+                "Vegetable_Status": row.get("vegetable_status", ""),
                 "Price": row["price"],
                 "Vegetable_Confidence": row["vegetable_confidence"],
                 "Price_Confidence": row["price_confidence"],
@@ -311,6 +344,10 @@ def _write_batch_csv(path: Path, rows: Iterable[dict]) -> None:
         "No.",
         "Side",
         "Vegetable",
+        "Raw_Vegetable_OCR",
+        "Vegetable_Dictionary_Match",
+        "Vegetable_Dictionary_Confidence",
+        "Vegetable_Status",
         "Price",
         "Vegetable_Confidence",
         "Price_Confidence",
@@ -328,6 +365,10 @@ def _write_batch_csv(path: Path, rows: Iterable[dict]) -> None:
                 "No.": idx,
                 "Side": row["side"],
                 "Vegetable": row["vegetable"],
+                "Raw_Vegetable_OCR": row.get("raw_vegetable", ""),
+                "Vegetable_Dictionary_Match": row.get("vegetable_dictionary_match", ""),
+                "Vegetable_Dictionary_Confidence": row.get("vegetable_dictionary_confidence", 0.0),
+                "Vegetable_Status": row.get("vegetable_status", ""),
                 "Price": row["price"],
                 "Vegetable_Confidence": row["vegetable_confidence"],
                 "Price_Confidence": row["price_confidence"],
@@ -364,18 +405,27 @@ def extract_image(
     digit_model_path: Path | None,
     digit_model_min_confidence: float,
     prefer_digit_model: bool,
+    kannada_ocr: PaddleOCR | None = None,
+    english_ocr: PaddleOCR | None = None,
+    vegetable_dictionary: dict[str, str] | None = None,
+    digit_recognizer: DigitKnnRecognizer | None = None,
 ) -> list[dict]:
     image = cv2.imread(str(image_path))
     if image is None:
         raise FileNotFoundError(f"Could not read image: {image_path}")
     image_h, image_w = image.shape[:2]
 
-    kannada_ocr = _make_ocr("ka")
-    english_ocr = _make_ocr("en")
+    if kannada_ocr is None:
+        kannada_ocr = _make_ocr("ka")
+    if english_ocr is None:
+        english_ocr = _make_ocr("en")
+    if vegetable_dictionary is None:
+        vegetable_dictionary = _load_vegetable_dictionary()
+    if digit_recognizer is None and digit_model_path and digit_model_path.exists():
+        digit_recognizer = DigitKnnRecognizer(digit_model_path)
 
     kannada_reads = _read_ocr(kannada_ocr, str(image_path))
     english_reads = _read_ocr(english_ocr, str(image_path))
-    vegetable_dictionary = _load_vegetable_dictionary()
 
     names = [box for box in kannada_reads if _looks_like_vegetable(box, image_h, min_name_score)]
     if not names:
@@ -386,11 +436,13 @@ def extract_image(
     names = _merge_name_lines(names)
     prices = [box for box in english_reads if _looks_like_price(box, image_h, min_price_score)]
     for box in names:
-        box.text = _correct_name(box.text, vegetable_dictionary)
-
-    digit_recognizer = None
-    if digit_model_path and digit_model_path.exists():
-        digit_recognizer = DigitKnnRecognizer(digit_model_path)
+        raw_text = box.text
+        corrected_name, dictionary_confidence, dictionary_match = _dictionary_match(raw_text, vegetable_dictionary)
+        box.raw_text = raw_text
+        box.text = corrected_name
+        box.dictionary_confidence = dictionary_confidence
+        box.dictionary_match = dictionary_match
+        box.vegetable_status = "ok" if dictionary_confidence >= 0.72 else "REVIEW_NAME"
 
     rows: list[dict] = []
     for side in ("left", "right"):
@@ -454,6 +506,10 @@ def main() -> None:
 
     if args.dataset:
         all_rows: list[dict] = []
+        kannada_ocr = _make_ocr("ka")
+        english_ocr = _make_ocr("en")
+        vegetable_dictionary = _load_vegetable_dictionary()
+        digit_recognizer = DigitKnnRecognizer(args.digit_model) if args.digit_model and args.digit_model.exists() else None
         for image_path in iter_dataset_images(args.dataset):
             image_rows = extract_image(
                 image_path=image_path,
@@ -466,6 +522,10 @@ def main() -> None:
                 digit_model_path=args.digit_model,
                 digit_model_min_confidence=args.digit_model_min_confidence,
                 prefer_digit_model=args.prefer_digit_model,
+                kannada_ocr=kannada_ocr,
+                english_ocr=english_ocr,
+                vegetable_dictionary=vegetable_dictionary,
+                digit_recognizer=digit_recognizer,
             )
             for row in image_rows:
                 row["image"] = image_path.name
