@@ -111,4 +111,13 @@ python export_review_crops.py --debug-json yolo_split_debug.json --output-dir re
 
 Fill `Correct_Price` in the generated `review_crops/<image>/manifest.csv`. Those crops are the best source for improving the handwritten price recognizer because they come from the real board handwriting that PaddleOCR missed.
 
+After correcting the manifest, import those real digits and retrain:
+
+```powershell
+python import_review_digit_samples.py --review-dir review_crops --output-dir digit_samples
+python train_mnist_digit_model.py --mnist-dir datasets/mnist --output models/digit_knn.npz --real-samples-dir digit_samples
+```
+
+The importer is conservative. It only saves a row when the segmented digit count matches `Correct_Price`, so bad crops will be reported instead of silently becoming wrong training data.
+
 The best version will come from manually checking `digit_samples/0` through `digit_samples/9` and moving any wrong crops into the correct digit folder before retraining. True OCR fine-tuning needs labelled text crops/transcriptions; the current `test1.jpg`, `test2.jpeg`, etc. images are not enough by themselves to fine-tune a Kannada OCR recognizer.
