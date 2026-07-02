@@ -24,11 +24,19 @@ FIELDNAMES = [
 ]
 
 
-def append_rows(output_path: Path, image_name: str, rows: list[dict], reset: bool) -> None:
+def append_rows(output_path: Path, image_name: str, rows: list[dict], reset: bool) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     write_header = reset or not output_path.exists() or output_path.stat().st_size == 0
     mode = "w" if reset else "a"
-    with output_path.open(mode, encoding="utf-8-sig", newline="") as handle:
+    try:
+        handle = output_path.open(mode, encoding="utf-8-sig", newline="")
+    except PermissionError:
+        output_path = output_path.with_name(f"{output_path.stem}_new{output_path.suffix}")
+        write_header = True
+        mode = "w"
+        handle = output_path.open(mode, encoding="utf-8-sig", newline="")
+
+    with handle:
         writer = csv.DictWriter(handle, fieldnames=FIELDNAMES)
         if write_header:
             writer.writeheader()
@@ -52,6 +60,7 @@ def append_rows(output_path: Path, image_name: str, rows: list[dict], reset: boo
                     "Price_Source": row["price_source"],
                 }
             )
+    return output_path
 
 
 def main() -> None:
@@ -82,11 +91,11 @@ def main() -> None:
         digit_model_min_confidence=args.digit_model_min_confidence,
         prefer_digit_model=args.prefer_digit_model,
     )
-    append_rows(args.output, args.image.name, rows, args.reset)
+    actual_output = append_rows(args.output, args.image.name, rows, args.reset)
     pending_prices = sum(1 for row in rows if row["price"] == "PENDING_REVIEW")
     pending_names = sum(1 for row in rows if row["vegetable"] == "PENDING_REVIEW")
     print(
-        f"{args.image.name}: appended {len(rows)} rows to {args.output}; "
+        f"{args.image.name}: appended {len(rows)} rows to {actual_output}; "
         f"pending_prices={pending_prices}; pending_names={pending_names}"
     )
     print(f"Per-image CSV: {image_output}")

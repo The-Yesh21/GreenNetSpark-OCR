@@ -4,7 +4,7 @@
     {
       "vegetable": "ಬೀನ್ಸ್",
       "raw_vegetable": "ಆಪ",
-      "vegetable_dictionary_match": "ಆಪ",
+      "vegetable_dictionary_match": "ಬೀನ್ಸ್",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "35",
@@ -31,7 +31,7 @@
     {
       "vegetable": "ಪೋಲ್ ಬೀನ್ಸ್",
       "raw_vegetable": "ಪನೀಲ್ಬೀನಸ್",
-      "vegetable_dictionary_match": "ಪನೀಲ್ಬೀನಸ್",
+      "vegetable_dictionary_match": "ಪೋಲ್ ಬೀನ್ಸ್",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "37",
@@ -58,7 +58,7 @@
     {
       "vegetable": "ಪೋಲ್ ಬೀನ್ಸ್",
       "raw_vegetable": "ರd aನಸ್",
-      "vegetable_dictionary_match": "ರd aನಸ್",
+      "vegetable_dictionary_match": "ಪೋಲ್ ಬೀನ್ಸ್",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "PENDING_REVIEW",
@@ -85,7 +85,7 @@
     {
       "vegetable": "ಮೆಣಸಿನಕಾಯಿ",
       "raw_vegetable": "ಮಣನನಕಾು",
-      "vegetable_dictionary_match": "ಮಣನನಕಾು",
+      "vegetable_dictionary_match": "ಮೆಣಸಿನಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "42",
@@ -112,7 +112,7 @@
     {
       "vegetable": "ಸೌತೆಕಾಯಿ",
       "raw_vegetable": "ಸೌತಕಾಂು",
-      "vegetable_dictionary_match": "ಸೌತಕಾಂು",
+      "vegetable_dictionary_match": "ಸೌತೆಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "18",
@@ -139,7 +139,7 @@
     {
       "vegetable": "ಎಂ.ಸಿ.",
       "raw_vegetable": "ಎಂ.ಸ.",
-      "vegetable_dictionary_match": "ಎಂ.ಸ.",
+      "vegetable_dictionary_match": "ಎಂ.ಸಿ.",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "4",
@@ -166,7 +166,7 @@
     {
       "vegetable": "ಸುರಾಮಿ",
       "raw_vegetable": "ಸುನಾವು",
-      "vegetable_dictionary_match": "ಸುನಾವು",
+      "vegetable_dictionary_match": "ಸುರಾಮಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "PENDING_REVIEW",
@@ -193,7 +193,7 @@
     {
       "vegetable": "ಯರಕಾನ",
       "raw_vegetable": "ಯಳವನ",
-      "vegetable_dictionary_match": "ಯಳವನ",
+      "vegetable_dictionary_match": "ಯರಕಾನ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "3",
@@ -220,7 +220,7 @@
     {
       "vegetable": "ಗುಂಡು ಬದನೆ",
       "raw_vegetable": "ಗುಂಡುಬದನೆ",
-      "vegetable_dictionary_match": "ಗುಂಡುಬದನೆ",
+      "vegetable_dictionary_match": "ಗುಂಡು ಬದನೆ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "5",
@@ -247,7 +247,7 @@
     {
       "vegetable": "ಕಂಬಳಕಾಯಿ",
       "raw_vegetable": "ಕಂಬಳಕಾಯು",
-      "vegetable_dictionary_match": "ಕಂಬಳಕಾಯು",
+      "vegetable_dictionary_match": "ಕಂಬಳಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "8",
@@ -274,7 +274,7 @@
     {
       "vegetable": "ಹೀರೆಕಾಯಿ",
       "raw_vegetable": "೨ೀರೆಕಾಯು",
-      "vegetable_dictionary_match": "೨ೀರೆಕಾಯು",
+      "vegetable_dictionary_match": "ಹೀರೆಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "18",
@@ -328,7 +328,7 @@
     {
       "vegetable": "ತೊಂಡೆಕಾಯಿ",
       "raw_vegetable": "ತೊಂಡೆಕಾಯು",
-      "vegetable_dictionary_match": "ತೊಂಡೆಕಾಯು",
+      "vegetable_dictionary_match": "ತೊಂಡೆಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "20",
@@ -382,7 +382,7 @@
     {
       "vegetable": "ಹಾಗಲ-ಗ್ರೀನ್",
       "raw_vegetable": "ಹಾಗಲ--ರೀನ್",
-      "vegetable_dictionary_match": "ಹಾಗಲ--ರೀನ್",
+      "vegetable_dictionary_match": "ಹಾಗಲ-ಗ್ರೀನ್",
       "vegetable_dictionary_confidence": 0.9474,
       "vegetable_status": "ok",
       "price": "20",
@@ -409,7 +409,7 @@
     {
       "vegetable": "ಕಾಲಿಫ್ಲವರ್",
       "raw_vegetable": "ಕಾಲಿಪವರ್",
-      "vegetable_dictionary_match": "ಕಾಲಿಪವರ್",
+      "vegetable_dictionary_match": "ಕಾಲಿಫ್ಲವರ್",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "11",
@@ -490,7 +490,7 @@
     {
       "vegetable": "ಪೇರ್ 1ಕೆ",
       "raw_vegetable": "ವೈo್IJ.Bo GnIBD",
-      "vegetable_dictionary_match": "ವೈo್IJ.Bo GnIBD",
+      "vegetable_dictionary_match": "ಪೇರ್ 1ಕೆ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "PENDING_REVIEW",
@@ -517,7 +517,7 @@
     {
       "vegetable": "ದಪ್ಪ ಮೆಣಸು",
       "raw_vegetable": "ದಪವಣಸು",
-      "vegetable_dictionary_match": "ದಪವಣಸು",
+      "vegetable_dictionary_match": "ದಪ್ಪ ಮೆಣಸು",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "31",
@@ -544,7 +544,7 @@
     {
       "vegetable": "ಸೋರೆಕಾಯಿ",
       "raw_vegetable": "ಸೋರೆಕಾಂು",
-      "vegetable_dictionary_match": "ಸೋರೆಕಾಂು",
+      "vegetable_dictionary_match": "ಸೋರೆಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "4",
@@ -598,7 +598,7 @@
     {
       "vegetable": "ಕೋಸು-ಚಪಾತಿ",
       "raw_vegetable": "ಕೋಸು--ಚಪಾಶ",
-      "vegetable_dictionary_match": "ಕೋಸು--ಚಪಾಶ",
+      "vegetable_dictionary_match": "ಕೋಸು-ಚಪಾತಿ",
       "vegetable_dictionary_confidence": 0.9474,
       "vegetable_status": "ok",
       "price": "7",
@@ -625,7 +625,7 @@
     {
       "vegetable": "ಕೋಸು-ನ್ಯಾ.ಂ",
       "raw_vegetable": "ಕೋಸು--ಸಾೈಂ",
-      "vegetable_dictionary_match": "ಕೋಸು--ಸಾೈಂ",
+      "vegetable_dictionary_match": "ಕೋಸು-ನ್ಯಾ.ಂ",
       "vegetable_dictionary_confidence": 0.9474,
       "vegetable_status": "ok",
       "price": "5",
@@ -652,7 +652,7 @@
     {
       "vegetable": "ಸೀಮು ಬದನೆ",
       "raw_vegetable": "ಸೀವಬದನೆ",
-      "vegetable_dictionary_match": "ಸೀವಬದನೆ",
+      "vegetable_dictionary_match": "ಸೀಮು ಬದನೆ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "15",
@@ -679,7 +679,7 @@
     {
       "vegetable": "ಬಜ್ಜಿ-ನಾಟಿ",
       "raw_vegetable": "ಬಜಿ-ನಾಟಿ",
-      "vegetable_dictionary_match": "ಬಜಿ-ನಾಟಿ",
+      "vegetable_dictionary_match": "ಬಜ್ಜಿ-ನಾಟಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "25",
@@ -706,7 +706,7 @@
     {
       "vegetable": "ಬಜ್ಜಿ-ಯುಕೋನ",
       "raw_vegetable": "ಬಜಿ--ಯಕೋನ",
-      "vegetable_dictionary_match": "ಬಜಿ--ಯಕೋನ",
+      "vegetable_dictionary_match": "ಬಜ್ಜಿ-ಯುಕೋನ",
       "vegetable_dictionary_confidence": 0.9412,
       "vegetable_status": "ok",
       "price": "16",
@@ -733,7 +733,7 @@
     {
       "vegetable": "ಬೆಂಡೆಕಾಯಿ",
       "raw_vegetable": "ಬೆಂಡೆಕಾಯು",
-      "vegetable_dictionary_match": "ಬೆಂಡೆಕಾಯು",
+      "vegetable_dictionary_match": "ಬೆಂಡೆಕಾಯಿ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "24",
@@ -760,7 +760,7 @@
     {
       "vegetable": "ಟೊಮೋಟೋ-ಹುಳಿ",
       "raw_vegetable": "ಟವೋಟ--ಹುಳಿ",
-      "vegetable_dictionary_match": "ಟವೋಟ--ಹುಳಿ",
+      "vegetable_dictionary_match": "ಟೊಮೋಟೋ-ಹುಳಿ",
       "vegetable_dictionary_confidence": 0.9474,
       "vegetable_status": "ok",
       "price": "18",
@@ -787,7 +787,7 @@
     {
       "vegetable": "ಬುಲೆಟ್ ಮೆಣಸು",
       "raw_vegetable": "ಬುಲೆಟ್ಮಣಸು",
-      "vegetable_dictionary_match": "ಬುಲೆಟ್ಮಣಸು",
+      "vegetable_dictionary_match": "ಬುಲೆಟ್ ಮೆಣಸು",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "PENDING_REVIEW",
@@ -814,7 +814,7 @@
     {
       "vegetable": "ಬೀಟರೂಟ್",
       "raw_vegetable": "ಬೀಟ್ರೋಟ್",
-      "vegetable_dictionary_match": "ಬೀಟ್ರೋಟ್",
+      "vegetable_dictionary_match": "ಬೀಟರೂಟ್",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "PENDING_REVIEW",
@@ -851,7 +851,7 @@
       ],
       "raw_text": "ಆಪ",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಆಪ",
+      "dictionary_match": "ಬೀನ್ಸ್",
       "vegetable_status": "ok"
     },
     {
@@ -939,7 +939,7 @@
       ],
       "raw_text": "ವೈo್IJ.Bo GnIBD",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ವೈo್IJ.Bo GnIBD",
+      "dictionary_match": "ಪೇರ್ 1ಕೆ",
       "vegetable_status": "ok"
     },
     {
@@ -963,7 +963,7 @@
       ],
       "raw_text": "ಪನೀಲ್ಬೀನಸ್",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಪನೀಲ್ಬೀನಸ್",
+      "dictionary_match": "ಪೋಲ್ ಬೀನ್ಸ್",
       "vegetable_status": "ok"
     },
     {
@@ -977,7 +977,7 @@
       ],
       "raw_text": "ರd aನಸ್",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ರd aನಸ್",
+      "dictionary_match": "ಪೋಲ್ ಬೀನ್ಸ್",
       "vegetable_status": "ok"
     },
     {
@@ -991,7 +991,7 @@
       ],
       "raw_text": "ದಪವಣಸು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ದಪವಣಸು",
+      "dictionary_match": "ದಪ್ಪ ಮೆಣಸು",
       "vegetable_status": "ok"
     },
     {
@@ -1015,7 +1015,7 @@
       ],
       "raw_text": "ಮಣನನಕಾು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಮಣನನಕಾು",
+      "dictionary_match": "ಮೆಣಸಿನಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1029,7 +1029,7 @@
       ],
       "raw_text": "ಸೋರೆಕಾಂು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಸೋರೆಕಾಂು",
+      "dictionary_match": "ಸೋರೆಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1043,7 +1043,7 @@
       ],
       "raw_text": "ಸೌತಕಾಂು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಸೌತಕಾಂು",
+      "dictionary_match": "ಸೌತೆಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1071,7 +1071,7 @@
       ],
       "raw_text": "ಎಂ.ಸ.",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಎಂ.ಸ.",
+      "dictionary_match": "ಎಂ.ಸಿ.",
       "vegetable_status": "ok"
     },
     {
@@ -1085,7 +1085,7 @@
       ],
       "raw_text": "ಕೋಸು--ಚಪಾಶ",
       "dictionary_confidence": 0.9474,
-      "dictionary_match": "ಕೋಸು--ಚಪಾಶ",
+      "dictionary_match": "ಕೋಸು-ಚಪಾತಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1099,7 +1099,7 @@
       ],
       "raw_text": "ಸುನಾವು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಸುನಾವು",
+      "dictionary_match": "ಸುರಾಮಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1123,7 +1123,7 @@
       ],
       "raw_text": "ಕೋಸು--ಸಾೈಂ",
       "dictionary_confidence": 0.9474,
-      "dictionary_match": "ಕೋಸು--ಸಾೈಂ",
+      "dictionary_match": "ಕೋಸು-ನ್ಯಾ.ಂ",
       "vegetable_status": "ok"
     },
     {
@@ -1137,7 +1137,7 @@
       ],
       "raw_text": "ಯಳವನ",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಯಳವನ",
+      "dictionary_match": "ಯರಕಾನ",
       "vegetable_status": "ok"
     },
     {
@@ -1161,7 +1161,7 @@
       ],
       "raw_text": "ಸೀವಬದನೆ",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಸೀವಬದನೆ",
+      "dictionary_match": "ಸೀಮು ಬದನೆ",
       "vegetable_status": "ok"
     },
     {
@@ -1185,7 +1185,7 @@
       ],
       "raw_text": "ಗುಂಡುಬದನೆ",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಗುಂಡುಬದನೆ",
+      "dictionary_match": "ಗುಂಡು ಬದನೆ",
       "vegetable_status": "ok"
     },
     {
@@ -1209,7 +1209,7 @@
       ],
       "raw_text": "ಬಜಿ-ನಾಟಿ",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಬಜಿ-ನಾಟಿ",
+      "dictionary_match": "ಬಜ್ಜಿ-ನಾಟಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1223,7 +1223,7 @@
       ],
       "raw_text": "ಕಂಬಳಕಾಯು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಕಂಬಳಕಾಯು",
+      "dictionary_match": "ಕಂಬಳಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1257,7 +1257,7 @@
       ],
       "raw_text": "ಬಜಿ--ಯಕೋನ",
       "dictionary_confidence": 0.9412,
-      "dictionary_match": "ಬಜಿ--ಯಕೋನ",
+      "dictionary_match": "ಬಜ್ಜಿ-ಯುಕೋನ",
       "vegetable_status": "ok"
     },
     {
@@ -1271,7 +1271,7 @@
       ],
       "raw_text": "೨ೀರೆಕಾಯು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "೨ೀರೆಕಾಯು",
+      "dictionary_match": "ಹೀರೆಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1305,7 +1305,7 @@
       ],
       "raw_text": "ಬೆಂಡೆಕಾಯು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಬೆಂಡೆಕಾಯು",
+      "dictionary_match": "ಬೆಂಡೆಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1343,7 +1343,7 @@
       ],
       "raw_text": "ಟವೋಟ--ಹುಳಿ",
       "dictionary_confidence": 0.9474,
-      "dictionary_match": "ಟವೋಟ--ಹುಳಿ",
+      "dictionary_match": "ಟೊಮೋಟೋ-ಹುಳಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1367,7 +1367,7 @@
       ],
       "raw_text": "ತೊಂಡೆಕಾಯು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ತೊಂಡೆಕಾಯು",
+      "dictionary_match": "ತೊಂಡೆಕಾಯಿ",
       "vegetable_status": "ok"
     },
     {
@@ -1381,7 +1381,7 @@
       ],
       "raw_text": "ಬುಲೆಟ್ಮಣಸು",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಬುಲೆಟ್ಮಣಸು",
+      "dictionary_match": "ಬುಲೆಟ್ ಮೆಣಸು",
       "vegetable_status": "ok"
     },
     {
@@ -1419,7 +1419,7 @@
       ],
       "raw_text": "ಬೀಟ್ರೋಟ್",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಬೀಟ್ರೋಟ್",
+      "dictionary_match": "ಬೀಟರೂಟ್",
       "vegetable_status": "ok"
     },
     {
@@ -1433,7 +1433,7 @@
       ],
       "raw_text": "ಹಾಗಲ--ರೀನ್",
       "dictionary_confidence": 0.9474,
-      "dictionary_match": "ಹಾಗಲ--ರೀನ್",
+      "dictionary_match": "ಹಾಗಲ-ಗ್ರೀನ್",
       "vegetable_status": "ok"
     },
     {
@@ -1477,7 +1477,7 @@
       ],
       "raw_text": "ಕಾಲಿಪವರ್",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಕಾಲಿಪವರ್",
+      "dictionary_match": "ಕಾಲಿಫ್ಲವರ್",
       "vegetable_status": "ok"
     },
     {
