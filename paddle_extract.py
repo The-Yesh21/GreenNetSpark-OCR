@@ -20,6 +20,7 @@ PRICE_RE = re.compile(r"\d+")
 ROOT = Path(__file__).resolve().parent
 VEG_DICT_PATH = ROOT / "veg_dictionary.json"
 DEFAULT_DIGIT_MODEL_PATH = ROOT / "models" / "digit_knn.npz"
+REJECTED_DICTIONARY_VALUE = "__REJECT__"
 
 
 @dataclass
@@ -117,17 +118,21 @@ def _dictionary_match(text: str, dictionary: dict[str, str]) -> tuple[str, float
         return cleaned, 0.0, ""
     if cleaned in dictionary:
         canonical = dictionary[cleaned]
+        if canonical == REJECTED_DICTIONARY_VALUE:
+            return cleaned, 0.0, ""
         return canonical, 1.0, canonical
 
     keys = list(dictionary.keys())
     matches = difflib.get_close_matches(cleaned, keys, n=1, cutoff=0.56)
     if matches:
         match = matches[0]
+        if dictionary[match] == REJECTED_DICTIONARY_VALUE:
+            return cleaned, 0.0, ""
         score = difflib.SequenceMatcher(None, cleaned, match).ratio()
         canonical = dictionary[match]
         return canonical, round(score, 4), canonical
 
-    values = sorted(set(dictionary.values()))
+    values = sorted(value for value in set(dictionary.values()) if value != REJECTED_DICTIONARY_VALUE)
     value_matches = difflib.get_close_matches(cleaned, values, n=1, cutoff=0.56)
     if value_matches:
         match = value_matches[0]
@@ -279,6 +284,25 @@ def _pair_side(
             and (prefer_digit_model or not paddle_price or (price is not None and price.score < 0.85))
         )
         final_price = digit_price if use_digit_price else paddle_price
+        price_score = round(price.score, 4) if price else 0.0
+        price_agreement = "none"
+        if paddle_price and digit_price:
+            price_agreement = "agree" if paddle_price == digit_price else "disagree"
+        elif paddle_price:
+            price_agreement = "paddle_only"
+        elif digit_price:
+            price_agreement = "digit_only"
+
+        if not final_price:
+            price_status = "REVIEW_PRICE_MISSING"
+        elif paddle_price and digit_price and paddle_price != digit_price and digit_confidence >= digit_model_min_confidence:
+            price_status = "REVIEW_PRICE_DISAGREE"
+        elif price_score and price_score < 0.85:
+            price_status = "REVIEW_PRICE_LOW_CONF"
+        elif digit_price and digit_confidence < digit_model_min_confidence:
+            price_status = "ok_paddle_digit_weak"
+        else:
+            price_status = "ok"
 
         rows.append({
             "vegetable": name.text,
@@ -293,10 +317,31 @@ def _pair_side(
             "digit_model_price": digit_price,
             "digit_model_confidence": round(digit_confidence, 4),
             "price_source": "digit_model" if use_digit_price else ("paddleocr" if paddle_price else "pending_review"),
+            "price_status": price_status,
+            "price_agreement": price_agreement,
             "name_box": [round(v, 2) for v in name.box],
             "price_box": [round(v, 2) for v in digit_box] if digit_box else [],
         })
     return rows
+
+
+def _mark_duplicate_vegetables(rows: list[dict]) -> None:
+    counts: dict[str, int] = {}
+    for row in rows:
+        vegetable = row.get("vegetable", "")
+        if vegetable and vegetable != "PENDING_REVIEW":
+            counts[vegetable] = counts.get(vegetable, 0) + 1
+
+    for row in rows:
+        vegetable = row.get("vegetable", "")
+        duplicate_count = counts.get(vegetable, 0)
+        row["vegetable_duplicate_count"] = duplicate_count
+        if duplicate_count > 1:
+            row["vegetable_duplicate_status"] = "DUPLICATE_NAME"
+            if row.get("vegetable_status") == "ok":
+                row["vegetable_status"] = "REVIEW_DUPLICATE"
+        else:
+            row["vegetable_duplicate_status"] = "unique"
 
 
 def _write_csv(path: Path, rows: Iterable[dict]) -> None:
@@ -308,6 +353,8 @@ def _write_csv(path: Path, rows: Iterable[dict]) -> None:
         "Vegetable_Dictionary_Match",
         "Vegetable_Dictionary_Confidence",
         "Vegetable_Status",
+        "Vegetable_Duplicate_Status",
+        "Vegetable_Duplicate_Count",
         "Price",
         "Vegetable_Confidence",
         "Price_Confidence",
@@ -315,6 +362,8 @@ def _write_csv(path: Path, rows: Iterable[dict]) -> None:
         "Digit_Model_Price",
         "Digit_Model_Confidence",
         "Price_Source",
+        "Price_Status",
+        "Price_Agreement",
     ]
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
@@ -328,6 +377,8 @@ def _write_csv(path: Path, rows: Iterable[dict]) -> None:
                 "Vegetable_Dictionary_Match": row.get("vegetable_dictionary_match", ""),
                 "Vegetable_Dictionary_Confidence": row.get("vegetable_dictionary_confidence", 0.0),
                 "Vegetable_Status": row.get("vegetable_status", ""),
+                "Vegetable_Duplicate_Status": row.get("vegetable_duplicate_status", ""),
+                "Vegetable_Duplicate_Count": row.get("vegetable_duplicate_count", 0),
                 "Price": row["price"],
                 "Vegetable_Confidence": row["vegetable_confidence"],
                 "Price_Confidence": row["price_confidence"],
@@ -335,6 +386,8 @@ def _write_csv(path: Path, rows: Iterable[dict]) -> None:
                 "Digit_Model_Price": row["digit_model_price"],
                 "Digit_Model_Confidence": row["digit_model_confidence"],
                 "Price_Source": row["price_source"],
+                "Price_Status": row.get("price_status", ""),
+                "Price_Agreement": row.get("price_agreement", ""),
             })
 
 
@@ -348,6 +401,8 @@ def _write_batch_csv(path: Path, rows: Iterable[dict]) -> None:
         "Vegetable_Dictionary_Match",
         "Vegetable_Dictionary_Confidence",
         "Vegetable_Status",
+        "Vegetable_Duplicate_Status",
+        "Vegetable_Duplicate_Count",
         "Price",
         "Vegetable_Confidence",
         "Price_Confidence",
@@ -355,6 +410,8 @@ def _write_batch_csv(path: Path, rows: Iterable[dict]) -> None:
         "Digit_Model_Price",
         "Digit_Model_Confidence",
         "Price_Source",
+        "Price_Status",
+        "Price_Agreement",
     ]
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
@@ -369,6 +426,8 @@ def _write_batch_csv(path: Path, rows: Iterable[dict]) -> None:
                 "Vegetable_Dictionary_Match": row.get("vegetable_dictionary_match", ""),
                 "Vegetable_Dictionary_Confidence": row.get("vegetable_dictionary_confidence", 0.0),
                 "Vegetable_Status": row.get("vegetable_status", ""),
+                "Vegetable_Duplicate_Status": row.get("vegetable_duplicate_status", ""),
+                "Vegetable_Duplicate_Count": row.get("vegetable_duplicate_count", 0),
                 "Price": row["price"],
                 "Vegetable_Confidence": row["vegetable_confidence"],
                 "Price_Confidence": row["price_confidence"],
@@ -376,6 +435,8 @@ def _write_batch_csv(path: Path, rows: Iterable[dict]) -> None:
                 "Digit_Model_Price": row["digit_model_price"],
                 "Digit_Model_Confidence": row["digit_model_confidence"],
                 "Price_Source": row["price_source"],
+                "Price_Status": row.get("price_status", ""),
+                "Price_Agreement": row.get("price_agreement", ""),
             })
 
 
@@ -462,6 +523,7 @@ def extract_image(
             rows.append(row)
 
     rows.sort(key=lambda row: (row["side"], row["name_box"][1] if row["name_box"] else 0))
+    _mark_duplicate_vegetables(rows)
     _write_csv(output_csv, rows)
 
     if debug_json:

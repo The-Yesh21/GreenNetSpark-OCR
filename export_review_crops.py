@@ -6,6 +6,13 @@ from pathlib import Path
 import cv2
 
 
+def row_value(row: dict, *keys: str, default=""):
+    for key in keys:
+        if key in row and row[key] not in (None, ""):
+            return row[key]
+    return default
+
+
 def crop_box(image, box: list[float], pad: int = 6):
     h, w = image.shape[:2]
     x1, y1, x2, y2 = map(int, box)
@@ -17,14 +24,19 @@ def crop_box(image, box: list[float], pad: int = 6):
 
 
 def should_export(row: dict, include: str) -> bool:
+    price = row_value(row, "Price", "price")
+    vegetable = row_value(row, "Vegetable", "vegetable")
+    price_status = row_value(row, "Price_Status", "price_status")
     if include == "all":
         return True
     if include == "pending-price":
-        return row.get("Price") == "PENDING_REVIEW"
+        return price == "PENDING_REVIEW"
+    if include == "review-price":
+        return price == "PENDING_REVIEW" or str(price_status).startswith("REVIEW_PRICE")
     if include == "pending-name":
-        return row.get("Vegetable") == "PENDING_REVIEW"
+        return vegetable == "PENDING_REVIEW"
     if include == "pending-any":
-        return row.get("Price") == "PENDING_REVIEW" or row.get("Vegetable") == "PENDING_REVIEW"
+        return price == "PENDING_REVIEW" or vegetable == "PENDING_REVIEW"
     raise ValueError(f"Unknown include mode: {include}")
 
 
@@ -34,7 +46,7 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, default=Path("review_crops"))
     parser.add_argument(
         "--include",
-        choices=["pending-price", "pending-name", "pending-any", "all"],
+        choices=["pending-price", "review-price", "pending-name", "pending-any", "all"],
         default="pending-price",
     )
     args = parser.parse_args()
@@ -50,33 +62,36 @@ def main() -> None:
     target_dir.mkdir(parents=True, exist_ok=True)
 
     manifest_rows: list[dict] = []
-    for row in rows:
+    for index, row in enumerate(rows, start=1):
         if not should_export(row, args.include):
             continue
-        row_no = str(row.get("No.", "row")).zfill(2)
-        side = row.get("Side", "side")
+        row_no = str(row_value(row, "No.", "no", default=index)).zfill(2)
+        side = row_value(row, "Side", "side", default="side")
         base_name = f"{row_no}_{side}"
 
         name_path = ""
         price_path = ""
-        if row.get("Name_Cell_Box"):
-            name_crop = crop_box(image, row["Name_Cell_Box"])
+        name_box = row_value(row, "Name_Cell_Box", "name_box", default=[])
+        price_box = row_value(row, "Price_Cell_Box", "price_box", default=[])
+        if name_box:
+            name_crop = crop_box(image, name_box)
             name_path = str(target_dir / f"{base_name}_name.png")
             cv2.imwrite(name_path, name_crop)
-        if row.get("Price_Cell_Box"):
-            price_crop = crop_box(image, row["Price_Cell_Box"])
+        if price_box:
+            price_crop = crop_box(image, price_box)
             price_path = str(target_dir / f"{base_name}_price.png")
             cv2.imwrite(price_path, price_crop)
 
         manifest_rows.append(
             {
-                "No.": row.get("No.", ""),
+                "No.": row_no,
                 "Side": side,
-                "Vegetable": row.get("Vegetable", ""),
-                "Price": row.get("Price", ""),
-                "Raw_Price_OCR": row.get("Raw_Price_OCR", ""),
-                "Digit_Model_Price": row.get("Digit_Model_Price", ""),
-                "Digit_Model_Confidence": row.get("Digit_Model_Confidence", ""),
+                "Vegetable": row_value(row, "Vegetable", "vegetable"),
+                "Price": row_value(row, "Price", "price"),
+                "Price_Status": row_value(row, "Price_Status", "price_status"),
+                "Raw_Price_OCR": row_value(row, "Raw_Price_OCR", "raw_price"),
+                "Digit_Model_Price": row_value(row, "Digit_Model_Price", "digit_model_price"),
+                "Digit_Model_Confidence": row_value(row, "Digit_Model_Confidence", "digit_model_confidence"),
                 "Name_Crop": name_path,
                 "Price_Crop": price_path,
                 "Correct_Vegetable": "",

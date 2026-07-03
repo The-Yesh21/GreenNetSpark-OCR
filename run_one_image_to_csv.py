@@ -14,6 +14,8 @@ FIELDNAMES = [
     "Vegetable_Dictionary_Match",
     "Vegetable_Dictionary_Confidence",
     "Vegetable_Status",
+    "Vegetable_Duplicate_Status",
+    "Vegetable_Duplicate_Count",
     "Price",
     "Vegetable_Confidence",
     "Price_Confidence",
@@ -21,6 +23,8 @@ FIELDNAMES = [
     "Digit_Model_Price",
     "Digit_Model_Confidence",
     "Price_Source",
+    "Price_Status",
+    "Price_Agreement",
 ]
 
 
@@ -51,6 +55,8 @@ def append_rows(output_path: Path, image_name: str, rows: list[dict], reset: boo
                     "Vegetable_Dictionary_Match": row.get("vegetable_dictionary_match", ""),
                     "Vegetable_Dictionary_Confidence": row.get("vegetable_dictionary_confidence", 0.0),
                     "Vegetable_Status": row.get("vegetable_status", ""),
+                    "Vegetable_Duplicate_Status": row.get("vegetable_duplicate_status", ""),
+                    "Vegetable_Duplicate_Count": row.get("vegetable_duplicate_count", 0),
                     "Price": row["price"],
                     "Vegetable_Confidence": row["vegetable_confidence"],
                     "Price_Confidence": row["price_confidence"],
@@ -58,6 +64,8 @@ def append_rows(output_path: Path, image_name: str, rows: list[dict], reset: boo
                     "Digit_Model_Price": row["digit_model_price"],
                     "Digit_Model_Confidence": row["digit_model_confidence"],
                     "Price_Source": row["price_source"],
+                    "Price_Status": row.get("price_status", ""),
+                    "Price_Agreement": row.get("price_agreement", ""),
                 }
             )
     return output_path

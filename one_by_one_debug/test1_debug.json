@@ -14,6 +14,8 @@
       "digit_model_price": "1355",
       "digit_model_confidence": 0.4072,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         253.0,
         271.0,
@@ -26,14 +28,16 @@
         565.0,
         343.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಪೋಲ್ ಬೀನ್ಸ್",
       "raw_vegetable": "ಪನೀಲ್ಬೀನಸ್",
       "vegetable_dictionary_match": "ಪೋಲ್ ಬೀನ್ಸ್",
       "vegetable_dictionary_confidence": 1.0,
-      "vegetable_status": "ok",
+      "vegetable_status": "REVIEW_DUPLICATE",
       "price": "37",
       "vegetable_confidence": 0.8044,
       "price_confidence": 0.9999,
@@ -41,6 +45,8 @@
       "digit_model_price": "1544",
       "digit_model_confidence": 0.3825,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         226.0,
         343.0,
@@ -53,14 +59,16 @@
         561.0,
         402.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 2,
+      "vegetable_duplicate_status": "DUPLICATE_NAME"
     },
     {
       "vegetable": "ಪೋಲ್ ಬೀನ್ಸ್",
       "raw_vegetable": "ರd aನಸ್",
       "vegetable_dictionary_match": "ಪೋಲ್ ಬೀನ್ಸ್",
       "vegetable_dictionary_confidence": 1.0,
-      "vegetable_status": "ok",
+      "vegetable_status": "REVIEW_DUPLICATE",
       "price": "PENDING_REVIEW",
       "vegetable_confidence": 0.7166,
       "price_confidence": 0.0,
@@ -68,6 +76,8 @@
       "digit_model_price": "115441",
       "digit_model_confidence": 0.4133,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "digit_only",
       "name_box": [
         224.0,
         368.0,
@@ -80,7 +90,9 @@
         600.0,
         405.2
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 2,
+      "vegetable_duplicate_status": "DUPLICATE_NAME"
     },
     {
       "vegetable": "ಮೆಣಸಿನಕಾಯಿ",
@@ -95,6 +107,8 @@
       "digit_model_price": "566",
       "digit_model_confidence": 0.4404,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         217.0,
         407.0,
@@ -107,7 +121,9 @@
         562.0,
         465.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಸೌತೆಕಾಯಿ",
@@ -122,6 +138,8 @@
       "digit_model_price": "2",
       "digit_model_confidence": 0.307,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         210.0,
         468.0,
@@ -134,7 +152,9 @@
         547.0,
         536.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಎಂ.ಸಿ.",
@@ -149,6 +169,8 @@
       "digit_model_price": "4",
       "digit_model_confidence": 0.5101,
       "price_source": "paddleocr",
+      "price_status": "REVIEW_PRICE_LOW_CONF",
+      "price_agreement": "agree",
       "name_box": [
         199.0,
         527.0,
@@ -161,7 +183,9 @@
         545.0,
         595.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಸುರಾಮಿ",
@@ -176,6 +200,8 @@
       "digit_model_price": "17",
       "digit_model_confidence": 0.3621,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "digit_only",
       "name_box": [
         197.0,
         598.0,
@@ -188,12 +214,14 @@
         600.0,
         647.6
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
-      "vegetable": "ಯರಕಾನ",
+      "vegetable": "ಯಳವನ",
       "raw_vegetable": "ಯಳವನ",
-      "vegetable_dictionary_match": "ಯರಕಾನ",
+      "vegetable_dictionary_match": "ಯಳವನ",
       "vegetable_dictionary_confidence": 1.0,
       "vegetable_status": "ok",
       "price": "3",
@@ -203,6 +231,8 @@
       "digit_model_price": "3",
       "digit_model_confidence": 0.5094,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "agree",
       "name_box": [
         194.0,
         667.0,
@@ -215,7 +245,9 @@
         531.0,
         735.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಗುಂಡು ಬದನೆ",
@@ -230,6 +262,8 @@
       "digit_model_price": "11",
       "digit_model_confidence": 0.4562,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         187.0,
         737.0,
@@ -242,7 +276,9 @@
         525.0,
         804.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಕಂಬಳಕಾಯಿ",
@@ -257,6 +293,8 @@
       "digit_model_price": "4",
       "digit_model_confidence": 0.3051,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         181.0,
         807.0,
@@ -269,7 +307,9 @@
         512.0,
         876.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಹೀರೆಕಾಯಿ",
@@ -284,6 +324,8 @@
       "digit_model_price": "13",
       "digit_model_confidence": 0.3635,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         176.0,
         878.0,
@@ -296,7 +338,9 @@
         527.0,
         951.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಪಡವಲ",
@@ -311,6 +355,8 @@
       "digit_model_price": "15",
       "digit_model_confidence": 0.4629,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "agree",
       "name_box": [
         171.0,
         950.0,
@@ -323,7 +369,9 @@
         529.0,
         1026.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ತೊಂಡೆಕಾಯಿ",
@@ -338,6 +386,8 @@
       "digit_model_price": "67",
       "digit_model_confidence": 0.3074,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         167.0,
         1026.0,
@@ -350,7 +400,9 @@
         538.0,
         1102.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಹಾಗಲ-ವೈಟ್",
@@ -365,6 +417,8 @@
       "digit_model_price": "27",
       "digit_model_confidence": 0.3086,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         161.0,
         1104.0,
@@ -377,7 +431,9 @@
         544.0,
         1177.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಹಾಗಲ-ಗ್ರೀನ್",
@@ -392,6 +448,8 @@
       "digit_model_price": "642",
       "digit_model_confidence": 0.3752,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         159.0,
         1184.0,
@@ -404,7 +462,9 @@
         545.0,
         1258.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಕಾಲಿಫ್ಲವರ್",
@@ -419,6 +479,8 @@
       "digit_model_price": "11",
       "digit_model_confidence": 0.4664,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "agree",
       "name_box": [
         152.0,
         1261.0,
@@ -431,7 +493,9 @@
         509.0,
         1332.0
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ತಾll",
@@ -446,6 +510,8 @@
       "digit_model_price": "",
       "digit_model_confidence": 0.0,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "none",
       "name_box": [
         417.0,
         1339.0,
@@ -458,7 +524,9 @@
         600.0,
         1408.75
       ],
-      "side": "left"
+      "side": "left",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಕಗಕ",
@@ -473,6 +541,8 @@
       "digit_model_price": "7777740",
       "digit_model_confidence": 0.3921,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "digit_only",
       "name_box": [
         663.0,
         272.0,
@@ -485,7 +555,9 @@
         1032.0,
         300.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಪೇರ್ 1ಕೆ",
@@ -500,6 +572,8 @@
       "digit_model_price": "1",
       "digit_model_confidence": 0.5347,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "digit_only",
       "name_box": [
         605.0,
         298.0,
@@ -512,7 +586,9 @@
         1032.0,
         378.6
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ದಪ್ಪ ಮೆಣಸು",
@@ -527,6 +603,8 @@
       "digit_model_price": "251",
       "digit_model_confidence": 0.4837,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         610.0,
         360.0,
@@ -539,7 +617,9 @@
         943.0,
         409.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಸೋರೆಕಾಯಿ",
@@ -554,6 +634,8 @@
       "digit_model_price": "4",
       "digit_model_confidence": 0.41,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "agree",
       "name_box": [
         607.0,
         413.0,
@@ -566,7 +648,9 @@
         946.0,
         474.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಬದನೆ-ವೈಟ್",
@@ -581,6 +665,8 @@
       "digit_model_price": "8",
       "digit_model_confidence": 0.2048,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         604.0,
         474.0,
@@ -593,7 +679,9 @@
         943.0,
         537.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಕೋಸು-ಚಪಾತಿ",
@@ -608,6 +696,8 @@
       "digit_model_price": "7",
       "digit_model_confidence": 0.3081,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "agree",
       "name_box": [
         605.0,
         541.0,
@@ -620,7 +710,9 @@
         948.0,
         609.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಕೋಸು-ನ್ಯಾ.ಂ",
@@ -635,6 +727,8 @@
       "digit_model_price": "395",
       "digit_model_confidence": 0.4072,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         601.0,
         606.0,
@@ -647,7 +741,9 @@
         947.0,
         670.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಸೀಮು ಬದನೆ",
@@ -662,6 +758,8 @@
       "digit_model_price": "115",
       "digit_model_confidence": 0.4151,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         602.0,
         677.0,
@@ -674,7 +772,9 @@
         951.0,
         738.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಬಜ್ಜಿ-ನಾಟಿ",
@@ -689,6 +789,8 @@
       "digit_model_price": "121",
       "digit_model_confidence": 0.3387,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         597.0,
         746.0,
@@ -701,7 +803,9 @@
         973.0,
         816.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಬಜ್ಜಿ-ಯುಕೋನ",
@@ -716,6 +820,8 @@
       "digit_model_price": "15",
       "digit_model_confidence": 0.3625,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         600.0,
         822.0,
@@ -728,7 +834,9 @@
         972.0,
         880.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಬೆಂಡೆಕಾಯಿ",
@@ -743,6 +851,8 @@
       "digit_model_price": "24",
       "digit_model_confidence": 0.3075,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "agree",
       "name_box": [
         597.0,
         891.0,
@@ -755,7 +865,9 @@
         978.0,
         956.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಟೊಮೋಟೋ-ಹುಳಿ",
@@ -770,6 +882,8 @@
       "digit_model_price": "13",
       "digit_model_confidence": 0.4639,
       "price_source": "paddleocr",
+      "price_status": "ok_paddle_digit_weak",
+      "price_agreement": "disagree",
       "name_box": [
         599.0,
         966.0,
@@ -782,7 +896,9 @@
         975.0,
         1033.0
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಬುಲೆಟ್ ಮೆಣಸು",
@@ -797,6 +913,8 @@
       "digit_model_price": "1117",
       "digit_model_confidence": 0.4838,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "digit_only",
       "name_box": [
         595.0,
         1041.0,
@@ -809,7 +927,9 @@
         1032.0,
         1101.45
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     },
     {
       "vegetable": "ಬೀಟರೂಟ್",
@@ -824,6 +944,8 @@
       "digit_model_price": "1111",
       "digit_model_confidence": 0.4834,
       "price_source": "pending_review",
+      "price_status": "REVIEW_PRICE_MISSING",
+      "price_agreement": "digit_only",
       "name_box": [
         594.0,
         1119.0,
@@ -836,7 +958,9 @@
         1032.0,
         1176.35
       ],
-      "side": "right"
+      "side": "right",
+      "vegetable_duplicate_count": 1,
+      "vegetable_duplicate_status": "unique"
     }
   ],
   "kannada_reads": [
@@ -1127,7 +1251,7 @@
       "vegetable_status": "ok"
     },
     {
-      "text": "ಯರಕಾನ",
+      "text": "ಯಳವನ",
       "score": 0.999836802482605,
       "box": [
         194.0,
@@ -1137,7 +1261,7 @@
       ],
       "raw_text": "ಯಳವನ",
       "dictionary_confidence": 1.0,
-      "dictionary_match": "ಯರಕಾನ",
+      "dictionary_match": "ಯಳವನ",
       "vegetable_status": "ok"
     },
     {

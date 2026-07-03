@@ -1,0 +1,9 @@
+﻿No.,Side,Vegetable,Price,Price_Status,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Name_Crop,Price_Crop,Correct_Vegetable,Correct_Price
+03,left,ಪೋಲ್ ಬೀನ್ಸ್,PENDING_REVIEW,REVIEW_PRICE_MISSING,,115441,0.4133,price_review_crops\test1\03_left_name.png,price_review_crops\test1\03_left_price.png,,
+06,left,ಎಂ.ಸಿ.,4,REVIEW_PRICE_LOW_CONF,4,4,0.5101,price_review_crops\test1\06_left_name.png,price_review_crops\test1\06_left_price.png,,
+07,left,ಸುರಾಮಿ,PENDING_REVIEW,REVIEW_PRICE_MISSING,,17,0.3621,price_review_crops\test1\07_left_name.png,price_review_crops\test1\07_left_price.png,,
+17,left,ತಾll,PENDING_REVIEW,REVIEW_PRICE_MISSING,,,0.0,price_review_crops\test1\17_left_name.png,price_review_crops\test1\17_left_price.png,,
+18,right,ಕಗಕ,PENDING_REVIEW,REVIEW_PRICE_MISSING,,7777740,0.3921,price_review_crops\test1\18_right_name.png,price_review_crops\test1\18_right_price.png,,
+19,right,ಪೇರ್ 1ಕೆ,PENDING_REVIEW,REVIEW_PRICE_MISSING,,1,0.5347,price_review_crops\test1\19_right_name.png,price_review_crops\test1\19_right_price.png,,
+30,right,ಬುಲೆಟ್ ಮೆಣಸು,PENDING_REVIEW,REVIEW_PRICE_MISSING,,1117,0.4838,price_review_crops\test1\30_right_name.png,price_review_crops\test1\30_right_price.png,,
+31,right,ಬೀಟರೂಟ್,PENDING_REVIEW,REVIEW_PRICE_MISSING,,1111,0.4834,price_review_crops\test1\31_right_name.png,price_review_crops\test1\31_right_price.png,,
