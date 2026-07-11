@@ -27,6 +27,7 @@ def should_export(row: dict, include: str) -> bool:
     price = row_value(row, "Price", "price")
     vegetable = row_value(row, "Vegetable", "vegetable")
     price_status = row_value(row, "Price_Status", "price_status")
+    vegetable_status = row_value(row, "Vegetable_Status", "vegetable_status")
     if include == "all":
         return True
     if include == "pending-price":
@@ -35,6 +36,8 @@ def should_export(row: dict, include: str) -> bool:
         return price == "PENDING_REVIEW" or str(price_status).startswith("REVIEW_PRICE")
     if include == "pending-name":
         return vegetable == "PENDING_REVIEW"
+    if include == "review-name":
+        return vegetable == "PENDING_REVIEW" or str(vegetable_status).startswith("REVIEW")
     if include == "pending-any":
         return price == "PENDING_REVIEW" or vegetable == "PENDING_REVIEW"
     raise ValueError(f"Unknown include mode: {include}")
@@ -46,7 +49,7 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, default=Path("review_crops"))
     parser.add_argument(
         "--include",
-        choices=["pending-price", "review-price", "pending-name", "pending-any", "all"],
+        choices=["pending-price", "review-price", "pending-name", "review-name", "pending-any", "all"],
         default="pending-price",
     )
     args = parser.parse_args()
@@ -87,6 +90,8 @@ def main() -> None:
                 "No.": row_no,
                 "Side": side,
                 "Vegetable": row_value(row, "Vegetable", "vegetable"),
+                "Vegetable_Status": row_value(row, "Vegetable_Status", "vegetable_status"),
+                "Raw_Vegetable_OCR": row_value(row, "Raw_Vegetable_OCR", "raw_vegetable"),
                 "Price": row_value(row, "Price", "price"),
                 "Price_Status": row_value(row, "Price_Status", "price_status"),
                 "Raw_Price_OCR": row_value(row, "Raw_Price_OCR", "raw_price"),

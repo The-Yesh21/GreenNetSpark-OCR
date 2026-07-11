@@ -1,0 +1,1825 @@
+{
+  "image": "datasets\\test2.jpeg",
+  "detector_source": "grid_fallback",
+  "yolo_detection_summary": {
+    "expected_total": 60,
+    "min_total": 51,
+    "max_total": 75,
+    "min_per_class": 12,
+    "max_per_class": 18,
+    "counts": {},
+    "missing_or_sparse_classes": [
+      "left_veg",
+      "left_price",
+      "right_veg",
+      "right_price"
+    ],
+    "overfull_classes": []
+  },
+  "cells": [
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        234.0,
+        173.0,
+        277.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        234.0,
+        251.0,
+        277.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        234.0,
+        335.0,
+        277.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        234.0,
+        444.0,
+        277.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        283.0,
+        173.0,
+        326.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        283.0,
+        251.0,
+        326.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        283.0,
+        335.0,
+        326.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        283.0,
+        444.0,
+        326.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        332.0,
+        173.0,
+        375.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        332.0,
+        251.0,
+        375.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        332.0,
+        335.0,
+        375.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        332.0,
+        444.0,
+        375.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        381.0,
+        173.0,
+        424.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        381.0,
+        251.0,
+        424.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        381.0,
+        335.0,
+        424.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        381.0,
+        444.0,
+        424.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        430.0,
+        173.0,
+        473.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        430.0,
+        251.0,
+        473.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        430.0,
+        335.0,
+        473.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        430.0,
+        444.0,
+        473.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        479.0,
+        173.0,
+        522.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        479.0,
+        251.0,
+        522.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        479.0,
+        335.0,
+        522.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        479.0,
+        444.0,
+        522.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        528.0,
+        173.0,
+        571.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        528.0,
+        251.0,
+        571.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        528.0,
+        335.0,
+        571.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        528.0,
+        444.0,
+        571.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        577.0,
+        173.0,
+        621.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        577.0,
+        251.0,
+        621.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        577.0,
+        335.0,
+        621.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        577.0,
+        444.0,
+        621.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        627.0,
+        173.0,
+        670.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        627.0,
+        251.0,
+        670.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        627.0,
+        335.0,
+        670.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        627.0,
+        444.0,
+        670.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        676.0,
+        173.0,
+        719.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        676.0,
+        251.0,
+        719.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        676.0,
+        335.0,
+        719.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        676.0,
+        444.0,
+        719.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        725.0,
+        173.0,
+        768.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        725.0,
+        251.0,
+        768.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        725.0,
+        335.0,
+        768.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        725.0,
+        444.0,
+        768.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        774.0,
+        173.0,
+        817.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        774.0,
+        251.0,
+        817.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        774.0,
+        335.0,
+        817.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        774.0,
+        444.0,
+        817.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        823.0,
+        173.0,
+        866.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        823.0,
+        251.0,
+        866.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        823.0,
+        335.0,
+        866.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        823.0,
+        444.0,
+        866.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        872.0,
+        173.0,
+        915.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        872.0,
+        251.0,
+        915.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        872.0,
+        335.0,
+        915.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        872.0,
+        444.0,
+        915.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_veg",
+      "box": [
+        66.0,
+        921.0,
+        173.0,
+        964.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "left_price",
+      "box": [
+        181.0,
+        921.0,
+        251.0,
+        964.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_veg",
+      "box": [
+        259.0,
+        921.0,
+        335.0,
+        964.0
+      ],
+      "confidence": 1.0
+    },
+    {
+      "label": "right_price",
+      "box": [
+        343.0,
+        921.0,
+        444.0,
+        964.0
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "rows": [
+    {
+      "No.": 1,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 2,
+      "Side": "left",
+      "Vegetable": "Iuruth u? Hturu!",
+      "Price": "45",
+      "Vegetable_Confidence": 0.514,
+      "Price_Confidence": 0.4873,
+      "Raw_Price_OCR": "45",
+      "Digit_Model_Price": "1",
+      "Digit_Model_Confidence": 0.5189,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 3,
+      "Side": "left",
+      "Vegetable": "Ietetuu. Beteu'? I'lfh unin?",
+      "Price": "45545",
+      "Vegetable_Confidence": 0.4765,
+      "Price_Confidence": 0.8515,
+      "Raw_Price_OCR": "45 5 45",
+      "Digit_Model_Price": "0027",
+      "Digit_Model_Confidence": 0.2608,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 4,
+      "Side": "left",
+      "Vegetable": "Il tef ueu ? Iien ou?",
+      "Price": "4015",
+      "Vegetable_Confidence": 0.3885,
+      "Price_Confidence": 0.9993,
+      "Raw_Price_OCR": "40 15",
+      "Digit_Model_Price": "111410",
+      "Digit_Model_Confidence": 0.3982,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 5,
+      "Side": "left",
+      "Vegetable": "Buhfl. ಕn.",
+      "Price": "3210",
+      "Vegetable_Confidence": 0.4194,
+      "Price_Confidence": 0.6559,
+      "Raw_Price_OCR": "32 1o",
+      "Digit_Model_Price": "042",
+      "Digit_Model_Confidence": 0.3742,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 6,
+      "Side": "left",
+      "Vegetable": "Ih.",
+      "Price": "1817",
+      "Vegetable_Confidence": 0.2973,
+      "Price_Confidence": 0.9965,
+      "Raw_Price_OCR": "18 17",
+      "Digit_Model_Price": "11157",
+      "Digit_Model_Confidence": 0.3785,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 7,
+      "Side": "left",
+      "Vegetable": "Thu he? ಕoruತtnರ?",
+      "Price": "2017",
+      "Vegetable_Confidence": 0.3963,
+      "Price_Confidence": 0.9999,
+      "Raw_Price_OCR": "20 17",
+      "Digit_Model_Price": "622154",
+      "Digit_Model_Confidence": 0.4173,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 8,
+      "Side": "left",
+      "Vegetable": "Laue i? ಪu",
+      "Price": "2518",
+      "Vegetable_Confidence": 0.3965,
+      "Price_Confidence": 0.9999,
+      "Raw_Price_OCR": "25 18",
+      "Digit_Model_Price": "662111",
+      "Digit_Model_Confidence": 0.3666,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 9,
+      "Side": "left",
+      "Vegetable": "Fe ehuti?",
+      "Price": "28625",
+      "Vegetable_Confidence": 0.4791,
+      "Price_Confidence": 0.7987,
+      "Raw_Price_OCR": "28 6 25",
+      "Digit_Model_Price": "22",
+      "Digit_Model_Confidence": 0.3594,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 10,
+      "Side": "left",
+      "Vegetable": "Ihelh.",
+      "Price": "621",
+      "Vegetable_Confidence": 0.4716,
+      "Price_Confidence": 0.6559,
+      "Raw_Price_OCR": "d. 6 21 r",
+      "Digit_Model_Price": "6012211",
+      "Digit_Model_Confidence": 0.4002,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 11,
+      "Side": "left",
+      "Vegetable": ". MyS-AF",
+      "Price": "1511",
+      "Vegetable_Confidence": 0.6806,
+      "Price_Confidence": 0.9279,
+      "Raw_Price_OCR": "15 MC ll",
+      "Digit_Model_Price": "40172417",
+      "Digit_Model_Confidence": 0.4056,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 12,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "4777",
+      "Digit_Model_Confidence": 0.4337,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 13,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "2",
+      "Digit_Model_Confidence": 0.3064,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 14,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 15,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "77",
+      "Digit_Model_Confidence": 0.2088,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 16,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "40",
+      "Digit_Model_Confidence": 0.4079,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 17,
+      "Side": "right",
+      "Vegetable": "Ii ai.",
+      "Price": "5675",
+      "Vegetable_Confidence": 0.4748,
+      "Price_Confidence": 0.8473,
+      "Raw_Price_OCR": "MYS-APMC 56/75",
+      "Digit_Model_Price": "05772372152",
+      "Digit_Model_Confidence": 0.3778,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 18,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "13540",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.8825,
+      "Raw_Price_OCR": "SG135 40",
+      "Digit_Model_Price": "110346117251",
+      "Digit_Model_Confidence": 0.3893,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 19,
+      "Side": "right",
+      "Vegetable": "Fie uerul? Hu. u.",
+      "Price": "1527",
+      "Vegetable_Confidence": 0.5346,
+      "Price_Confidence": 0.9914,
+      "Raw_Price_OCR": "15 27",
+      "Digit_Model_Price": "1765651",
+      "Digit_Model_Confidence": 0.3869,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 20,
+      "Side": "right",
+      "Vegetable": "Hart-ue.",
+      "Price": "87",
+      "Vegetable_Confidence": 0.4862,
+      "Price_Confidence": 0.947,
+      "Raw_Price_OCR": "8 7",
+      "Digit_Model_Price": "17",
+      "Digit_Model_Confidence": 0.2143,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 21,
+      "Side": "right",
+      "Vegetable": "Hh urr.",
+      "Price": "18",
+      "Vegetable_Confidence": 0.2302,
+      "Price_Confidence": 0.7148,
+      "Raw_Price_OCR": "十 18",
+      "Digit_Model_Price": "110",
+      "Digit_Model_Confidence": 0.383,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 22,
+      "Side": "right",
+      "Vegetable": "Anul. T-unre nn?",
+      "Price": "5238",
+      "Vegetable_Confidence": 0.4409,
+      "Price_Confidence": 0.9998,
+      "Raw_Price_OCR": "52 38",
+      "Digit_Model_Price": "621111",
+      "Digit_Model_Confidence": 0.3628,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 23,
+      "Side": "right",
+      "Vegetable": "Iueu? Liae i.",
+      "Price": "2330",
+      "Vegetable_Confidence": 0.4396,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "23 30",
+      "Digit_Model_Price": "6632471",
+      "Digit_Model_Confidence": 0.4293,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 24,
+      "Side": "right",
+      "Vegetable": "ou ai. hlheten.",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.4431,
+      "Price_Confidence": 0.4366,
+      "Raw_Price_OCR": "一",
+      "Digit_Model_Price": "00",
+      "Digit_Model_Confidence": 0.2146,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 25,
+      "Side": "right",
+      "Vegetable": "ಕ Iiyl -",
+      "Price": "45",
+      "Vegetable_Confidence": 0.4516,
+      "Price_Confidence": 0.9995,
+      "Raw_Price_OCR": "45",
+      "Digit_Model_Price": "450",
+      "Digit_Model_Confidence": 0.418,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 26,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "2025",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.986,
+      "Raw_Price_OCR": "UG 2025",
+      "Digit_Model_Price": "1105",
+      "Digit_Model_Confidence": 0.2596,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 27,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "325727",
+      "Digit_Model_Confidence": 0.391,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 28,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "0",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.2579,
+      "Raw_Price_OCR": "O",
+      "Digit_Model_Price": "48",
+      "Digit_Model_Confidence": 0.3095,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 29,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "29",
+      "Digit_Model_Confidence": 0.2068,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    },
+    {
+      "No.": 30,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "097",
+      "Digit_Model_Confidence": 0.2734,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0
+    }
+  ],
+  "debug_rows": [
+    {
+      "No.": 1,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        234.0,
+        173.0,
+        277.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        234.0,
+        251.0,
+        277.0
+      ]
+    },
+    {
+      "No.": 2,
+      "Side": "left",
+      "Vegetable": "Iuruth u? Hturu!",
+      "Price": "45",
+      "Vegetable_Confidence": 0.514,
+      "Price_Confidence": 0.4873,
+      "Raw_Price_OCR": "45",
+      "Digit_Model_Price": "1",
+      "Digit_Model_Confidence": 0.5189,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        283.0,
+        173.0,
+        326.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        283.0,
+        251.0,
+        326.0
+      ]
+    },
+    {
+      "No.": 3,
+      "Side": "left",
+      "Vegetable": "Ietetuu. Beteu'? I'lfh unin?",
+      "Price": "45545",
+      "Vegetable_Confidence": 0.4765,
+      "Price_Confidence": 0.8515,
+      "Raw_Price_OCR": "45 5 45",
+      "Digit_Model_Price": "0027",
+      "Digit_Model_Confidence": 0.2608,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        332.0,
+        173.0,
+        375.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        332.0,
+        251.0,
+        375.0
+      ]
+    },
+    {
+      "No.": 4,
+      "Side": "left",
+      "Vegetable": "Il tef ueu ? Iien ou?",
+      "Price": "4015",
+      "Vegetable_Confidence": 0.3885,
+      "Price_Confidence": 0.9993,
+      "Raw_Price_OCR": "40 15",
+      "Digit_Model_Price": "111410",
+      "Digit_Model_Confidence": 0.3982,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        381.0,
+        173.0,
+        424.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        381.0,
+        251.0,
+        424.0
+      ]
+    },
+    {
+      "No.": 5,
+      "Side": "left",
+      "Vegetable": "Buhfl. ಕn.",
+      "Price": "3210",
+      "Vegetable_Confidence": 0.4194,
+      "Price_Confidence": 0.6559,
+      "Raw_Price_OCR": "32 1o",
+      "Digit_Model_Price": "042",
+      "Digit_Model_Confidence": 0.3742,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        430.0,
+        173.0,
+        473.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        430.0,
+        251.0,
+        473.0
+      ]
+    },
+    {
+      "No.": 6,
+      "Side": "left",
+      "Vegetable": "Ih.",
+      "Price": "1817",
+      "Vegetable_Confidence": 0.2973,
+      "Price_Confidence": 0.9965,
+      "Raw_Price_OCR": "18 17",
+      "Digit_Model_Price": "11157",
+      "Digit_Model_Confidence": 0.3785,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        479.0,
+        173.0,
+        522.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        479.0,
+        251.0,
+        522.0
+      ]
+    },
+    {
+      "No.": 7,
+      "Side": "left",
+      "Vegetable": "Thu he? ಕoruತtnರ?",
+      "Price": "2017",
+      "Vegetable_Confidence": 0.3963,
+      "Price_Confidence": 0.9999,
+      "Raw_Price_OCR": "20 17",
+      "Digit_Model_Price": "622154",
+      "Digit_Model_Confidence": 0.4173,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        528.0,
+        173.0,
+        571.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        528.0,
+        251.0,
+        571.0
+      ]
+    },
+    {
+      "No.": 8,
+      "Side": "left",
+      "Vegetable": "Laue i? ಪu",
+      "Price": "2518",
+      "Vegetable_Confidence": 0.3965,
+      "Price_Confidence": 0.9999,
+      "Raw_Price_OCR": "25 18",
+      "Digit_Model_Price": "662111",
+      "Digit_Model_Confidence": 0.3666,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        577.0,
+        173.0,
+        621.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        577.0,
+        251.0,
+        621.0
+      ]
+    },
+    {
+      "No.": 9,
+      "Side": "left",
+      "Vegetable": "Fe ehuti?",
+      "Price": "28625",
+      "Vegetable_Confidence": 0.4791,
+      "Price_Confidence": 0.7987,
+      "Raw_Price_OCR": "28 6 25",
+      "Digit_Model_Price": "22",
+      "Digit_Model_Confidence": 0.3594,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        627.0,
+        173.0,
+        670.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        627.0,
+        251.0,
+        670.0
+      ]
+    },
+    {
+      "No.": 10,
+      "Side": "left",
+      "Vegetable": "Ihelh.",
+      "Price": "621",
+      "Vegetable_Confidence": 0.4716,
+      "Price_Confidence": 0.6559,
+      "Raw_Price_OCR": "d. 6 21 r",
+      "Digit_Model_Price": "6012211",
+      "Digit_Model_Confidence": 0.4002,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        676.0,
+        173.0,
+        719.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        676.0,
+        251.0,
+        719.0
+      ]
+    },
+    {
+      "No.": 11,
+      "Side": "left",
+      "Vegetable": ". MyS-AF",
+      "Price": "1511",
+      "Vegetable_Confidence": 0.6806,
+      "Price_Confidence": 0.9279,
+      "Raw_Price_OCR": "15 MC ll",
+      "Digit_Model_Price": "40172417",
+      "Digit_Model_Confidence": 0.4056,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        725.0,
+        173.0,
+        768.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        725.0,
+        251.0,
+        768.0
+      ]
+    },
+    {
+      "No.": 12,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "4777",
+      "Digit_Model_Confidence": 0.4337,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        774.0,
+        173.0,
+        817.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        774.0,
+        251.0,
+        817.0
+      ]
+    },
+    {
+      "No.": 13,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "2",
+      "Digit_Model_Confidence": 0.3064,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        823.0,
+        173.0,
+        866.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        823.0,
+        251.0,
+        866.0
+      ]
+    },
+    {
+      "No.": 14,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "",
+      "Digit_Model_Confidence": 0.0,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        872.0,
+        173.0,
+        915.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        872.0,
+        251.0,
+        915.0
+      ]
+    },
+    {
+      "No.": 15,
+      "Side": "left",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "77",
+      "Digit_Model_Confidence": 0.2088,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        66.0,
+        921.0,
+        173.0,
+        964.0
+      ],
+      "Price_Cell_Box": [
+        181.0,
+        921.0,
+        251.0,
+        964.0
+      ]
+    },
+    {
+      "No.": 16,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "40",
+      "Digit_Model_Confidence": 0.4079,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        234.0,
+        335.0,
+        277.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        234.0,
+        444.0,
+        277.0
+      ]
+    },
+    {
+      "No.": 17,
+      "Side": "right",
+      "Vegetable": "Ii ai.",
+      "Price": "5675",
+      "Vegetable_Confidence": 0.4748,
+      "Price_Confidence": 0.8473,
+      "Raw_Price_OCR": "MYS-APMC 56/75",
+      "Digit_Model_Price": "05772372152",
+      "Digit_Model_Confidence": 0.3778,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        283.0,
+        335.0,
+        326.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        283.0,
+        444.0,
+        326.0
+      ]
+    },
+    {
+      "No.": 18,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "13540",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.8825,
+      "Raw_Price_OCR": "SG135 40",
+      "Digit_Model_Price": "110346117251",
+      "Digit_Model_Confidence": 0.3893,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        332.0,
+        335.0,
+        375.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        332.0,
+        444.0,
+        375.0
+      ]
+    },
+    {
+      "No.": 19,
+      "Side": "right",
+      "Vegetable": "Fie uerul? Hu. u.",
+      "Price": "1527",
+      "Vegetable_Confidence": 0.5346,
+      "Price_Confidence": 0.9914,
+      "Raw_Price_OCR": "15 27",
+      "Digit_Model_Price": "1765651",
+      "Digit_Model_Confidence": 0.3869,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        381.0,
+        335.0,
+        424.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        381.0,
+        444.0,
+        424.0
+      ]
+    },
+    {
+      "No.": 20,
+      "Side": "right",
+      "Vegetable": "Hart-ue.",
+      "Price": "87",
+      "Vegetable_Confidence": 0.4862,
+      "Price_Confidence": 0.947,
+      "Raw_Price_OCR": "8 7",
+      "Digit_Model_Price": "17",
+      "Digit_Model_Confidence": 0.2143,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        430.0,
+        335.0,
+        473.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        430.0,
+        444.0,
+        473.0
+      ]
+    },
+    {
+      "No.": 21,
+      "Side": "right",
+      "Vegetable": "Hh urr.",
+      "Price": "18",
+      "Vegetable_Confidence": 0.2302,
+      "Price_Confidence": 0.7148,
+      "Raw_Price_OCR": "十 18",
+      "Digit_Model_Price": "110",
+      "Digit_Model_Confidence": 0.383,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        479.0,
+        335.0,
+        522.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        479.0,
+        444.0,
+        522.0
+      ]
+    },
+    {
+      "No.": 22,
+      "Side": "right",
+      "Vegetable": "Anul. T-unre nn?",
+      "Price": "5238",
+      "Vegetable_Confidence": 0.4409,
+      "Price_Confidence": 0.9998,
+      "Raw_Price_OCR": "52 38",
+      "Digit_Model_Price": "621111",
+      "Digit_Model_Confidence": 0.3628,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        528.0,
+        335.0,
+        571.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        528.0,
+        444.0,
+        571.0
+      ]
+    },
+    {
+      "No.": 23,
+      "Side": "right",
+      "Vegetable": "Iueu? Liae i.",
+      "Price": "2330",
+      "Vegetable_Confidence": 0.4396,
+      "Price_Confidence": 1.0,
+      "Raw_Price_OCR": "23 30",
+      "Digit_Model_Price": "6632471",
+      "Digit_Model_Confidence": 0.4293,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        577.0,
+        335.0,
+        621.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        577.0,
+        444.0,
+        621.0
+      ]
+    },
+    {
+      "No.": 24,
+      "Side": "right",
+      "Vegetable": "ou ai. hlheten.",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.4431,
+      "Price_Confidence": 0.4366,
+      "Raw_Price_OCR": "一",
+      "Digit_Model_Price": "00",
+      "Digit_Model_Confidence": 0.2146,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        627.0,
+        335.0,
+        670.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        627.0,
+        444.0,
+        670.0
+      ]
+    },
+    {
+      "No.": 25,
+      "Side": "right",
+      "Vegetable": "ಕ Iiyl -",
+      "Price": "45",
+      "Vegetable_Confidence": 0.4516,
+      "Price_Confidence": 0.9995,
+      "Raw_Price_OCR": "45",
+      "Digit_Model_Price": "450",
+      "Digit_Model_Confidence": 0.418,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        676.0,
+        335.0,
+        719.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        676.0,
+        444.0,
+        719.0
+      ]
+    },
+    {
+      "No.": 26,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "2025",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.986,
+      "Raw_Price_OCR": "UG 2025",
+      "Digit_Model_Price": "1105",
+      "Digit_Model_Confidence": 0.2596,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        725.0,
+        335.0,
+        768.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        725.0,
+        444.0,
+        768.0
+      ]
+    },
+    {
+      "No.": 27,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "325727",
+      "Digit_Model_Confidence": 0.391,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        774.0,
+        335.0,
+        817.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        774.0,
+        444.0,
+        817.0
+      ]
+    },
+    {
+      "No.": 28,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "0",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.2579,
+      "Raw_Price_OCR": "O",
+      "Digit_Model_Price": "48",
+      "Digit_Model_Confidence": 0.3095,
+      "Price_Source": "paddleocr",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        823.0,
+        335.0,
+        866.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        823.0,
+        444.0,
+        866.0
+      ]
+    },
+    {
+      "No.": 29,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "29",
+      "Digit_Model_Confidence": 0.2068,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        872.0,
+        335.0,
+        915.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        872.0,
+        444.0,
+        915.0
+      ]
+    },
+    {
+      "No.": 30,
+      "Side": "right",
+      "Vegetable": "PENDING_REVIEW",
+      "Price": "PENDING_REVIEW",
+      "Vegetable_Confidence": 0.0,
+      "Price_Confidence": 0.0,
+      "Raw_Price_OCR": "",
+      "Digit_Model_Price": "097",
+      "Digit_Model_Confidence": 0.2734,
+      "Price_Source": "pending_review",
+      "Yolo_Name_Confidence": 1.0,
+      "Yolo_Price_Confidence": 1.0,
+      "Name_Cell_Box": [
+        259.0,
+        921.0,
+        335.0,
+        964.0
+      ],
+      "Price_Cell_Box": [
+        343.0,
+        921.0,
+        444.0,
+        964.0
+      ]
+    }
+  ]
+}

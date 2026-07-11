@@ -72,6 +72,19 @@ class OcrOrchestrator:
         # Confidence-Based Filtering: reject any detection with confidence score below 0.35
         detections = [d for d in detections if d.get('confidence', 0.0) >= 0.35]
         
+        # Grid Fallback: if YOLO cell coverage is incomplete (< 20), fallback to grid layout splitting
+        if len(detections) < 20:
+            from yolo_cells import detect_grid_cell_boxes
+            logger.info("YOLO detections sparse (< 20). Falling back to grid layout splitting.")
+            grid_cells = detect_grid_cell_boxes(image_path)
+            detections = []
+            for cell in grid_cells:
+                detections.append({
+                    'box': cell.box,
+                    'label': cell.label,
+                    'confidence': cell.confidence
+                })
+        
         # Save visualization if requested
         if visualize_path:
             draw_detections(image_path, detections, visualize_path)
@@ -103,6 +116,10 @@ class OcrOrchestrator:
         for zone_name in ['Left-Veg', 'Right-Veg']:
             for d in zones[zone_name]:
                 crop = self._crop_box(image, d['box'])
+                # Preprocess: Upscale 2x and add 10px white padding to improve OCR
+                if crop.size > 0:
+                    crop = cv2.resize(crop, (0, 0), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+                    crop = cv2.copyMakeBorder(crop, 10, 10, 10, 10, cv2.BORDER_CONSTANT, value=[255, 255, 255])
                 raw_veg_text, veg_conf = self.veg_recognizer.recognize(crop)
                 cleaned_veg = correct_vegetable_name(raw_veg_text)
                 
@@ -122,6 +139,10 @@ class OcrOrchestrator:
         for zone_name in ['Left-Price', 'Right-Price']:
             for d in zones[zone_name]:
                 crop = self._crop_box(image, d['box'])
+                # Preprocess: Upscale 2x and add 10px white padding to improve OCR
+                if crop.size > 0:
+                    crop = cv2.resize(crop, (0, 0), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+                    crop = cv2.copyMakeBorder(crop, 10, 10, 10, 10, cv2.BORDER_CONSTANT, value=[255, 255, 255])
                 cleaned_price, raw_price_text, price_conf = self.price_recognizer.extract_price_strict(crop)
                 
                 if cleaned_price in ("MISSING_PRICE", "0") or not cleaned_price:

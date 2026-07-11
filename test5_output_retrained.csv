@@ -1,0 +1,31 @@
+﻿No.,Side,Vegetable,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Yolo_Name_Confidence,Yolo_Price_Confidence
+1,left,PENDING_REVIEW,2,0.0,0.3678,2,02,0.2044,paddleocr,1.0,1.0
+2,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,00,0.2616,pending_review,1.0,1.0
+3,left,ನeuuee ನಸ್,334,0.4274,0.8657,334,15,0.2069,paddleocr,1.0,1.0
+4,left,Iee. Iedundeeಸ? Ben ernngu?,30,0.3205,0.9969,30,02,0.1584,paddleocr,1.0,1.0
+5,left,Jo gahsteeu ಕ ತಕol?,5,0.3473,0.7577,5,00,0.308,paddleocr,1.0,1.0
+6,left,ಎoನ.,5,0.7523,0.9796,5,00,0.2103,paddleocr,1.0,1.0
+7,left,ಯಳವನ,151,0.8163,0.775,151,10,0.2104,paddleocr,1.0,1.0
+8,left,ಗುಂಡು ಬದನೆ,25,0.6624,0.9932,25,55,0.2096,paddleocr,1.0,1.0
+9,left,ಹೀರೆಕಾಯಿ,20,0.6803,0.9999,20,55,0.2573,paddleocr,1.0,1.0
+10,left,ಪಡಷಲ Tunoಡdpou?,25,0.6959,0.8062,25,20,0.3125,paddleocr,1.0,1.0
+11,left,ಹಾಗಲ-ವೈಟ್,25,0.8937,0.988,25,05,0.2085,paddleocr,1.0,1.0
+12,left,Beeihr? ಕಾಗಪರ್,25,0.5911,0.827,2.5,001,0.2746,paddleocr,1.0,1.0
+13,left,IMMS-APMd.,11,0.741,0.9626,ll,05,0.2577,paddleocr,1.0,1.0
+14,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,22,0.4197,pending_review,1.0,1.0
+15,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,22,0.4336,pending_review,1.0,1.0
+16,right,PENDING_REVIEW,1,0.0,0.2549,1,322,0.3793,paddleocr,1.0,1.0
+17,right,ಕ I.,PENDING_REVIEW,0.4698,0.9413,YS-APMC,009,0.4062,pending_review,1.0,1.0
+18,right,P w.2ಂ,6730,0.4556,0.7746,67/30,100,0.207,paddleocr,1.0,1.0
+19,right,ಪತುಕಾಸು ಕ,37,0.4343,0.9896,37,070,0.2757,paddleocr,1.0,1.0
+20,right,ಬದನೆ-ವೈಟ್,25,0.644,1.0,25,007,0.2075,paddleocr,1.0,1.0
+21,right,ಕೋಸು-ಚಪಾತಿ,10,0.2846,0.9433,10,070,0.3761,paddleocr,1.0,1.0
+22,right,ಸೀಮು ಬದನೆ,10,0.7908,0.9162,10,000,0.1758,paddleocr,1.0,1.0
+23,right,ಬಜ್ಜಿ-ನಾಟಿ,26,0.839,0.9701,26,000,0.309,paddleocr,1.0,1.0
+24,right,ಬೆಂಡೆಕಾಯಿ,13,0.7071,0.9977,13,000,0.2096,paddleocr,1.0,1.0
+25,right,Bmnretur! ಬುಲe್ ಸbಣ,10,0.5529,0.5071,10,000,0.2416,paddleocr,1.0,1.0
+26,right,ಬye್tatಟ,PENDING_REVIEW,0.2549,0.0,,250,0.2102,pending_review,1.0,1.0
+27,right,Iಚರ.,PENDING_REVIEW,0.182,0.0,,000,0.1775,pending_review,1.0,1.0
+28,right,PENDING_REVIEW,2025,0.0,1.0,2025,110,0.4403,paddleocr,1.0,1.0
+29,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,222,0.4226,pending_review,1.0,1.0
+30,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.1744,_,222,0.4177,pending_review,1.0,1.0

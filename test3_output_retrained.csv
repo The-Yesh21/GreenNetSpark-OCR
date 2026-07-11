@@ -1,0 +1,7 @@
+﻿No.,Side,Vegetable,Raw_Vegetable_OCR,Vegetable_Dictionary_Match,Vegetable_Dictionary_Confidence,Vegetable_Status,Vegetable_Duplicate_Status,Vegetable_Duplicate_Count,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Price_Status,Price_Agreement
+1,left,ಪಡವಲ,ಪವ,ಪಡವಲ,0.6667,REVIEW_NAME,unique,1,15,0.3112,0.9886,1.5,05,0.3091,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+2,left,ಇಂ,ಇಂ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6172,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+3,left,ಪhಪ,ಪhಪ,ಆಪ,0.4,REVIEW_NAME,unique,1,20,0.1961,1.0,20,20,0.5148,paddleocr,ok_paddle_digit_weak,agree
+4,left,ತಗ,ತಗ,ಸೌತಕಾಂು,0.2222,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8736,0.0,,0,0.2155,pending_review,REVIEW_PRICE_MISSING,digit_only
+5,right,ವೈ.wata ಪತಮಾಸು ಬದನ-ವೈt್,ವೈ.wata ಪತಮಾಸು ಬದನ--ವೈt್,ಬದನೆ-ವೈಟ್,0.4375,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5682,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+6,right,ಬnel ಮneಸ,ಬnel ಮneಸ,ಬುಲೆಟ್ ಮೆಣಸು,0.381,REVIEW_NAME,unique,1,12,0.5595,0.9998,12,166,0.5252,paddleocr,REVIEW_PRICE_DISAGREE,disagree

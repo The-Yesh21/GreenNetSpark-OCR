@@ -1,7 +1,7 @@
 ﻿No.,Side,Vegetable,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Yolo_Name_Confidence,Yolo_Price_Confidence
 1,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,,0.0,pending_review,1.0,1.0
 2,left,Iuruth u? Hturu!,45,0.514,0.4873,45,1,0.5189,paddleocr,1.0,1.0
-3,left,Ietetuu. Beteu'? I'lfh unin?,45545,0.4765,0.8515,45 5 45,9427,0.3107,paddleocr,1.0,1.0
+3,left,Ietetuu. Beteu'? I'lfh unin?,45545,0.4765,0.8515,45 5 45,0027,0.2608,paddleocr,1.0,1.0
 4,left,Il tef ueu ? Iien ou?,4015,0.3885,0.9993,40 15,111410,0.3982,paddleocr,1.0,1.0
 5,left,Buhfl. ಕn.,3210,0.4194,0.6559,32 1o,042,0.3742,paddleocr,1.0,1.0
 6,left,Ih.,1817,0.2973,0.9965,18 17,11157,0.3785,paddleocr,1.0,1.0
@@ -13,18 +13,18 @@
 12,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,4777,0.4337,pending_review,1.0,1.0
 13,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,2,0.3064,pending_review,1.0,1.0
 14,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,,0.0,pending_review,1.0,1.0
-15,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,27,0.2576,pending_review,1.0,1.0
+15,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,77,0.2088,pending_review,1.0,1.0
 16,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,40,0.4079,pending_review,1.0,1.0
-17,right,Ii ai.,5675,0.4748,0.8473,MYS-APMC 56/75,25772372152,0.3869,paddleocr,1.0,1.0
-18,right,PENDING_REVIEW,13540,0.0,0.8825,SG135 40,110346117251,0.3976,paddleocr,1.0,1.0
+17,right,Ii ai.,5675,0.4748,0.8473,MYS-APMC 56/75,05772372152,0.3778,paddleocr,1.0,1.0
+18,right,PENDING_REVIEW,13540,0.0,0.8825,SG135 40,110346117251,0.3893,paddleocr,1.0,1.0
 19,right,Fie uerul? Hu. u.,1527,0.5346,0.9914,15 27,1765651,0.3869,paddleocr,1.0,1.0
-20,right,Hart-ue.,87,0.4862,0.947,8 7,17,0.3137,paddleocr,1.0,1.0
-21,right,Hh urr.,18,0.2302,0.7148,十 18,117,0.3812,paddleocr,1.0,1.0
-22,right,Anul. T-unre nn?,5238,0.4409,0.9998,52 38,621121,0.3628,paddleocr,1.0,1.0
+20,right,Hart-ue.,87,0.4862,0.947,8 7,17,0.2143,paddleocr,1.0,1.0
+21,right,Hh urr.,18,0.2302,0.7148,十 18,110,0.383,paddleocr,1.0,1.0
+22,right,Anul. T-unre nn?,5238,0.4409,0.9998,52 38,621111,0.3628,paddleocr,1.0,1.0
 23,right,Iueu? Liae i.,2330,0.4396,1.0,23 30,6632471,0.4293,paddleocr,1.0,1.0
-24,right,ou ai. hlheten.,PENDING_REVIEW,0.4431,0.4366,一,14,0.3592,pending_review,1.0,1.0
-25,right,ಕ Iiyl -,45,0.4516,0.9995,45,457,0.5164,paddleocr,1.0,1.0
-26,right,PENDING_REVIEW,2025,0.0,0.986,UG 2025,1115,0.309,paddleocr,1.0,1.0
+24,right,ou ai. hlheten.,PENDING_REVIEW,0.4431,0.4366,一,00,0.2146,pending_review,1.0,1.0
+25,right,ಕ Iiyl -,45,0.4516,0.9995,45,450,0.418,paddleocr,1.0,1.0
+26,right,PENDING_REVIEW,2025,0.0,0.986,UG 2025,1105,0.2596,paddleocr,1.0,1.0
 27,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,325727,0.391,pending_review,1.0,1.0
 28,right,PENDING_REVIEW,0,0.0,0.2579,O,48,0.3095,paddleocr,1.0,1.0
 29,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,29,0.2068,pending_review,1.0,1.0

@@ -1,0 +1,812 @@
+﻿Image,No.,Side,Vegetable,Raw_Vegetable_OCR,Vegetable_Dictionary_Match,Vegetable_Dictionary_Confidence,Vegetable_Status,Vegetable_Duplicate_Status,Vegetable_Duplicate_Count,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Price_Status,Price_Agreement
+test1.jpg,1,left,ಬೀನ್ಸ್,ಆಪ,ಬೀನ್ಸ್,1.0,ok,unique,1,35,0.2349,1.0,35,1355,0.4072,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,2,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನೀಲ್ಬೀನಸ್,ಪೋಲ್ ಬೀನ್ಸ್,1.0,ok,unique,1,37,0.8044,0.9999,37,1544,0.3825,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,3,left,ರd aನಸ್,ರd aನಸ್,,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7166,0.0,,115441,0.4133,pending_review,REVIEW_PRICE_MISSING,digit_only
+test1.jpg,4,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣನನಕಾು,ಮೆಣಸಿನಕಾಯಿ,1.0,ok,unique,1,42,0.902,0.9943,42,566,0.4404,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,5,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಂು,ಸೌತೆಕಾಯಿ,1.0,ok,unique,1,18,0.899,1.0,18,2,0.307,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,6,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,4,0.9739,0.6044,4,4,0.5101,paddleocr,REVIEW_PRICE_LOW_CONF,agree
+test1.jpg,7,left,ಸುನಾಮಿ,ಸುನಾವು,ಸುನಾಮಿ,1.0,ok,unique,1,PENDING_REVIEW,0.9179,0.0,,17,0.3621,pending_review,REVIEW_PRICE_MISSING,digit_only
+test1.jpg,8,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,3,0.9998,0.9967,3,3,0.5094,paddleocr,ok_paddle_digit_weak,agree
+test1.jpg,9,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,5,0.9253,0.9997,5,11,0.4562,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,10,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,8,0.964,1.0,8,4,0.3051,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,11,left,ಹೀರೆಕಾಯಿ,೨ೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,1.0,ok,unique,1,18,0.8051,1.0,18,13,0.3635,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,12,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,15,0.9991,0.8784,1.5,15,0.4629,paddleocr,ok_paddle_digit_weak,agree
+test1.jpg,13,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯಿ,1.0,ok,unique,1,20,0.9453,0.9999,20,67,0.3074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,14,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,20,0.9486,1.0,20,27,0.3086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,15,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ರೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.9474,ok,unique,1,20,0.9293,1.0,20,642,0.3752,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,16,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,11,0.9821,0.9996,11,11,0.4664,paddleocr,ok_paddle_digit_weak,agree
+test1.jpg,17,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9179,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test1.jpg,18,right,ಕಗಕ,ಕಗಕ,ಕಂಬಳಕಾಯು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.2827,0.0,,7777740,0.3921,pending_review,REVIEW_PRICE_MISSING,digit_only
+test1.jpg,19,right,ಪೇರ್ 1ಕೆ,ವೈo್IJ.Bo GnIBD,ಪೇರ್ 1ಕೆ,1.0,ok,unique,1,PENDING_REVIEW,0.5439,0.0,,1,0.5347,pending_review,REVIEW_PRICE_MISSING,digit_only
+test1.jpg,20,right,ದಪ್ಪ ಮೆಣಸು,ದಪವಣಸು,ದಪ್ಪ ಮೆಣಸು,1.0,ok,unique,1,31,0.9733,0.9997,31,251,0.4837,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,21,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಂು,ಸೋರೆಕಾಯಿ,1.0,ok,unique,1,4,0.93,0.9997,4,4,0.41,paddleocr,ok_paddle_digit_weak,agree
+test1.jpg,22,right,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,6,0.998,0.9804,6,8,0.2048,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,23,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾಶ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,7,0.9391,0.9986,7,7,0.3081,paddleocr,ok_paddle_digit_weak,agree
+test1.jpg,24,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9619,0.9893,5,395,0.4072,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,25,right,ಸೀಮು ಬದನೆ,ಸೀವಬದನೆ,ಸೀಮು ಬದನೆ,1.0,ok,unique,1,15,0.9102,1.0,15,115,0.4151,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,26,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,25,0.9366,1.0,25,121,0.3387,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,27,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,16,0.9519,1.0,16,15,0.3625,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,28,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,24,0.9677,0.9978,24,24,0.3075,paddleocr,ok_paddle_digit_weak,agree
+test1.jpg,29,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,18,0.9453,1.0,18,13,0.4639,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test1.jpg,30,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9572,0.0,,1117,0.4838,pending_review,REVIEW_PRICE_MISSING,digit_only
+test1.jpg,31,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9946,0.0,,1111,0.4834,pending_review,REVIEW_PRICE_MISSING,digit_only
+test2.jpeg,32,left,Heuru.,Heuru.,GH,0.25,REVIEW_NAME,unique,1,45,0.4699,1.0,45,5,0.308,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,33,left,ie t uu Hhieetthhifu?,ie t uu Hhieetthhifu?,GH,0.087,REVIEW_NAME,unique,1,45,0.3361,0.9997,45,315,0.4409,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,34,left,H re uuuu?,H re uuuu?,GH,0.1667,REVIEW_NAME,unique,1,40,0.5433,0.9994,40,107,0.4808,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,35,left,Fifenntu.,Fifenntu.,ಎಂ.ಸ.,0.1429,REVIEW_NAME,unique,1,15,0.3691,0.9077,1.5,15,0.4857,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,36,left,Fuun,Fuun,ವೈo್IJ.Bo GnIBD,0.1053,REVIEW_NAME,unique,1,18,0.5626,1.0,18,163,0.4559,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,37,left,uihtuh,uihtuh,ಆಪ,0.0,REVIEW_NAME,unique,1,17,0.3501,0.9999,17,17,0.4158,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,38,left,Tu unn?,Tu unn?,ವೈo್IJ.Bo GnIBD,0.1818,REVIEW_NAME,unique,1,20,0.6245,1.0,20,1662,0.4394,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,39,left,uuu?,uuu?,ಆಪ,0.0,REVIEW_NAME,unique,1,18,0.4779,1.0,18,18,0.5187,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,40,left,Heteuu?,Heteuu?,GH,0.2222,REVIEW_NAME,unique,1,15,0.4216,1.0,15,124715,0.4878,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,41,right,Big wst hhst?,Big wst hhst?,ವೈo್IJ.Bo GnIBD,0.1429,REVIEW_NAME,unique,1,PENDING_REVIEW,0.659,0.0,,43,0.2603,pending_review,REVIEW_PRICE_MISSING,digit_only
+test2.jpeg,42,right,Wyrru,Wyrru,ಆಪ,0.0,REVIEW_NAME,unique,1,40,0.3764,1.0,40,10,0.4123,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,43,right,Hah u.,Hah u.,GH,0.25,REVIEW_NAME,unique,1,27,0.4049,0.9999,27,551,0.3108,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,44,right,Beru-ure.,Beru-ure.,ಕೋಸು-ನ್ಯಾ.ಂ,0.2,REVIEW_NAME,unique,1,8,0.5237,0.9998,8,623,0.3787,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,45,right,Teri -u,Teri -u,ರd aನಸ್,0.1429,REVIEW_NAME,unique,1,7,0.2981,0.9993,7,96,0.3132,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,46,right,Fuy uun?,Fuy uun?,ವೈo್IJ.Bo GnIBD,0.1739,REVIEW_NAME,unique,1,18,0.4698,1.0,18,18,0.4645,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,47,right,ಪn u,ಪn u,ಆಪ,0.3333,REVIEW_NAME,unique,1,52,0.2454,1.0,52,566,0.4447,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,48,right,Liee ui.,Liee ui.,ಎಂ.ಸ.,0.1538,REVIEW_NAME,unique,1,30,0.5365,1.0,30,272,0.3767,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test2.jpeg,49,right,Wu hy ahat?,Wu hy ahat?,ರd aನಸ್,0.2222,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6,0.0,,777,0.4115,pending_review,REVIEW_PRICE_MISSING,digit_only
+test3.jpeg,50,left,ಪಡವಲ,ಪವ,ಪಡವಲ,0.6667,REVIEW_NAME,unique,1,15,0.3112,0.9886,1.5,05,0.3091,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test3.jpeg,51,left,ಇಂ,ಇಂ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6172,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test3.jpeg,52,left,ಪhಪ,ಪhಪ,ಆಪ,0.4,REVIEW_NAME,unique,1,20,0.1961,1.0,20,20,0.5148,paddleocr,ok_paddle_digit_weak,agree
+test3.jpeg,53,left,ತಗ,ತಗ,ಸೌತಕಾಂು,0.2222,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8736,0.0,,9,0.2128,pending_review,REVIEW_PRICE_MISSING,digit_only
+test3.jpeg,54,right,ವೈ.wata ಪತಮಾಸು ಬದನ-ವೈt್,ವೈ.wata ಪತಮಾಸು ಬದನ--ವೈt್,ಬದನೆ-ವೈಟ್,0.4375,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5682,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test3.jpeg,55,right,ಬnel ಮneಸ,ಬnel ಮneಸ,ಬುಲೆಟ್ ಮೆಣಸು,0.381,REVIEW_NAME,unique,1,12,0.5595,0.9998,12,166,0.5252,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test4.jpeg,56,left,ಪರ,ಪರ,ಆಪ,0.5,REVIEW_NAME,unique,1,PENDING_REVIEW,0.3678,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test4.jpeg,57,left,೬೩ ಏ೩,೬೩ ಏ೩,ರd aನಸ್,0.1667,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4846,0.0,,1,0.5153,pending_review,REVIEW_PRICE_MISSING,digit_only
+test4.jpeg,58,left,ಹಗe a.,ಹಗe a.,ರd aನಸ್,0.3077,REVIEW_NAME,unique,1,22,0.4862,1.0,22,666,0.5107,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test4.jpeg,59,right,ಜಡಗtaನ,ಜಡಗtaನ,ರd aನಸ್,0.3077,REVIEW_NAME,unique,1,20,0.2978,1.0,20,667,0.3105,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,60,left,ವಣಸನಕಕಂಕ,ವಣಸನಕಕಂಕ,ಮೆಣಸಿನಕಾಯಿ,0.4444,REVIEW_NAME,unique,1,25,0.4088,0.9492,2.5,601,0.4422,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,61,left,ಸೌತೆಕಾಯಿ,ಸತು,ಸೌತೆಕಾಯಿ,0.6,REVIEW_NAME,unique,1,15,0.9116,0.9979,1.5,03,0.309,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,62,left,ಸುನಾಮಿ,ಸುನಾವು,ಸುನಾಮಿ,1.0,ok,unique,1,15,0.7992,0.9441,1.5,03,0.359,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,63,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,15,0.9845,1.0,15,15,0.5216,paddleocr,ok_paddle_digit_weak,agree
+test5.jpeg,64,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,25,0.9643,1.0,25,1622,0.3849,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,65,left,ಏಗ.,ಏಗ.,ಎಂ.ಸ.,0.25,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5266,0.0,,11,0.2087,pending_review,REVIEW_PRICE_MISSING,digit_only
+test5.jpeg,66,left,ಪಡವಲ,ಪಡಪಲ,ಪಡವಲ,0.75,ok,unique,1,20,0.7414,0.9994,20,221,0.4751,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,67,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,25,0.8033,1.0,25,531,0.3091,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,68,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7245,0.0,,1,0.527,pending_review,REVIEW_PRICE_MISSING,digit_only
+test5.jpeg,69,left,ಹಾಗಲ-ಗ್ರೀನ್,Wಾಗಲ--ನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7059,REVIEW_NAME,unique,1,22,0.7407,1.0,22,1621660,0.4261,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,70,left,೩೭,೩೭,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5998,0.0,,1,0.4154,pending_review,REVIEW_PRICE_MISSING,digit_only
+test5.jpeg,71,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಿಸೈವರ್,ಕಾಲಿಫ್ಲವರ್,0.75,ok,unique,1,25,0.663,0.9244,2.5,225,0.2774,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,72,right,ಸೈg್w.3ol ದಮಾಸು ಸieedಕo?,ಸೈg್w.3ol ದಮಾಸು ಸieedಕo?,ದಪ್ಪ ಮೆಣಸು,0.2941,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4581,0.0,,1,0.5203,pending_review,REVIEW_PRICE_MISSING,digit_only
+test5.jpeg,73,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,25,0.9068,1.0,25,323,0.3078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,74,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋನು--ಗಾಿ ಕೋಸು--ಸಾಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.5926,REVIEW_NAME,unique,1,10,0.8185,1.0,10,10,0.5255,paddleocr,ok_paddle_digit_weak,agree
+test5.jpeg,75,right,ಸೀಮು ಬದನೆ,ಜೀನು ಬದನ,ಸೀಮು ಬದನೆ,0.7059,REVIEW_NAME,unique,1,10,0.781,1.0,10,10,0.3718,paddleocr,ok_paddle_digit_weak,agree
+test5.jpeg,76,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿಗ-ಟ,ಬಜ್ಜಿ-ನಾಟಿ,0.7143,REVIEW_NAME,unique,1,26,0.564,1.0,26,661,0.3422,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,77,right,ಬಭಿ-ಯಕೋನ Bಂಡಕಾoು Eವೋಟ-ಹು?,ಬಭಿ--ಯಕೋನ Bಂಡಕಾoು Eವೋಟ-ಹು?,ಬಜಿ--ಯಕೋನ,0.4118,REVIEW_NAME,unique,1,13,0.5576,0.9214,1.3,63,0.4111,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test5.jpeg,78,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲಟ್ ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,0.9091,ok,unique,1,12,0.8882,0.9999,12,12,0.468,paddleocr,ok_paddle_digit_weak,agree
+test6.jpeg,79,left,ಮೆಣಸಿನಕಾಯಿ,ಉಧಮಣಸನಹಾಯ,ಮೆಣಸಿನಕಾಯಿ,0.6316,REVIEW_NAME,unique,1,280,0.8549,0.9147,28/0,206,0.446,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,80,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ ಬನ,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.8182,ok,unique,1,350,0.8334,0.9523,35/0,56,0.3568,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,81,left,ಬಜ್ಜಿ-ನಾಟಿ,ನಾಟಿಬನ,ಬಜ್ಜಿ-ನಾಟಿ,0.5714,REVIEW_NAME,unique,1,2260,0.8728,0.7035,2260,44,0.2059,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,82,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನಲ್ಬೀನ,ಪೋಲ್ ಬೀನ್ಸ್,0.8235,ok,unique,1,3210,0.8302,0.9796,3210,54,0.3061,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,83,left,ಬೀಟರೂಟ್,ಬೀಟೋಟ್,ಬೀಟರೂಟ್,0.8571,ok,unique,1,160,0.9838,0.914,16/0.,36,0.257,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,84,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,2010,0.9079,0.8969,2010,2699,0.4591,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,85,left,ಉಢ ಬದನ,ಉಢ ಬದನ,ಸೀಮು ಬದನೆ,0.5333,REVIEW_NAME,unique,1,2210,0.8206,0.9962,2210,236,0.4126,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,86,left,ಚಪರದಿಆಪರಕಾಯ,ಚಪರದಿಆಪರಕಾಯ,೨ೀರೆಕಾಯು,0.4211,REVIEW_NAME,unique,1,2010,0.8079,0.8768,2010,24,0.458,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,87,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಯ,ಸೌತೆಕಾಯಿ,0.8571,ok,unique,1,070,0.9954,0.8825,07/0,04,0.5115,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,88,left,ಕುoueuou,ಕುoueuou,ಮಣನನಕಾು,0.2667,REVIEW_NAME,unique,1,1510,0.626,0.871,1510,36,0.4107,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,89,right,ಗುಂಡುಪೇಟಿತರಕಾಲಿಪಾರುಷಟೆ Enal-ahಸhuh u. ad.ao.. Tteಡhuete-illl ಆರtಾeಗಳ iu.....ailz02 ಕೋಸುಚಪಾಖ ಕೋಸುಕಾಂಡಕ,ಗುಂಡುಪೇಟಿತರಕಾಲಿಪಾರುಷಟೆ Enal-ahಸhuh u. ad.ao.. Tteಡhuete-illl ಆರtಾeಗಳ iu.....ailz02 ಕೋಸುಚಪಾಖ ಕೋಸುಕಾಂಡಕ,ಕೋಸು--ಚಪಾಶ,0.1261,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5829,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test6.jpeg,90,right,ಕೋಸುರೆಡು,ಕೋಸುರೆಡು,ಸೋರೆಕಾಂು,0.5,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9553,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test6.jpeg,91,right,ಯಳವನ,ಯಳವನು,ಯಳವನ,0.8889,ok,unique,1,1710,0.8198,0.996,1710,176,0.4471,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,92,right,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,160,0.9276,0.9666,16/0,152,0.2741,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,93,right,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,180,0.9982,0.9673,18/0,194,0.4096,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,94,right,ಪೈರು,ಪೈರು,ದಪವಣಸು,0.4,REVIEW_NAME,unique,1,190,0.9429,0.9924,19/0,196,0.4835,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,95,right,ಒರೇಕಾou,ಒರೇಕಾou,ಯರಕಾನ,0.5,REVIEW_NAME,unique,1,1910,0.5829,0.8961,1910,46,0.4591,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test6.jpeg,96,right,ಕಾಲಿಫ್ಲವರ್,ಶಾಲಷವರ್,ಕಾಲಿಫ್ಲವರ್,0.6667,REVIEW_NAME,unique,1,3210,0.9029,0.9997,3210,324,0.5102,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,97,left,ಾಗರ,ಾಗರ,ಹಾಗಲ--ರೀನ್,0.4615,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5446,0.0,,29745552220,0.3543,pending_review,REVIEW_PRICE_MISSING,digit_only
+test7.jpeg,98,left,ೌಸ್ ಸೋಲಾರ್,ೌಸ್ ಸೋಲಾರ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.5217,REVIEW_NAME,unique,1,35,0.8679,1.0,35,151,0.2733,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,99,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನೀಲ್ಬೀನಸ್ edh್ ಬೀನಸ್,ಪೋಲ್ ಬೀನ್ಸ್,0.6452,REVIEW_NAME,unique,1,32,0.7615,0.9993,32,2316,0.3312,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,100,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣಸನಕಾಯು,ಮೆಣಸಿನಕಾಯಿ,0.8,ok,unique,1,45,0.9924,0.9282,4.5,7425,0.3823,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,101,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,10,0.9451,1.0,10,17,0.4667,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,102,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,9,0.8937,1.0,9,7,0.3048,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,103,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,6,0.9974,0.9998,6,6,0.3075,paddleocr,ok_paddle_digit_weak,agree
+test7.jpeg,104,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,10,1.0,1.0,10,10,0.5143,paddleocr,ok_paddle_digit_weak,agree
+test7.jpeg,105,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,8,0.9539,0.6697,8,6,0.2048,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,106,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,8,0.9672,0.9991,8,4,0.3054,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,107,left,ಹೀರೆಕಾಯಿ,ಈೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,30,0.8953,0.9997,30,111,0.4736,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,108,left,೩೦,೩೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.556,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test7.jpeg,109,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,20,0.998,1.0,20,721,0.3727,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,110,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯಿ,1.0,ok,unique,1,38,0.9587,1.0,38,53,0.357,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,111,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,35,0.9908,1.0,35,35,0.4065,paddleocr,ok_paddle_digit_weak,agree
+test7.jpeg,112,left,ಈ೭,ಈ೭,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.436,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test7.jpeg,113,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ-ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,35,0.8959,1.0,35,111,0.4064,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,114,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಪವರ್,ಕಾಲಿಫ್ಲವರ್,0.9333,ok,unique,1,13,0.9928,1.0,13,13,0.517,paddleocr,ok_paddle_digit_weak,agree
+test7.jpeg,115,left,ತಾll!,ತಾll!,ಸೌತಕಾಂು,0.3333,REVIEW_NAME,unique,1,PENDING_REVIEW,0.858,0.0,,1,0.3136,pending_review,REVIEW_PRICE_MISSING,digit_only
+test7.jpeg,116,right,ಪೈg್ u..t.yt,ಪೈg್ u..t.yt,ಪೇರ್ 1ಕೆ,0.3,REVIEW_NAME,unique,1,2027,0.5544,0.827,2027,47,0.3578,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,117,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,38,0.9578,1.0,38,3325,0.4571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,118,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,6,0.9835,0.9985,6,15,0.2575,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,119,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,15,0.9576,0.8779,1.5,15,0.517,paddleocr,ok_paddle_digit_weak,agree
+test7.jpeg,120,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,10,0.9435,1.0,10,12,0.3642,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,121,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.8889,ok,unique,1,7,0.998,0.9998,7,4,0.4061,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,122,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನೆ,ಸೀಮು ಬದನೆ,0.9333,ok,unique,1,12,0.8706,0.9999,12,72,0.509,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,123,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,37,0.9657,0.9999,37,22,0.3579,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,124,right,೨೬,೨೬,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5906,0.0,,1,0.2156,pending_review,REVIEW_PRICE_MISSING,digit_only
+test7.jpeg,125,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,28,0.9973,1.0,28,63,0.4575,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,126,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,15,0.9077,0.9727,1.5,15,0.4657,paddleocr,ok_paddle_digit_weak,agree
+test7.jpeg,127,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,13,0.9722,0.9578,1.3,3,0.4076,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test7.jpeg,128,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.941,0.0,,777,0.4436,pending_review,REVIEW_PRICE_MISSING,digit_only
+test7.jpeg,129,right,ಬೀಟರೂಟ್,ಬಟ್ರೋಟ್,ಬೀಟರೂಟ್,0.9333,ok,unique,1,PENDING_REVIEW,0.9999,0.0,,17,0.4565,pending_review,REVIEW_PRICE_MISSING,digit_only
+test7.jpeg,130,right,ರ್.ಏನ,ರ್.ಏನ,ಯರಕಾನ,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9226,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test7.jpeg,131,right,ಕಲಗೂರುತ,ಕಲಗೂರುತ,ಕಾಲಿಪವರ್,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.862,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test8.jpeg,132,left,ಾಸ,ಾಸ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,0,0.7578,0.7328,HO,40,0.5099,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,133,left,ಬೀನ್ಸ್,ಅೀನಸ್,ಬೀನ್ಸ್,0.7273,ok,unique,1,PENDING_REVIEW,0.728,0.0,,7147,0.3337,pending_review,REVIEW_PRICE_MISSING,digit_only
+test8.jpeg,134,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ ಪನಲ್ಬನಸ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.7857,ok,unique,1,35,0.8226,1.0,35,2311,0.4576,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,135,left,oah್eೀನಸ,oah್eೀನಸ,ಪನೀಲ್ಬೀನಸ್,0.4444,REVIEW_NAME,unique,1,48,0.6343,0.9999,48,35,0.3575,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,136,left,ಪೀತ,ಪೀತ,ಆಪ,0.4,REVIEW_NAME,unique,1,0626,0.7329,0.4249,(OT6 ewe26),15449981341522512474452,0.3922,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,137,left,ಸೌತೆಕಾಯಿ,ವಣಸನಕಾಂು,ಸೌತೆಕಾಯಿ,0.6667,REVIEW_NAME,DUPLICATE_NAME,2,PENDING_REVIEW,0.7785,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test8.jpeg,138,left,ಂದ,ಂದ,ಗುಂಡುಬದನೆ,0.3636,REVIEW_NAME,unique,1,0,0.9095,0.2783,LGFo,4626,0.4064,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,139,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಯು,ಸೌತೆಕಾಯಿ,0.8571,REVIEW_DUPLICATE,DUPLICATE_NAME,2,14,0.9044,0.9997,14,19,0.4629,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,140,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,9,0.7919,1.0,9,7,0.3055,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,141,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,6,0.9057,1.0,6,5,0.4065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,142,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,8,0.8782,0.9997,8,5,0.205,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,143,left,ಗುಂಡು ಬದನೆ,ದುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.8235,ok,unique,1,10,0.9639,1.0,10,12,0.4119,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,144,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,6,0.9301,0.9999,6,5,0.206,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,145,left,ಹೀರೆಕಾಯಿ,ಹರಕಾಯು,ಹೀರೆಕಾಯಿ,0.7143,REVIEW_NAME,unique,1,30,0.9183,0.9999,30,112,0.3725,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,146,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,22,0.9994,0.9995,22,705,0.3721,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,147,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಿಕಾಂು,ತೊಂಡೆಕಾಯಿ,0.7778,ok,unique,1,33,0.8565,0.9997,33,151,0.4391,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,148,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,30,0.9541,1.0,30,62,0.4069,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,149,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8889,ok,unique,1,30,0.9555,0.9999,30,25,0.4081,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,150,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,15,0.99,0.9999,1.5,65,0.2588,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,151,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9778,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test8.jpeg,152,right,ವೈo olny,ವೈo olny,ವೈo್IJ.Bo GnIBD,0.4348,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5412,0.0,,18,0.4164,pending_review,REVIEW_PRICE_MISSING,digit_only
+test8.jpeg,153,right,ದಪ್ಪ ಮೆಣಸು,ದಪೃಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.7692,ok,unique,1,38,0.9185,1.0,38,145,0.2398,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,154,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,6,0.9648,0.9996,6,5,0.5076,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,155,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,10,0.9163,1.0,10,17,0.5242,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,156,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,8,0.9643,0.9998,8,4,0.3051,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,157,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,7,0.9765,0.9996,7,2,0.2082,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,158,right,ಸೀಮು ಬದನೆ,ಸೀಮಿಬದನ,ಸೀಮು ಬದನೆ,0.75,ok,unique,1,15,0.8869,0.9999,1.5,5,0.4063,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,159,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,37,0.96,0.9999,37,51,0.3068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,160,right,೨೬,೨೬,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.3677,0.0,,71,0.5206,pending_review,REVIEW_PRICE_MISSING,digit_only
+test8.jpeg,161,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,28,0.9981,1.0,28,225,0.3056,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,162,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,15,0.9015,0.8985,1.5,15,0.4149,paddleocr,ok_paddle_digit_weak,agree
+test8.jpeg,163,right,ು ಅauಣ ಹ,ು ಅauಣ ಹ,ಬುಲೆಟ್ ಮೆಣಸು,0.3,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7178,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test8.jpeg,164,right,ಕುಮುಂಗೈಯ ಾರ ಅನುರಾಗ,ಕುಮುಂಗೈಯ ಾರ ಅನುರಾಗ,ಸೀಮು ಬದನೆ,0.2963,REVIEW_NAME,unique,1,PENDING_REVIEW,0.846,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test8.jpeg,165,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,13,0.9749,0.9998,13,3,0.3066,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test8.jpeg,166,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9978,0.0,,17,0.3575,pending_review,REVIEW_PRICE_MISSING,digit_only
+test8.jpeg,167,right,ಬುಂದು-ವು,ಬುಂದು-ವು,ಬದನೆ-ವೈಟ್,0.4706,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8123,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test8.jpeg,168,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9952,0.0,,17,0.4576,pending_review,REVIEW_PRICE_MISSING,digit_only
+test9.jpeg,169,left,ನಂ.,ನಂ.,ಎಂ.ಸ.,0.5,REVIEW_NAME,unique,1,008,0.9308,0.6261,JODJOT8 U,24,0.2596,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,170,left,ಮೆಣಸಿನಕಾಯಿ,ಗುಂಡುಮಣಸನಕಾಯು,ಮೆಣಸಿನಕಾಯಿ,0.6087,REVIEW_NAME,DUPLICATE_NAME,2,PENDING_REVIEW,0.972,0.0,,391,0.4556,pending_review,REVIEW_PRICE_MISSING,digit_only
+test9.jpeg,171,left,ಮೆಣಸಿನಕಾಯಿ,ಉದಮಣಸನಕಾಯು,ಮೆಣಸಿನಕಾಯಿ,0.7059,REVIEW_NAME,DUPLICATE_NAME,2,450,0.9564,0.8594,45%0,41,0.508,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,172,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ಬನ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.8182,ok,unique,1,380,0.9993,0.9762,38/0,54,0.3063,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,173,left,ನಾಟಿಬನ್,ನಾಟಿಬನ್,ಬಜಿ-ನಾಟಿ,0.5333,REVIEW_NAME,unique,1,3210,0.9977,0.9996,3210,326,0.5115,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,174,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನಲ್ಬೀನ್,ಪೋಲ್ ಬೀನ್ಸ್,0.8889,ok,unique,1,3310,0.957,0.9785,3310,54,0.4561,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,175,left,ಬೀಟರೂಟ್,ಬೀಟೋಟ್,ಬೀಟರೂಟ್,0.8571,ok,unique,1,0610,0.9498,0.8813,0610,066,0.449,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,176,left,೨೯lo,೨೯lo,೨ೀರೆಕಾಯು,0.1667,REVIEW_NAME,DUPLICATE_NAME,2,PENDING_REVIEW,0.8181,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test9.jpeg,177,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,0810,0.9744,0.9483,0810,086,0.5121,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,178,left,೨೯lo,೨೯lo,೨ೀರೆಕಾಯು,0.1667,REVIEW_NAME,DUPLICATE_NAME,2,PENDING_REVIEW,0.702,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test9.jpeg,179,left,ಉಧಬದನ,ಉಧಬದನ,ಸೀವಬದನೆ,0.5,REVIEW_NAME,unique,1,0810,0.9672,0.8789,0810,06,0.4062,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,180,left,ಹೀರೆಕಾಯಿ,ಚಪರದಅವರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.6,REVIEW_NAME,DUPLICATE_NAME,2,30,0.9345,0.9064,3g/0,12,0.2554,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,181,left,ಎಂ.ಸಿ.,ಎಂ.ಸ..,ಎಂ.ಸಿ.,0.9091,ok,unique,1,080,0.8685,0.9437,08/0,44,0.2565,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,182,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,1310,0.9834,0.9989,1310,136,0.4477,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,183,left,ಕಂಬಳಕಾಯಿ,ಕುಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,0.9412,ok,unique,1,0610,0.9807,0.9967,0610,066,0.5164,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,184,right,ಗುಂಡುಹೇಟಿಪಠಕಾಲಿಪಾರುಕಟ ಊಟಿ-ವೈಸೂರುರಸ.ಎ.ಪ.ಎಂ.ಸ. ಗುಂಡುಪೇಟಿ-ನll ಕರಕಾಂಗಳ್ಬೆರೆ,ಗುಂಡುಹೇಟಿಪಠಕಾಲಿಪಾರುಕಟ ಊಟಿ--ವೈಸೂರುರಸ.ಎ.ಪ.ಎಂ.ಸ. ಗುಂಡುಪೇಟಿ--ನll ಕರಕಾಂಗಳ್ಬೆರೆ,ಗುಂಡು ಬದನೆ,0.1975,REVIEW_NAME,unique,1,PENDING_REVIEW,0.797,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test9.jpeg,185,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸುಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.8889,ok,unique,1,0710,0.9882,0.9968,0710,56,0.4571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,186,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸುಸಾಂಡಕ್,ಕೋಸು-ನ್ಯಾ.ಂ,0.7,REVIEW_NAME,unique,1,0610,0.9649,0.9573,0610,066,0.5102,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,187,right,ಕೋಸುರೆಡ್,ಕೋಸುರೆಡ್,ಕೋಸು-ನ್ಯಾ.ಂ,0.5263,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9814,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test9.jpeg,188,right,ಯಳವನ,ಯಳವನ್,ಯಳವನ,0.8889,ok,unique,1,0710,0.9979,0.9937,0710,576,0.4799,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,189,right,ಸುನಾಮಿ,ಸುನಾಎು,ಸುನಾಮಿ,0.8333,ok,unique,1,050,0.9011,0.8808,05/0,06,0.3568,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,190,right,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,210,0.9975,0.9937,210,26,0.4583,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,191,right,ಪೈರು,ಪೈರು,ದಪವಣಸು,0.4,REVIEW_NAME,unique,1,280,0.9269,0.943,28/0,26,0.4563,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,192,right,ಹೀರೆಕಾಯಿ,ಹೀರೇಕಾಯ,ಹೀರೆಕಾಯಿ,0.8,REVIEW_DUPLICATE,DUPLICATE_NAME,2,2810,0.9436,0.9912,2810,24,0.4574,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,193,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯ,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,1410,0.9893,0.9994,1410,146,0.4904,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,194,right,ಕಾಲಿಫ್ಲವರ್,ಖಾಲಿಫವರ್,ಕಾಲಿಫ್ಲವರ್,0.7778,ok,unique,1,1410,0.9354,0.8872,1410,146,0.4881,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test9.jpeg,195,right,ಟವೋಟೊ,ಟವೋಟೊ,ಟವೋಟ--ಹುಳಿ,0.5333,REVIEW_NAME,unique,1,130,0.9919,0.8369,13%0,136,0.5274,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,196,left,ಎsಾoತ,ಎsಾoತ,ಕೋಸು-ಚಪಾತಿ,0.2667,REVIEW_NAME,unique,1,35,0.5657,1.0,35,165,0.3396,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,197,left,Iauh pbeಸಸ,Iauh pbeಸಸ,ರd aನಸ್,0.2353,REVIEW_NAME,unique,1,50,0.4621,1.0,50,1110,0.5101,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,198,left,ಏಂ,ಏಂ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6178,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test10.jpeg,199,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣನನಾಂು,ಮೆಣಸಿನಕಾಯಿ,0.8571,ok,unique,1,PENDING_REVIEW,0.8169,0.0,,1176101410,0.403,pending_review,REVIEW_PRICE_MISSING,digit_only
+test10.jpeg,200,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾರು,ಸೌತೆಕಾಯಿ,0.8,ok,unique,1,16,0.8879,1.0,16,15,0.363,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,201,left,ಎಂ.ಸಿ.,ಎಂ.ಸ,ಎಂ.ಸಿ.,0.8889,ok,unique,1,9,0.8833,1.0,9,7,0.3061,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,202,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,7,0.9251,0.9998,7,1,0.2086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,203,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,8,0.9998,0.9969,8,6,0.2048,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,204,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,10,0.9886,1.0,10,10,0.3635,paddleocr,ok_paddle_digit_weak,agree
+test10.jpeg,205,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,6,0.9537,0.9988,6,6,0.3066,paddleocr,ok_paddle_digit_weak,agree
+test10.jpeg,206,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,30,0.9113,0.9999,30,137,0.373,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,207,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,2,0.9985,0.852,2H,161,0.3405,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,208,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಹು,ತೊಂಡೆಕಾಯಿ,0.8889,ok,unique,1,30,0.9125,0.9999,30,110,0.3745,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,209,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9936,0.0,,561,0.474,pending_review,REVIEW_PRICE_MISSING,digit_only
+test10.jpeg,210,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ-ೋನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7778,ok,unique,1,PENDING_REVIEW,0.934,0.0,,130,0.4087,pending_review,REVIEW_PRICE_MISSING,digit_only
+test10.jpeg,211,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,20,0.9679,1.0,20,67,0.3062,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,212,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9195,0.0,,1,0.5358,pending_review,REVIEW_PRICE_MISSING,digit_only
+test10.jpeg,213,right,ಸೃg್werea?,ಸೃg್werea?,ಬೀನ್ಸ್,0.25,REVIEW_NAME,unique,1,2011,0.6205,0.7671,2011,04,0.4078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,214,right,ದಪ್ಪ ಮೆಣಸು,ದಪವಣಸು,ದಪ್ಪ ಮೆಣಸು,1.0,ok,unique,1,41,0.8491,0.9967,41,111,0.4298,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,215,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಂ,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,50,0.9063,0.7875,5.0,52,0.506,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,216,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೃಟ್,ಬದನೆ-ವೈಟ್,0.8889,ok,unique,1,211,0.8899,0.7819,211,040,0.5068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,217,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು-ಚಪಾಶಿ,ಕೋಸು-ಚಪಾತಿ,0.9,ok,unique,1,8,0.894,0.9993,8,4,0.4046,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,218,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸೌಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.7778,ok,unique,1,7,0.9392,0.999,7,2,0.3091,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,219,right,ಸೀಮು ಬದನೆ,ನೀವುಬದನೆ,ಸೀಮು ಬದನೆ,0.8,ok,unique,1,16,0.8602,1.0,16,16,0.4648,paddleocr,ok_paddle_digit_weak,agree
+test10.jpeg,220,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,37,0.957,0.9999,37,2334,0.3812,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,221,right,ಏ೯,ಏ೯,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6371,0.0,,7,0.4117,pending_review,REVIEW_PRICE_MISSING,digit_only
+test10.jpeg,222,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,28,0.9914,0.9999,28,7425,0.3817,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,223,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಕಾಯು,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,18,0.9927,1.0,18,13,0.5144,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test10.jpeg,224,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,14,0.9502,0.8042,14,14,0.5176,paddleocr,REVIEW_PRICE_LOW_CONF,agree
+test10.jpeg,225,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9969,0.0,,257,0.5105,pending_review,REVIEW_PRICE_MISSING,digit_only
+test10.jpeg,226,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9717,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test10.jpeg,227,right,೬೦,೬೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4397,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test11.jpeg,228,left,ಬೀನ್ಸ್,ನಸ್,ಬೀನ್ಸ್,0.6667,REVIEW_NAME,unique,1,50,0.8134,1.0,50,50,0.4564,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,229,left,ಗಣ,ಗಣ,ದಪವಣಸು,0.25,REVIEW_NAME,unique,1,226,0.4466,0.6006,ee226,7527,0.3824,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,230,left,ಸಾtbu,ಸಾtbu,ಸುನಾವು,0.3636,REVIEW_NAME,unique,1,0626,0.389,0.4753,(Odh6 ewe26),16297934452271252442,0.3971,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,231,left,odh eeನಸ,odh eeನಸ,ರd aನಸ್,0.5333,REVIEW_NAME,unique,1,45,0.6706,0.9915,4.5,10,0.4113,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,232,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣಸನಕಾರು,ಮೆಣಸಿನಕಾಯಿ,0.8,ok,unique,1,60,0.7939,0.9999,60,52,0.3589,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,233,left,ಕತ.,ಕತ.,ಕೋಸು-ಚಪಾತಿ,0.3077,REVIEW_NAME,unique,1,0,0.3709,0.381,oeiea,662666,0.4238,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,234,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಂು,ಸೌತೆಕಾಯಿ,1.0,ok,unique,1,22,0.9073,1.0,22,12242,0.3905,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,235,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,6,0.9896,0.9997,6,5,0.306,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,236,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,5,0.9538,0.9988,5,5,0.4087,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,237,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,5,0.9994,0.9999,5,5,0.5082,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,238,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,12,0.9929,0.9985,12,12,0.5167,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,239,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,10,0.9031,1.0,10,10,0.5128,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,240,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,25,0.9433,0.8451,2.5,201,0.3054,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,241,left,ಎ೦,ಎ೦,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6097,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test11.jpeg,242,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,20,0.9982,1.0,20,207,0.3392,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,243,left,೫೦,೫೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6017,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test11.jpeg,244,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯಿ,1.0,ok,unique,1,30,0.8911,0.9999,30,3311,0.4819,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,245,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,35,0.9806,0.9999,35,5,0.5075,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,246,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ಈೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,35,0.9177,1.0,35,2331,0.3569,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,247,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,12,0.9745,1.0,12,72,0.409,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,248,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8801,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test11.jpeg,249,right,ಕಾll aeಹ,ಕಾll aeಹ,ಯರಕಾನ,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.774,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test11.jpeg,250,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,43,0.9462,0.9985,43,141751,0.4305,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,251,right,ಹೌಗ ಮಂಷ,ಹೌಗ ಮಂಷ,ಸೌತಕಾಂು,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6097,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test11.jpeg,252,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯ,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,6,0.9693,0.9978,6,5,0.2071,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,253,right,ಬದನೆ-ವೈಟ್,ಬದನ-ವೈಟ್,ಬದನೆ-ವೈಟ್,0.9412,ok,unique,1,12,0.9254,1.0,12,166,0.4125,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,254,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸುಚಪಾತಿ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,8,0.8651,0.9999,8,8,0.3053,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,255,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು-ಸೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.8889,ok,unique,1,6,0.9967,0.9999,6,5,0.3057,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,256,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನೆ,ಸೀಮು ಬದನೆ,0.9333,ok,unique,1,15,0.896,0.9831,15,15,0.517,paddleocr,ok_paddle_digit_weak,agree
+test11.jpeg,257,right,೨೦,೨೦,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6685,0.0,,71,0.4197,pending_review,REVIEW_PRICE_MISSING,digit_only
+test11.jpeg,258,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ--ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,50,0.9916,1.0,50,22,0.4068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,259,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,40,0.9871,1.0,40,112,0.3433,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,260,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಕಾಯು,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,26,0.9712,0.9999,26,101,0.2059,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,261,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ-ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,17,0.9521,1.0,17,11,0.464,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test11.jpeg,262,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9814,0.0,,17,0.3581,pending_review,REVIEW_PRICE_MISSING,digit_only
+test11.jpeg,263,right,ಬೀಟರೂಟ್,ಬಟ್ರೋಟ್,ಬೀಟರೂಟ್,0.9333,ok,unique,1,1,0.9997,0.8137,1,,0.0,paddleocr,REVIEW_PRICE_LOW_CONF,paddle_only
+test11.jpeg,264,right,ತೀಮತಗ.ಆ,ತೀಮತಗ.ಆ,ಸೀಮು ಬದನೆ,0.25,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6698,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test12.jpeg,265,left,ಗtaಹನ?,ಗtaಹನ?,ರd aನಸ್,0.3077,REVIEW_NAME,unique,1,25226,0.656,0.8039,25e226,7557,0.3589,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,266,left,೨೦,೨೦,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8081,0.0,,5,0.205,pending_review,REVIEW_PRICE_MISSING,digit_only
+test12.jpeg,267,left,Teth್ ಬನಸ? ಮಣtನuoು,Teth್ ಬನಸ? ಮಣtನuoು,ದಪ್ಪ ಮೆಣಸು,0.3571,REVIEW_NAME,unique,1,55,0.5683,0.9999,55,731,0.3733,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,268,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾರು,ಸೌತೆಕಾಯಿ,0.8571,ok,unique,1,24,0.8391,0.9218,24,701,0.4446,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,269,left,ಎಂ.ಸಿ.,ಎಂ.A.,ಎಂ.ಸಿ.,0.8,ok,unique,1,4,0.8075,0.6736,4,4,0.5093,paddleocr,REVIEW_PRICE_LOW_CONF,agree
+test12.jpeg,270,left,ಸುನಾಮಿ,ಸುನಾವು,ಸುನಾಮಿ,1.0,ok,unique,1,4,0.753,0.998,4,41,0.5226,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,271,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,3,0.9982,0.9999,3,3,0.4068,paddleocr,ok_paddle_digit_weak,agree
+test12.jpeg,272,left,ಗುಂಡು ಬದನೆ,ಗುಂಡು ಬಪನೆ,ಗುಂಡು ಬದನೆ,0.9,ok,unique,1,8,0.714,0.9767,8,5,0.3062,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,273,left,ಕಂಬಳಕಾಯಿ,ಕoaಳಕಾtು,ಕಂಬಳಕಾಯಿ,0.625,REVIEW_NAME,unique,1,10,0.5259,1.0,10,12,0.5167,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,274,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,15,0.9672,0.8851,1.5,2,0.3067,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,275,left,ತಮಗೆಲಂಗೂ,ತಮಗೆಲಂಗೂ,ಹಾಗಲ-ಗ್ರೀನ್,0.3158,REVIEW_NAME,unique,1,32,0.9007,0.9998,32,26,0.206,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,276,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,30,0.8992,0.9999,30,2312,0.4084,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,277,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ಈೋನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7368,ok,unique,1,32,0.8388,0.9991,32,,0.0,paddleocr,ok,paddle_only
+test12.jpeg,278,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,14,0.9395,0.9914,14,4,0.4093,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,279,right,ದಪ್ಪ ಮೆಣಸು,ದಷಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.6667,REVIEW_NAME,unique,1,43,0.8341,0.9375,4.3,5,0.5079,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,280,right,ಸೋರೆಕಾಯಿ,ಸೋರ.ಾರ,ಸೋರೆಕಾಯಿ,0.5714,REVIEW_NAME,unique,1,10,0.6711,1.0,10,12,0.5138,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,281,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,8,0.9559,0.9986,8,3,0.3079,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,282,right,ಚll ಸೌll ವ,ಚll ಸೌll ವ,ಸುನಾವು,0.25,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7539,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test12.jpeg,283,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತಿ,ಕೋಸು-ಚಪಾತಿ,1.0,ok,unique,1,8,0.897,0.9997,8,8,0.3073,paddleocr,ok_paddle_digit_weak,agree
+test12.jpeg,284,right,ಎಗ,ಎಗ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.3291,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test12.jpeg,285,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸೈಂ ಸಮ ಬವನ,ಕೋಸು-ನ್ಯಾ.ಂ,0.64,REVIEW_NAME,unique,1,16,0.6536,1.0,16,72,0.3088,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,286,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ--ನಾಟ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,50,0.9367,0.9241,.50,2,0.2078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,287,right,ಬಜ-ಯಕೋನ ಬಂuಕಾoು Edire-ಕುe?,ಬಜ--ಯಕೋನ ಬಂuಕಾoು Edire-ಕುe?,ಬಜಿ--ಯಕೋನ,0.4,REVIEW_NAME,unique,1,26,0.4857,1.0,26,225,0.3726,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,288,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ವಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,0.9,ok,unique,1,0,0.908,0.6673,orgave,34,0.2562,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test12.jpeg,289,right,ಅಂಗೈಯ,ಅಂಗೈಯ,ಕಂಬಳಕಾಯು,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9998,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test12.jpeg,290,right,ನೆತಯಮ,ನೆತಯಮ,ಸುನಾಮಿ,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9311,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test12.jpeg,291,right,ಇಂದ,ಇಂದ,ಗುಂಡುಬದನೆ,0.3333,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9997,0.0,,97,0.3608,pending_review,REVIEW_PRICE_MISSING,digit_only
+test13.jpeg,292,left,೩ೀನಸ್ ಸೋeಾರ,೩ೀನಸ್ ಸೋeಾರ,ಬೀನ್ಸ್,0.4706,REVIEW_NAME,unique,1,45,0.8015,1.0,45,411,0.4094,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,293,left,ಪೋಲ್ ಬೀನ್ಸ್,ನನೀಲ್ಬೀನಸ್,ಪೋಲ್ ಬೀನ್ಸ್,0.9,ok,unique,1,25,0.9642,1.0,25,663,0.3732,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,294,left,ಬೀನ್ಸ್,ಅಂಗ್ಬೀನಸ್ಲ,ಬೀನ್ಸ್,0.625,REVIEW_NAME,unique,1,47,0.7211,0.9994,47,411,0.3807,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,295,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣಸನಕಾಂಲು,ಮೆಣಸಿನಕಾಯಿ,0.75,ok,unique,1,PENDING_REVIEW,0.7246,0.0,,14177,0.4139,pending_review,REVIEW_PRICE_MISSING,digit_only
+test13.jpeg,296,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,13,0.9117,0.9381,1.3,13,0.4164,paddleocr,ok_paddle_digit_weak,agree
+test13.jpeg,297,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,2,0.8918,0.861,2,2,0.5084,paddleocr,ok_paddle_digit_weak,agree
+test13.jpeg,298,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,4,0.9873,0.6859,4,11,0.516,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,299,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,2,1.0,0.9835,2,62,0.4088,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,300,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,7,0.9448,0.9739,7,4,0.3049,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,301,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,9,0.9944,1.0,9,7,0.3089,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,302,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,20,0.9448,1.0,20,2642,0.4068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,303,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,12,0.9995,1.0,12,72,0.5086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,304,left,ಏರ,ಏರ,ಯರಕಾನ,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.544,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test13.jpeg,305,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯಿ,1.0,ok,unique,1,25,0.9495,0.9918,2.5,321,0.372,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,306,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,30,0.9937,1.0,30,32,0.4075,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,307,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,30,0.9659,0.9999,30,27,0.3567,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,308,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,9,0.9135,1.0,9,7,0.4075,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,309,left,ತಾl,ತಾl,ಸೌತಕಾಂು,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9067,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test13.jpeg,310,right,ಪೃpwao gao,ಪೃpwao gao,ಪೇರ್ 1ಕೆ,0.2222,REVIEW_NAME,unique,1,1,0.5967,0.7161,l be,5504,0.3068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,311,right,ಇll ಮe,ಇll ಮe,ದಪ್ಪ ಮೆಣಸು,0.25,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7077,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test13.jpeg,312,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,38,0.8988,1.0,38,143,0.3064,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,313,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯ,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,8,0.991,0.9995,8,3,0.3068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,314,right,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,10,0.9992,1.0,10,10,0.4141,paddleocr,ok_paddle_digit_weak,agree
+test13.jpeg,315,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,6,0.9576,0.9971,6,5,0.5088,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,316,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,6,0.9623,0.9582,6,5,0.3067,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,317,right,ಸೀಮು ಬದನೆ,ಸೀವಬದನ,ಸೀಮು ಬದನೆ,0.9231,ok,unique,1,13,0.9067,0.9998,13,13,0.517,paddleocr,ok_paddle_digit_weak,agree
+test13.jpeg,318,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,55,0.9639,0.9982,55,111,0.3717,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,319,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,45,0.9998,1.0,45,115,0.445,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,320,right,ತೈಯ,ತೈಯ,ಸೌತೆಕಾಯಿ,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7595,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test13.jpeg,321,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,300,0.9486,0.4979,300,41,0.3574,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,322,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ-ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,10,0.9927,1.0,10,12,0.4161,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test13.jpeg,323,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9647,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test13.jpeg,324,right,ಬೀಟರೂಟ್,ಬಟ್ರೋಟ್,ಬೀಟರೂಟ್,0.9333,ok,unique,1,PENDING_REVIEW,0.9986,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test13.jpeg,325,right,ುತು,ುತು,ಸುನಾವು,0.4444,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7461,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test14.jpeg,326,left,uteeneಗತ.,uteeneಗತ.,ಎಂ.ಸ.,0.1429,REVIEW_NAME,unique,1,PENDING_REVIEW,0.2982,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test14.jpeg,327,left,ಸೌತೆಕಾಯಿ,ಸೌತuoವು,ಸೌತೆಕಾಯಿ,0.5714,REVIEW_NAME,unique,1,13,0.7425,0.9375,1.3,13,0.4221,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,328,left,ಕಡುಕ,ಕಡುಕ,ಮಣನನಕಾು,0.3636,REVIEW_NAME,unique,1,02,0.4,0.7582,ωo.2.,6222,0.4628,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,329,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,3,0.8219,0.9995,3,5,0.4085,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,330,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,4,0.9363,0.895,4,11,0.5214,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,331,left,ಯಳವನ,ಯಳಪನ,ಯಳವನ,0.75,ok,unique,1,PENDING_REVIEW,0.9579,0.0,,10,0.3593,pending_review,REVIEW_PRICE_MISSING,digit_only
+test14.jpeg,332,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,7,0.9571,0.999,7,7,0.3062,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,333,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,12,0.9496,0.9994,12,226,0.2055,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,334,left,೩೦,೩೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6612,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test14.jpeg,335,left,ಹೀರೆಕಾಯಿ,ಹೋರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.75,ok,unique,1,20,0.9565,1.0,20,7262,0.3568,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,336,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,8,0.9932,0.9999,8,8,0.3048,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,337,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಂು,ತೊಂಡೆಕಾಯಿ,0.8889,ok,unique,1,20,0.924,1.0,20,227,0.3061,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,338,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,20,0.9308,1.0,20,120,0.4407,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,339,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,20,0.9241,0.9998,20,1412,0.3586,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,340,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,7,0.9889,0.9997,7,1,0.3082,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,341,left,ತಾl,ತಾl,ಸೌತಕಾಂು,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.813,0.0,,27,0.4605,pending_review,REVIEW_PRICE_MISSING,digit_only
+test14.jpeg,342,right,ಮp್wga ia,ಮp್wga ia,ಪೇರ್ 1ಕೆ,0.2353,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5918,0.0,,184,0.4129,pending_review,REVIEW_PRICE_MISSING,digit_only
+test14.jpeg,343,right,ದಪ್ಪ ಮೆಣಸು,ದಪವಣಸು,ದಪ್ಪ ಮೆಣಸು,1.0,ok,unique,1,34,0.9518,0.9996,34,23121,0.4568,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,344,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಂು,ಸೋರೆಕಾಯಿ,1.0,ok,unique,1,4,0.883,0.983,4,11,0.42,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,345,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,8,0.9586,0.9796,8,8,0.305,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,346,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾಶಿ,ಕೋಸು-ಚಪಾತಿ,0.9,ok,unique,1,5,0.9423,0.9294,5,5,0.5096,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,347,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9979,0.9959,5,5,0.4081,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,348,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನೆ,ಸೀಮು ಬದನೆ,0.9333,ok,unique,1,13,0.8539,0.9478,1.3,13,0.516,paddleocr,ok_paddle_digit_weak,agree
+test14.jpeg,349,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,45,0.8873,0.9207,4.5,141,0.3399,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,350,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,35,0.9929,1.0,35,111,0.3391,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,351,right,ಅಂಗೈಯಳ ನತಯ ಮೀ,ಅಂಗೈಯಳ ನತಯ ಮೀ,ಯಳವನ,0.3529,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8568,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test14.jpeg,352,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯ,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,12,0.9953,0.9996,12,2,0.51,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,353,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,8,0.9017,0.9996,8,3,0.4068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test14.jpeg,354,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.989,0.0,,178,0.4417,pending_review,REVIEW_PRICE_MISSING,digit_only
+test14.jpeg,355,right,ಬೀಟರೂಟ್,ಬಟ್ರೋಟ್,ಬೀಟರೂಟ್,0.9333,ok,unique,1,PENDING_REVIEW,0.9997,0.0,,178,0.4084,pending_review,REVIEW_PRICE_MISSING,digit_only
+test14.jpeg,356,right,ಏನೋದವ,ಏನೋದವ,ಸುನಾವು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9067,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test15.jpeg,357,left,ಗheಡು ಮtaaನಕaeu,ಗheಡು ಮtaaನಕaeu,ಗುಂಡು ಬದನೆ,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5716,0.0,,17,0.3578,pending_review,REVIEW_PRICE_MISSING,digit_only
+test15.jpeg,358,left,ಉಡ ae ನaeu,ಉಡ ae ನaeu,ರd aನಸ್,0.3529,REVIEW_NAME,unique,1,470,0.5321,0.8977,470,111,0.4422,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,359,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ಬನ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.8182,ok,unique,1,2410,0.9463,0.9536,2410,2246,0.4114,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,360,left,ನಾಟಿಬನ್,ನಾಟಿಬನ್,ಬಜಿ-ನಾಟಿ,0.5333,REVIEW_NAME,unique,1,2010,0.9789,0.9961,2010,241,0.4466,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,361,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪೆಎಲ್ಬೀನ್,ಪೋಲ್ ಬೀನ್ಸ್,0.7368,ok,unique,1,1910,0.8498,0.9989,1910,196,0.4368,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,362,left,೧೯lo,೧೯lo,ವೈo್IJ.Bo GnIBD,0.1053,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6068,0.0,,1,0.3156,pending_review,REVIEW_PRICE_MISSING,digit_only
+test15.jpeg,363,left,ಬೀಟರೂಟ್,ಬೀಟೋಟ್,ಬೀಟರೂಟ್,0.8571,ok,unique,1,0810,0.9483,0.9912,0810,934,0.2401,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,364,left,೨೯ ಪೈರು,೨೯ ಪೈರು,೨ೀರೆಕಾಯು,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.51,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test15.jpeg,365,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,061000,0.9966,0.7807,06/1000,05490,0.3911,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,366,left,ಉದಬದನ,ಉದಬದನ,ಸೀವಬದನೆ,0.5,REVIEW_NAME,unique,1,070,0.9968,0.8899,07/0,6135,0.2857,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,367,left,ಚಪರದಅವರಕಾಯ,ಚಪರದಅವರಕಾಯ,೨ೀರೆಕಾಯು,0.4444,REVIEW_NAME,unique,1,1010,0.9658,0.9988,1010,10167,0.5225,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,368,left,ಎಂ.ಸಿ.,ಎಂ.ಗ.,ಎಂ.ಸಿ.,0.8,ok,unique,1,0310,0.7596,0.9848,0310,036,0.4111,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,369,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಂು,ಸೌತೆಕಾಯಿ,0.9333,ok,unique,1,1210,0.8955,0.9993,1210,126,0.4915,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,370,left,ಕಂಬಳಕಾಯಿ,ಕುeಬಳಕಾonು,ಕಂಬಳಕಾಯಿ,0.6667,REVIEW_NAME,unique,1,1110,0.744,0.9857,1110,1110,0.5412,paddleocr,ok_paddle_digit_weak,agree
+test15.jpeg,371,right,ಪutent iaಗಾದaಷt.,ಪutent iaಗಾದaಷt.,ರd aನಸ್,0.1739,REVIEW_NAME,unique,1,PENDING_REVIEW,0.387,0.0,,10,0.5184,pending_review,REVIEW_PRICE_MISSING,digit_only
+test15.jpeg,372,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸುಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.8889,ok,unique,1,050,0.9564,0.9993,050,056,0.4489,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,373,right,ಕೋಸುದಾಂಡಕ್ಕು,ಕೋಸುದಾಂಡಕ್ಕು,ಕೋಸು--ಸಾೈಂ,0.5455,REVIEW_NAME,unique,1,0510,0.9058,0.9348,0510,956,0.3795,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,374,right,ಕೋಸು iರa,ಕೋಸು iರa,ಕೋಸು--ಚಪಾಶ,0.4444,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6542,0.0,,1171,0.4613,pending_review,REVIEW_PRICE_MISSING,digit_only
+test15.jpeg,375,right,ಉಳಪನ,ಉಳಪನ,ಯಳವನ,0.5,REVIEW_NAME,unique,1,0410,0.4677,0.9201,0410,5,0.4081,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,376,right,ಸhಸಾa,ಸhಸಾa,ಕೋಸು--ಸಾೈಂ,0.4,REVIEW_NAME,unique,1,0410,0.6288,0.9921,0410,32,0.3571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,377,right,ಪಡವಲ,ಪಡಷಲ,ಪಡವಲ,0.75,ok,unique,1,0710,0.9927,0.9974,0710,1,0.5082,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,378,right,ಸೋರೆಕಾಯಿ,ಈೋರೇಕಾಯ,ಸೋರೆಕಾಯಿ,0.6667,REVIEW_NAME,unique,1,180,0.8423,0.9942,18/0,4,0.3052,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,379,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಕಾಯ,ಬೆಂಡೆಕಾಯಿ,0.875,ok,unique,1,1110,0.9448,0.9898,1110,1110,0.5852,paddleocr,ok,agree
+test15.jpeg,380,right,ಕಾಲಿಫ್ಲವರ್,ಖಾಲಿಫವರ್,ಕಾಲಿಫ್ಲವರ್,0.7778,ok,unique,1,0610,0.9154,0.994,0610,040,0.4894,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test15.jpeg,381,right,೨೯,೨೯,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6671,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test15.jpeg,382,right,ಔಪೋಟೊ,ಔಪೋಟೊ,ಬೀಟ್ರೋಟ್,0.3077,REVIEW_NAME,unique,1,0890,0.7366,0.9937,0890,1,0.2074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,383,left,ಹaಡ,ಹaಡ,ಪಡವಲ,0.2857,REVIEW_NAME,unique,1,20,0.3346,1.0,20,26761,0.3521,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,384,left,Iogತo anದ,Iogತo anದ,ವೈo್IJ.Bo GnIBD,0.3333,REVIEW_NAME,unique,1,23,0.4093,0.4879,23FF,6626,0.4319,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,385,left,ಸೌತೆಕಾಯಿ,ಸೌತಗgತು,ಸೌತೆಕಾಯಿ,0.5714,REVIEW_NAME,unique,1,8,0.6493,0.8083,8,13,0.4107,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,386,left,ಸಾಡುಪಾಡದ,ಸಾಡುಪಾಡದ,ಕೋಸು--ಚಪಾಶ,0.4444,REVIEW_NAME,unique,1,202,0.4771,0.8203,20.2.,256,0.4092,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,387,left,ಎeಗi.,ಎeಗi.,ಎಂ.ಸ.,0.4,REVIEW_NAME,unique,1,3,0.6892,0.9996,3,3,0.3073,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,388,left,ಸುನಾಮಿ,ಸುವು,ಸುನಾಮಿ,0.8,ok,unique,1,PENDING_REVIEW,0.9581,0.0,,114111,0.4338,pending_review,REVIEW_PRICE_MISSING,digit_only
+test16.jpeg,389,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,3,0.9299,0.9998,3,23,0.4592,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,390,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,7,0.991,0.9986,7,4,0.3054,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,391,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,11,0.9932,0.9989,11,11,0.5215,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,392,left,ಹೀರೆಕಾಯಿ,ಕೀರಕಾಯು,ಹೀರೆಕಾಯಿ,0.8,ok,unique,1,20,0.8136,1.0,20,227,0.3734,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,393,left,ಇಂ,ಇಂ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5294,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,394,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,8,0.9922,1.0,8,5,0.3059,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,395,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಯು,ತೊಂಡೆಕಾಯಿ,0.9412,ok,unique,1,15,0.9803,0.9753,1.5,15,0.5148,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,396,left,ಏ೦,ಏ೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6415,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,397,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,20,0.9797,1.0,20,727,0.4066,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,398,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ-ೋನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7778,ok,unique,1,20,0.9551,1.0,20,117,0.3072,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,399,left,೨೦,೨೦,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5236,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,400,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,8,0.9884,0.9993,8,13,0.4112,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,401,left,ತಾll.,ತಾll.,ಸೌತಕಾಂು,0.3333,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7819,0.0,,62,0.3619,pending_review,REVIEW_PRICE_MISSING,digit_only
+test16.jpeg,402,right,Aೈg್wI,Aೈg್wI,ವೈo್IJ.Bo GnIBD,0.2857,REVIEW_NAME,unique,1,6,0.5006,0.6094,6.,446232,0.3257,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,403,right,ದಪ್ಪ ಮೆಣಸು,ಪಾಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.7059,REVIEW_NAME,unique,1,31,0.6966,0.9998,31,31,0.5245,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,404,right,ಸೋರೆಕಾಯಿ,ಸೋರಕಾಯು,ಸೋರೆಕಾಯಿ,0.8,ok,unique,1,4,0.98,0.9967,4,4,0.5111,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,405,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,6,0.9457,0.9914,6,5,0.209,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,406,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾಶಿ,ಕೋಸು-ಚಪಾತಿ,0.9,ok,unique,1,5,0.9272,0.9988,5,5,0.5083,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,407,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9947,0.9971,5,5,0.4073,paddleocr,ok_paddle_digit_weak,agree
+test16.jpeg,408,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನ,ಸೀಮು ಬದನೆ,0.8571,ok,unique,1,13,0.9577,0.9999,13,2,0.2074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,409,right,ಆಕರ,ಆಕರ,ಆಪ,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.844,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,410,right,ಕುಲಿಹಾಲನೃರದು,ಕುಲಿಹಾಲನೃರದು,ಕಾಲಿಫ್ಲವರ್,0.4545,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8632,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,411,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,40,0.9831,1.0,40,4,0.3071,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,412,right,ಮಂಲಿಅಕತಿಹಾ,ಮಂಲಿಅಕತಿಹಾ,ಮೆಣಸಿನಕಾಯಿ,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8704,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,413,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,30,0.9804,1.0,30,252,0.2736,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,414,right,ಅತೈೀಯ,ಅತೈೀಯ,೨ೀರೆಕಾಯು,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8483,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,415,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,12,0.9505,0.9999,12,2,0.3074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,416,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,8,0.9842,0.9998,8,4,0.2053,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test16.jpeg,417,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9936,0.0,,778,0.3753,pending_review,REVIEW_PRICE_MISSING,digit_only
+test16.jpeg,418,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9773,0.0,,178,0.4416,pending_review,REVIEW_PRICE_MISSING,digit_only
+test16.jpeg,419,right,ಮತುತಎ,ಮತುತಎ,ಮಣನನಕಾು,0.3333,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8786,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test16.jpeg,420,right,"ಉತನೃಮಾರುಕಳೆ h,ಮಳವಳಿತ","ಉತನೃಮಾರುಕಳೆ h,ಮಳವಳಿತ",ಟೊಮೋಟೋ-ಹುಳಿ,0.2581,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7703,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,421,left,ೈಸೂರು,ೈಸೂರು,ಸೋರೆಕಾಂು,0.4615,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8561,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,422,left,ಮೈದ,ಮೈದ,ಸೀಮು ಬದನೆ,0.3333,REVIEW_NAME,unique,1,226,0.6442,0.4426,de226,25044,0.3104,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,423,left,ಮತು,ಮತು,ಮಣನನಕಾು,0.4,REVIEW_NAME,unique,1,60,0.9981,1.0,60,50,0.4584,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,424,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣಸನಕಾಂಲು,ಮೆಣಸಿನಕಾಯಿ,0.75,ok,unique,1,40,0.8705,0.6284,40,42,0.4581,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,425,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,13,0.9162,0.9999,13,13,0.4672,paddleocr,ok_paddle_digit_weak,agree
+test17.jpeg,426,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,6,0.9143,0.9999,6,6,0.2058,paddleocr,ok_paddle_digit_weak,agree
+test17.jpeg,427,left,ಸುನಾಮಿ,ಸುuವು,ಸುನಾಮಿ,0.7273,ok,unique,1,3,0.8774,0.9999,3,23,0.4603,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,428,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,4,0.9996,0.7049,4,11,0.5156,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,429,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,8,0.9973,0.9994,8,13,0.3602,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,430,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಂಲು,ಕಂಬಳಕಾಯಿ,0.8235,ok,unique,1,11,0.9573,0.9826,11,11,0.5174,paddleocr,ok_paddle_digit_weak,agree
+test17.jpeg,431,left,ಗಣ,ಗಣ,ದಪವಣಸು,0.25,REVIEW_NAME,unique,1,23,0.9565,0.7876,23,32241,0.3322,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,432,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,18,0.8983,1.0,18,13,0.5161,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,433,left,ಾಂಕ,ಾಂಕ,ಸೌತಕಾಂು,0.4,REVIEW_NAME,unique,1,12,0.9675,0.9999,12,124,0.3783,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,434,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,PENDING_REVIEW,0.9275,0.0,,1400,0.2861,pending_review,REVIEW_PRICE_MISSING,digit_only
+test17.jpeg,435,left,೦ನ-,೦ನ--,ಬದನೆ-ವೈಟ್,0.3333,REVIEW_NAME,unique,1,25,0.8048,1.0,25,165,0.4065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,436,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಂಲು,ತೊಂಡೆಕಾಯಿ,0.7778,ok,unique,1,PENDING_REVIEW,0.8692,0.0,,571,0.4427,pending_review,REVIEW_PRICE_MISSING,digit_only
+test17.jpeg,437,left,೩೩?,೩೩?,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.855,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,438,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,22,0.9704,1.0,22,602,0.4072,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,439,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5468,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,440,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ಈೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,22,0.8947,1.0,22,1602,0.4084,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,441,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,14,0.9764,0.9999,14,14,0.5128,paddleocr,ok_paddle_digit_weak,agree
+test17.jpeg,442,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7573,0.0,,1,0.5535,pending_review,REVIEW_PRICE_MISSING,digit_only
+test17.jpeg,443,right,ರಕಪ,ರಕಪ,ಯರಕಾನ,0.5,REVIEW_NAME,unique,1,PENDING_REVIEW,0.1612,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,444,right,ಶುಳ,ಶುಳ,ಟವೋಟ--ಹುಳಿ,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9792,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,445,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,26,0.9914,0.9998,26,2735,0.3822,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,446,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,4,0.9123,0.9996,4,4,0.507,paddleocr,ok_paddle_digit_weak,agree
+test17.jpeg,447,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,023,0.952,0.9971,023,0,0.4022,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,448,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,6,0.8824,0.9977,6,6,0.4055,paddleocr,ok_paddle_digit_weak,agree
+test17.jpeg,449,right,ಹ ಕ. ತಾ,ಹ ಕ. ತಾ,ಹೀರೆಕಾಯಿ,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6407,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,450,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9351,0.9992,5,13,0.358,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,451,right,ಸೀಮು ಬದನೆ,ಸೀವಿಬದನ,ಸೀಮು ಬದನೆ,0.8571,ok,unique,1,13,0.8467,0.9997,13,0,0.2069,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,452,right,ಮಂಪ ಾಗ,ಮಂಪ ಾಗ,ಮಣನನಕಾು,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6571,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test17.jpeg,453,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,36,0.9671,1.0,36,65,0.356,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,454,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.875,ok,unique,1,26,0.9544,1.0,26,62,0.3572,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,455,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯ,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,25,0.9922,1.0,25,721,0.4056,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,456,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,10,0.9366,1.0,10,17,0.4159,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test17.jpeg,457,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9587,0.0,,778,0.3754,pending_review,REVIEW_PRICE_MISSING,digit_only
+test17.jpeg,458,right,ಬೀಟರೂಟ್,ಬಟ್ರೋಟ್,ಬೀಟರೂಟ್,0.9333,ok,unique,1,1,0.9833,0.9826,1,5,0.4127,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,459,left,ಬeಸಸ್,ಬeಸಸ್,ಬೀನ್ಸ್,0.5455,REVIEW_NAME,unique,1,50,0.6717,0.9641,50,250,0.3749,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,460,left,೩ಂ,೩ಂ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5285,0.0,,1,0.5078,pending_review,REVIEW_PRICE_MISSING,digit_only
+test18.jpeg,461,left,Buheen ವedಸ.,Buheen ವedಸ.,ಎಂ.ಸ.,0.2353,REVIEW_NAME,unique,1,40,0.5542,1.0,40,1405,0.3571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,462,left,Gd್ aನಸ ವಣಸನಕಾಲು,Gd್ aನಸ ವಣಸನಕಾಲು,ರd aನಸ್,0.4348,REVIEW_NAME,unique,1,40,0.6128,1.0,40,12,0.4078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,463,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಂು,ಸೌತೆಕಾಯಿ,0.9333,ok,unique,1,10,0.9059,1.0,10,17,0.4618,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,464,left,ಎಂ.ಸಿ.,ಎಂ.ಸ..,ಎಂ.ಸಿ.,0.9091,ok,unique,1,7,0.9191,0.9964,7,1,0.2085,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,465,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,3,0.9442,0.9985,3,3,0.3074,paddleocr,ok_paddle_digit_weak,agree
+test18.jpeg,466,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,2,0.9998,0.9997,2,21,0.2553,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,467,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,8,0.971,1.0,8,4,0.3045,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,468,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಂು,ಕಂಬಳಕಾಯಿ,0.875,ok,unique,1,10,0.9335,0.9999,10,112,0.419,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,469,left,ಹೀರೆಕಾಯಿ,ಹೀರಕಾಯು,ಹೀರೆಕಾಯಿ,0.8,ok,unique,1,15,0.8527,0.9999,15,75,0.411,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,470,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,14,0.9913,0.9959,14,14,0.5166,paddleocr,ok_paddle_digit_weak,agree
+test18.jpeg,471,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಂು,ತೊಂಡೆಕಾಯಿ,0.8235,ok,unique,1,22,0.8592,0.9998,22,11202,0.4124,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,472,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,22,0.9326,0.9996,22,111241,0.4117,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,473,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,22,0.9363,1.0,22,12,0.5143,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,474,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,14,0.9672,1.0,14,14,0.5142,paddleocr,ok_paddle_digit_weak,agree
+test18.jpeg,475,right,ಕಕ.,ಕಕ.,ಕಂಬಳಕಾಯು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.2332,0.0,,487252,0.4105,pending_review,REVIEW_PRICE_MISSING,digit_only
+test18.jpeg,476,right,ತlaಾಳs,ತlaಾಳs,ಸೌತಕಾಂು,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5086,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test18.jpeg,477,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,28,0.989,1.0,28,665,0.3723,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,478,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,4,0.9895,0.9146,4,11,0.5154,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,479,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,5,0.9966,0.5224,5,5,0.3055,paddleocr,REVIEW_PRICE_LOW_CONF,agree
+test18.jpeg,480,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,6,0.9853,0.9999,6,6,0.4075,paddleocr,ok_paddle_digit_weak,agree
+test18.jpeg,481,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.8889,ok,unique,1,5,0.9343,0.9999,5,25,0.4094,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,482,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನ,ಸೀಮು ಬದನೆ,0.8571,ok,unique,1,13,0.882,0.9999,13,13,0.5164,paddleocr,ok_paddle_digit_weak,agree
+test18.jpeg,483,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,36,0.9995,1.0,36,155,0.3723,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,484,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,26,0.9844,1.0,26,725,0.4058,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,485,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,0,0.9608,0.5435,Donab,757,0.3062,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,486,right,aಯ ಮೇ,aಯ ಮೇ,ದಪ್ಪ ಮೆಣಸು,0.2667,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6797,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test18.jpeg,487,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ-ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,10,0.964,1.0,10,17,0.4155,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test18.jpeg,488,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9955,0.0,,117,0.4747,pending_review,REVIEW_PRICE_MISSING,digit_only
+test18.jpeg,489,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9973,0.0,,17,0.4568,pending_review,REVIEW_PRICE_MISSING,digit_only
+test19.jpeg,490,left,Eotೌeಗ u.,Eotೌeಗ u.,ಗುಂಡು ಬದನೆ,0.2105,REVIEW_NAME,unique,1,PENDING_REVIEW,0.735,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test19.jpeg,491,left,Tbeಡು ಮntನಕಾeu,Tbeಡು ಮntನಕಾeu,ಮಣನನಕಾು,0.381,REVIEW_NAME,unique,1,2810,0.5903,0.8968,2810,2696,0.4127,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,492,left,ಮೆಣಸಿನಕಾಯಿ,ಉಡ ಮಸನಕಾಯ,ಮೆಣಸಿನಕಾಯಿ,0.6316,REVIEW_NAME,unique,1,370,0.6974,0.9796,37/0,376,0.4095,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,493,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ಶನ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.7273,ok,unique,1,480,0.8379,0.911,48/0,456,0.3764,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,494,left,ನಾಟಿಬನ್,ನಾಟಿಬನ್,ಬಜಿ-ನಾಟಿ,0.5333,REVIEW_NAME,unique,1,400,0.9517,0.9801,40/0,276,0.3771,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,495,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನಲ್ಬನ,ಪೋಲ್ ಬೀನ್ಸ್,0.75,ok,unique,1,3910,0.9744,0.9995,3910,346,0.4091,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,496,left,ಬೀಟರೂಟ್,ಬೀಟೋಟ್,ಬೀಟರೂಟ್,0.8571,ok,unique,1,0910,0.948,0.9984,0910,6196,0.3388,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,497,left,ಗುಂಡು ಬದನೆ,ಗುಂಡು ಬದನ,ಗುಂಡು ಬದನೆ,0.9474,REVIEW_DUPLICATE,DUPLICATE_NAME,2,060800,0.8778,0.8295,06/0800,175650,0.3457,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,498,left,ಗುಂಡು ಬದನೆ,ಉಡಬದನ,ಗುಂಡು ಬದನೆ,0.5714,REVIEW_NAME,DUPLICATE_NAME,2,056,0.854,0.7723,056%,6356,0.3925,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,499,left,ಹೀರೆಕಾಯಿ,ಚಪರದ-ಅವರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.5714,REVIEW_NAME,DUPLICATE_NAME,2,27,0.8396,0.9906,27%,776,0.4113,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,500,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,090,0.9164,0.9327,09/0,214,0.242,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,501,left,ಕಂಬಳಕಾಯಿ,ಕುಂಬಳuಾಗ,ಕಂಬಳಕಾಯಿ,0.625,REVIEW_NAME,unique,1,09,0.7948,0.999,09%,04,0.5108,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,502,right,ದheಪaer ಪರಾe auಾaಷ,ದheಪaer ಪರಾe auಾaಷ,ರd aನಸ್,0.24,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4911,0.0,,11,0.5368,pending_review,REVIEW_PRICE_MISSING,digit_only
+test19.jpeg,503,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸುಚಬಾತ,ಕೋಸು-ಚಪಾತಿ,0.7778,ok,unique,1,050,0.8554,0.9968,05/0,944,0.3758,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,504,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸುಟಾಂಡಕ್,ಕೋಸು-ನ್ಯಾ.ಂ,0.6,REVIEW_NAME,unique,1,0510,0.8906,0.9786,0510,4513,0.3669,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,505,right,ಕೋಸುರೆಡ,ಕೋಸುರೆಡ,ಕೋಸು--ಚಪಾಶ,0.4706,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9326,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test19.jpeg,506,right,ಯಳವನ,ಯಳವನ್,ಯಳವನ,0.8889,ok,unique,1,0210,0.8961,0.9519,0210,02,0.3592,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,507,right,ಸುನಾಮಿ,ಸುನಾವು,ಸುನಾಮಿ,1.0,ok,unique,1,0310,0.9526,0.8904,0310,034,0.4525,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,508,right,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,1310,0.9619,0.9981,1310,1310,0.5382,paddleocr,ok_paddle_digit_weak,agree
+test19.jpeg,509,right,ಪೈರು,ಪೈರು,ದಪವಣಸು,0.4,REVIEW_NAME,unique,1,3810,0.9499,0.8476,3810,555,0.376,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,510,right,ಹೀರೆಕಾಯಿ,ಜೀರೇಕಾಯಟು,ಹೀರೆಕಾಯಿ,0.7059,REVIEW_NAME,DUPLICATE_NAME,2,130,0.6694,0.9163,13/0,1310,0.4018,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,511,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯ,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,2310,0.9169,0.9697,2310,26,0.5082,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,512,right,ಾಂಷವರ,ಾಂಷವರ,ಕಾಲಿಪವರ್,0.4615,REVIEW_NAME,unique,1,1210,0.843,0.9995,1210,26,0.5083,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test19.jpeg,513,right,Eಪೋe,Eಪೋe,ಆಪ,0.3333,REVIEW_NAME,unique,1,100,0.6107,0.8747,10/0,196,0.4145,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,514,left,ಯಳವನ,ವನ,ಯಳವನ,0.6667,REVIEW_NAME,DUPLICATE_NAME,2,PENDING_REVIEW,0.6797,0.0,,02560,0.3865,pending_review,REVIEW_PRICE_MISSING,digit_only
+test20.jpeg,515,left,ಎಿಪುತುಬ,ಎಿಪುತುಬ,ಗುಂಡುಬದನೆ,0.375,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8957,0.0,,266,0.4709,pending_review,REVIEW_PRICE_MISSING,digit_only
+test20.jpeg,516,left,"uueey asರಸ Sah ಬe,+್","uueey asರಸ Sah ಬe,+್",ರd aನಸ್,0.2963,REVIEW_NAME,unique,1,45,0.3913,0.9737,45,10,0.4116,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,517,left,ಸುನಾಮಿ,ಮುmನuಾeು,ಸುನಾಮಿ,0.5714,REVIEW_NAME,DUPLICATE_NAME,2,35,0.6677,0.9999,35,251,0.2731,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,518,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾರು,ಸೌತೆಕಾಯಿ,0.8,ok,unique,1,16,0.8656,0.9995,16,15,0.4686,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,519,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,5,0.8899,0.9959,5,11,0.5087,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,520,left,ಸುನಾಮಿ,ಸುನಾವು,ಸುನಾಮಿ,1.0,REVIEW_DUPLICATE,DUPLICATE_NAME,2,4,0.8837,0.9961,4,4,0.5094,paddleocr,ok_paddle_digit_weak,agree
+test20.jpeg,521,left,ನಾoಕebl-o.,ನಾoಕebl-o.,ಕೋಸು-ನ್ಯಾ.ಂ,0.2857,REVIEW_NAME,unique,1,3,0.4961,0.6072,3,23,0.3601,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,522,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,REVIEW_DUPLICATE,DUPLICATE_NAME,2,PENDING_REVIEW,0.98,0.0,,791932,0.3951,pending_review,REVIEW_PRICE_MISSING,digit_only
+test20.jpeg,523,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,5,0.9685,0.9972,5,5,0.5076,paddleocr,ok_paddle_digit_weak,agree
+test20.jpeg,524,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕnoು,ಕಂಬಳಕಾಯಿ,0.75,ok,unique,1,8,0.789,0.9998,8,3,0.2078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,525,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾು,ಹೀರೆಕಾಯಿ,0.8,ok,unique,1,18,0.9317,1.0,18,16,0.3105,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,526,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,15,0.9985,0.8568,1.5,13,0.3568,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,527,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಂು,ತೊಂಡೆಕಾಯಿ,0.8889,ok,unique,1,22,0.9403,0.9988,22,122,0.4731,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,528,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,20,0.9684,1.0,20,1227,0.411,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,529,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ-ೋನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7778,ok,unique,1,20,0.971,0.9995,20,62,0.5079,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,530,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಫವರ್,ಕಾಲಿಫ್ಲವರ್,0.8889,ok,unique,1,11,0.9538,0.9987,11,11,0.5241,paddleocr,ok_paddle_digit_weak,agree
+test20.jpeg,531,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8123,0.0,,1117,0.5125,pending_review,REVIEW_PRICE_MISSING,digit_only
+test20.jpeg,532,right,ವೃg್wRol.Bo,ವೃg್wRol.Bo,ವೈo್IJ.Bo GnIBD,0.3846,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6076,0.0,,189,0.4813,pending_review,REVIEW_PRICE_MISSING,digit_only
+test20.jpeg,533,right,ದಪ್ಪ ಮೆಣಸು,ದಪವೆಣಸು,ದಪ್ಪ ಮೆಣಸು,0.9231,ok,unique,1,31,0.9008,0.9998,31,1311,0.4421,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,534,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯ,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,4,0.9709,0.9988,4,9,0.4105,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,535,right,ಬದನೆ-ವೈಟ್,ಬದನ-ವೈಟ್,ಬದನೆ-ವೈಟ್,0.9412,ok,unique,1,6,0.928,0.9988,6,5,0.4077,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,536,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತಿ,ಕೋಸು-ಚಪಾತಿ,1.0,ok,unique,1,6,0.9044,0.9999,6,5,0.5077,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,537,right,ಕೌಗl ಮc ಾಗ,ಕೌಗl ಮc ಾಗ,ಯರಕಾನ,0.2667,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6868,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test20.jpeg,538,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9265,0.9999,5,61,0.3582,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,539,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನ,ಸೀಮು ಬದನೆ,0.8571,ok,unique,1,14,0.8672,0.9998,14,111,0.4525,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,540,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ--ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,25,0.9621,0.9999,25,71,0.2559,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,541,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,16,0.9401,0.9999,16,15,0.417,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,542,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,24,0.9762,0.9977,24,724,0.4076,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,543,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ-ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,1,0.9714,0.7992,1H,111,0.5193,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,544,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9945,0.0,,78,0.5065,pending_review,REVIEW_PRICE_MISSING,digit_only
+test20.jpeg,545,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,0,0.9974,0.816,eor,044,0.375,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test20.jpeg,546,right,ಅಂಗ,ಅಂಗ,ಎಂ.ಸ.,0.25,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9948,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test20.jpeg,547,right,ನತ,ನತ,ಯಳವನ,0.3333,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4493,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test21.jpeg,548,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣನಕಾoು,ಮೆಣಸಿನಕಾಯಿ,0.8571,ok,unique,1,22,0.7868,1.0,22,262,0.3742,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,549,left,ಎಂ.ಸಿ.,ಎಂ..,ಎಂ.ಸಿ.,0.8889,ok,unique,1,16,0.7442,0.9911,16,15,0.4696,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,550,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,3,0.8204,0.9919,3,3,0.4076,paddleocr,ok_paddle_digit_weak,agree
+test21.jpeg,551,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,16,0.9434,1.0,16,15,0.4198,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,552,left,T.duಾcು,T.duಾcು,ಸುನಾವು,0.3077,REVIEW_NAME,unique,1,25,0.4367,0.9575,2.5,221,0.34,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,553,left,ಪಡವಲ,ಪಡಪಲ,ಪಡವಲ,0.75,ok,unique,1,25,0.9316,0.9921,2.5,122,0.3069,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,554,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೃಟ್,ಹಾಗಲ-ವೈಟ್,0.8889,ok,unique,1,18,0.9251,1.0,18,78,0.4113,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,555,left,ಹಾಗಲ-ಗ್ರೀನ್,ಕಹಾಗಲ--ೋನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7368,ok,unique,1,18,0.9132,0.9993,18,18,0.4321,paddleocr,ok_paddle_digit_weak,agree
+test21.jpeg,556,right,ಸೋರೆಕಾಯಿ,ದಷಮಣಸು ಸೋರೆಕಾಂಬ,ಸೋರೆಕಾಯಿ,0.6087,REVIEW_NAME,unique,1,32,0.8872,0.9995,32,066,0.3408,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,557,right,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್ ಕೋಸು--ಚಾತಿ,ಬದನೆ-ವೈಟ್,0.6429,REVIEW_NAME,unique,1,20,0.8711,0.9999,20,762,0.307,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,558,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.8889,ok,unique,1,6,0.9415,1.0,6,6,0.4092,paddleocr,ok_paddle_digit_weak,agree
+test21.jpeg,559,right,ಸೀಮು ಬದನೆ,ಸೀಮಬದನ,ಸೀಮು ಬದನೆ,0.8,ok,unique,1,16,0.9558,0.9999,16,16,0.4674,paddleocr,ok_paddle_digit_weak,agree
+test21.jpeg,560,right,೩೬,೩೬,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6285,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test21.jpeg,561,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿನಾಟ ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.6923,REVIEW_NAME,unique,1,15,0.9123,0.9998,15,15,0.4205,paddleocr,ok_paddle_digit_weak,agree
+test21.jpeg,562,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಿಕಾಯು,ಬೆಂಡೆಕಾಯಿ,0.8889,ok,unique,1,30,0.7993,0.9999,30,32,0.4571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test21.jpeg,563,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ-ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,14,0.8966,0.976,14,14,0.521,paddleocr,ok_paddle_digit_weak,agree
+test21.jpeg,564,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲಟ್ ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,0.9091,ok,unique,1,PENDING_REVIEW,0.9516,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test22.jpeg,565,left,ಸೌದrಾeuು,ಸೌದrಾeuು,ಸೌತಕಾಂು,0.5333,REVIEW_NAME,unique,1,18,0.4887,1.0,18,2,0.3073,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,566,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,4,0.9109,0.94,4,4,0.5103,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,567,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,7,0.9194,0.6633,7,4,0.5072,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,568,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,3,0.9941,0.9953,3,3,0.5087,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,569,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,5,0.9481,0.9995,5,5,0.5077,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,570,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,8,0.9524,0.9999,8,4,0.2058,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,571,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,18,0.9891,1.0,18,13,0.4671,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,572,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,15,0.9992,0.9672,1.5,5,0.307,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,573,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯಿ,1.0,ok,unique,1,20,0.9147,0.9999,20,62,0.2573,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,574,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,20,0.9838,1.0,20,717,0.4069,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,575,left,೩೦,೩೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.646,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test22.jpeg,576,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.7778,ok,unique,1,20,0.9672,1.0,20,20,0.5098,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,577,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,11,0.9667,0.9994,11,11,0.5224,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,578,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8496,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test22.jpeg,579,right,ದಪ್ಪ ಮೆಣಸು,ದಪಪುಣಸು,ದಪ್ಪ ಮೆಣಸು,0.7692,ok,unique,1,31,0.7419,0.9995,31,251,0.418,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,580,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಂ,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,4,0.9064,0.9998,4,4,0.51,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,581,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,6,0.992,0.9018,6,5,0.3062,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,582,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತಿ,ಕೋಸು-ಚಪಾತಿ,1.0,ok,unique,1,7,0.8821,0.9993,7,7,0.5094,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,583,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9138,0.872,5,355,0.3745,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,584,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನೆ,ಸೀಮು ಬದನೆ,0.9333,ok,unique,1,15,0.8993,1.0,15,15,0.5158,paddleocr,ok_paddle_digit_weak,agree
+test22.jpeg,585,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,25,0.9505,1.0,25,222,0.34,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,586,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,16,0.983,1.0,16,15,0.4134,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,587,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,24,0.9713,0.9985,24,34,0.2577,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,588,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,18,0.9612,1.0,18,13,0.4658,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test22.jpeg,589,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9453,0.0,,1117,0.5083,pending_review,REVIEW_PRICE_MISSING,digit_only
+test22.jpeg,590,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9286,0.0,,121,0.5071,pending_review,REVIEW_PRICE_MISSING,digit_only
+test23.jpeg,591,left,ಅeನಸ,ಅeನಸ,ಬೀನ್ಸ್,0.4,REVIEW_NAME,unique,1,45,0.4965,1.0,45,161,0.4425,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,592,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣಸನಕಾಂಬು,ಮೆಣಸಿನಕಾಯಿ,0.75,ok,unique,1,25,0.8412,0.8888,2.5,101,0.4058,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,593,left,ಹಬಡ,ಹಬಡ,ಬೆಂಡೆಕಾಯು,0.3333,REVIEW_NAME,unique,1,12,0.8382,0.9997,12,2,0.3078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,594,left,ಣಪಕ,ಣಪಕ,ಆಪ,0.4,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5012,0.0,,1575,0.5016,pending_review,REVIEW_PRICE_MISSING,digit_only
+test23.jpeg,595,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,PENDING_REVIEW,0.8417,0.0,,12062214,0.4128,pending_review,REVIEW_PRICE_MISSING,digit_only
+test23.jpeg,596,left,ಎಂ.ಸಿ.,ಎಂ...,ಎಂ.ಸಿ.,0.8,ok,unique,1,10,0.9038,1.0,10,17,0.4648,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,597,left,0ತಗ2027 ಗುರ,0ತಗ2027 ಗುರ,ಹಾಗಲ-ಗ್ರೀನ್,0.2727,REVIEW_NAME,unique,1,202,0.5615,0.7052,2O.2.,6232,0.4617,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,598,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,4,0.9611,0.5253,4,4,0.507,paddleocr,REVIEW_PRICE_LOW_CONF,agree
+test23.jpeg,599,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,PENDING_REVIEW,0.9868,0.0,,11,0.3633,pending_review,REVIEW_PRICE_MISSING,digit_only
+test23.jpeg,600,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,14,0.9919,0.9804,14,111,0.4797,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,601,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,8,0.9387,0.9999,8,4,0.2055,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,602,left,ಹೀರೆಕಾಯಿ,ತೋರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.75,ok,unique,1,25,0.7509,1.0,25,724,0.4067,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,603,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,25,0.9297,1.0,25,301,0.2732,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,604,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಯು,ತೊಂಡೆಕಾಯಿ,0.9412,ok,unique,1,15,0.9407,0.9343,1.5,15,0.5159,paddleocr,ok_paddle_digit_weak,agree
+test23.jpeg,605,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,18,0.925,1.0,18,15,0.4615,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,606,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ಈೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,18,0.8958,1.0,18,13,0.3671,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,607,left,ತಮುಗೆಲಂಗ,ತಮುಗೆಲಂಗ,ಸೀಮು ಬದನೆ,0.3529,REVIEW_NAME,unique,1,23,0.8368,0.9998,23,751,0.3403,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,608,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,PENDING_REVIEW,0.9772,0.0,,115,0.5101,pending_review,REVIEW_PRICE_MISSING,digit_only
+test23.jpeg,609,left,ತಾl!,ತಾl!,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.662,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test23.jpeg,610,right,ಆಷ,ಆಷ,ಆಪ,0.5,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4937,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test23.jpeg,611,right,ದಪ್ಪ ಮೆಣಸು,ದಪವಂಣಸು,ದಪ್ಪ ಮೆಣಸು,0.9231,ok,unique,1,32,0.8636,1.0,32,22,0.4086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,612,right,ಸೋರೆಕಾಯಿ,ಸೋರಕಾಂು,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,12,0.9409,0.9999,12,2,0.5086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,613,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,20,0.9433,1.0,20,122,0.3721,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,614,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತಿ,ಕೋಸು-ಚಪಾತಿ,1.0,ok,unique,1,7,0.9384,0.9996,7,4,0.5059,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,615,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ನೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.7778,ok,unique,1,6,0.9562,0.9999,6,5,0.2077,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,616,right,ಸೀಮು ಬದನೆ,ಸೀವ-ಬದನ,ಸೀಮು ಬದನೆ,0.8571,ok,unique,1,16,0.9115,1.0,16,15,0.4643,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,617,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ--ನಾಟು,ಬಜ್ಜಿ-ನಾಟಿ,0.875,ok,unique,1,20,0.8646,1.0,20,222,0.4053,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,618,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,15,0.9906,0.872,1.5,15,0.4123,paddleocr,ok_paddle_digit_weak,agree
+test23.jpeg,619,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಿಕಾಯು,ಬೆಂಡೆಕಾಯಿ,0.8889,ok,unique,1,30,0.9293,0.9998,30,230,0.3738,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,620,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,12,0.9375,0.9999,12,72,0.4087,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test23.jpeg,621,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9804,0.0,,12,0.5102,pending_review,REVIEW_PRICE_MISSING,digit_only
+test23.jpeg,622,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9653,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test24.jpeg,623,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.6316,REVIEW_NAME,unique,1,40,0.9159,1.0,40,40,0.3587,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,624,left,Aee eನಸ್,Aee eನಸ್,ರd aನಸ್,0.5333,REVIEW_NAME,unique,1,45,0.6293,0.9999,45,451,0.5094,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,625,left,೦್ಬೀನಸ್ ಮಣಸನಕಾಂು,೦್ಬೀನಸ್ ಮಣಸನಕಾಂು,ಮಣನನಕಾು,0.5217,REVIEW_NAME,unique,1,27,0.9096,0.9999,27,27,0.3585,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,626,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಯು,ಸೌತೆಕಾಯಿ,0.8571,ok,unique,1,14,0.9756,0.9998,14,14,0.3627,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,627,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,12,0.8852,0.9396,12,72,0.5083,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,628,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,5,0.9049,0.9959,5,5,0.5088,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,629,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,6,0.9996,0.9998,6,5,0.3063,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,630,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,14,0.9496,0.9629,14,14,0.463,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,631,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,9,0.9859,1.0,9,4,0.3065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,632,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,22,0.9196,1.0,22,2224,0.4072,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,633,left,ಏ೯,ಏ೯,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5803,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test24.jpeg,634,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,28,0.9992,1.0,28,205,0.4053,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,635,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಿಕಾಯು,ತೊಂಡೆಕಾಯಿ,0.8889,ok,unique,1,15,0.943,0.9999,15,15,0.5159,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,636,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,20,0.9832,1.0,20,111,0.3734,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,637,left,೩೦,೩೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6394,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test24.jpeg,638,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,20,0.8798,1.0,20,,0.0,paddleocr,ok,paddle_only
+test24.jpeg,639,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,23,0.9898,0.9783,2.3,261,0.3392,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,640,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8911,0.0,,3,0.3068,pending_review,REVIEW_PRICE_MISSING,digit_only
+test24.jpeg,641,right,ವೃg್ಟaಡ ua?,ವೃg್ಟaಡ ua?,ವೈo್IJ.Bo GnIBD,0.2308,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6894,0.0,,1,0.3084,pending_review,REVIEW_PRICE_MISSING,digit_only
+test24.jpeg,642,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,32,0.9573,0.9955,32,140,0.5068,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,643,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,12,0.957,1.0,12,12,0.5124,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,644,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,25,0.9922,0.8746,2.5,665,0.3063,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,645,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು-ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,7,0.9585,0.9626,7,34,0.4074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,646,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,6,0.9882,0.9998,6,5,0.3073,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,647,right,ಸೀಮು ಬದನೆ,ಸೀವಬದನ,ಸೀಮು ಬದನೆ,0.9231,ok,unique,1,16,0.8885,1.0,16,15,0.3622,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,648,right,೨೦,೨೦,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.3971,0.0,,78,0.3615,pending_review,REVIEW_PRICE_MISSING,digit_only
+test24.jpeg,649,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,20,0.9835,0.9999,20,462,0.3053,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,650,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,15,0.9911,1.0,15,15,0.516,paddleocr,ok_paddle_digit_weak,agree
+test24.jpeg,651,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,30,0.9433,0.9999,30,57,0.3075,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,652,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,10,0.9981,1.0,10,17,0.5164,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test24.jpeg,653,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ವಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,0.9,ok,unique,1,PENDING_REVIEW,0.9641,0.0,,1778,0.3855,pending_review,REVIEW_PRICE_MISSING,digit_only
+test24.jpeg,654,right,ಬೀಟರೂಟ್,ಬಟ್ರೋಟ್,ಬೀಟರೂಟ್,0.9333,ok,unique,1,30,0.9895,0.8377,30,4,0.5059,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,655,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪನೀಲ್-ಬೀನಸ್,ಪೋಲ್ ಬೀನ್ಸ್,0.9524,ok,unique,1,50,0.8876,1.0,50,130,0.4081,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,656,left,ಆd್ ಬೀನಸ ಮಣಸನಕಾಂು,ಆd್ ಬೀನಸ ಮಣಸನಕಾಂು,ಮಣನನಕಾು,0.5,REVIEW_NAME,unique,1,25,0.6302,0.9593,2.5,601,0.3395,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,657,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಯು,ಸೌತೆಕಾಯಿ,0.8571,ok,unique,1,17,0.9869,0.9999,17,172,0.4782,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,658,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,20,0.9811,1.0,20,107,0.173,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,659,left,ಸುನಾಮಿ,ಸುನಾವು,ಸುನಾಮಿ,1.0,ok,unique,1,6,0.9338,0.9994,6,6,0.3063,paddleocr,ok_paddle_digit_weak,agree
+test25.jpeg,660,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,6,0.9974,0.9999,6,5,0.2073,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,661,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,24,0.968,0.9993,24,7211,0.3077,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,662,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,10,0.9879,1.0,10,17,0.5107,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,663,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,DUPLICATE_NAME,3,PENDING_REVIEW,0.8198,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test25.jpeg,664,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಂು,ಹೀರೆಕಾಯಿ,0.6667,REVIEW_NAME,unique,1,22,0.7687,1.0,22,2225,0.3572,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,665,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,30,0.9996,0.9999,30,22,0.258,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,666,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಯು,ತೊಂಡೆಕಾಯಿ,0.9412,ok,unique,1,16,0.9618,1.0,16,14,0.4146,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,667,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,DUPLICATE_NAME,3,PENDING_REVIEW,0.8697,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test25.jpeg,668,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,22,0.9862,0.9999,22,2,0.5076,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,669,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,DUPLICATE_NAME,3,PENDING_REVIEW,0.7088,0.0,,5,0.2043,pending_review,REVIEW_PRICE_MISSING,digit_only
+test25.jpeg,670,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,22,0.8925,0.9983,22,24,0.4083,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,671,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,21,0.8801,1.0,21,041,0.208,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,672,left,ತಾll!,ತಾll!,ಸೌತಕಾಂು,0.3333,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6845,0.0,,27,0.5105,pending_review,REVIEW_PRICE_MISSING,digit_only
+test25.jpeg,673,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮೆಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8235,ok,unique,1,27,0.8948,0.9999,27,04,0.4568,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,674,right,ಸೋರೆಕಾಯಿ,ಸೋರಕಾಂು,ಸೋರೆಕಾಯಿ,0.9333,ok,unique,1,12,0.9662,0.9999,12,166,0.383,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,675,right,ಬದನೆ-ವೈಟ್,ಬದನ--ವೃಟ್,ಬದನೆ-ವೈಟ್,0.8235,ok,unique,1,30,0.9729,0.9999,30,70,0.4065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,676,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,7,0.8883,0.9988,7,4,0.4055,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,677,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.8889,ok,unique,1,6,0.9856,0.9999,6,5,0.2057,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,678,right,ಸೀಮು ಬದನೆ,ನೀವುಬದನ,ಸೀಮು ಬದನೆ,0.7143,REVIEW_NAME,unique,1,18,0.8608,1.0,18,13,0.4166,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,679,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,0.9333,ok,unique,1,17,0.996,0.9999,17,72,0.2596,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,680,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,13,0.9978,0.9999,13,13,0.5155,paddleocr,ok_paddle_digit_weak,agree
+test25.jpeg,681,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,30,0.9758,1.0,30,32,0.308,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test25.jpeg,682,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,14,0.9765,0.9999,14,14,0.4126,paddleocr,ok_paddle_digit_weak,agree
+test25.jpeg,683,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.987,0.0,,77,0.358,pending_review,REVIEW_PRICE_MISSING,digit_only
+test25.jpeg,684,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9952,0.0,,27,0.3577,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,685,left,ಯಳವನ,ವನನ,ಯಳವನ,0.5714,REVIEW_NAME,DUPLICATE_NAME,2,PENDING_REVIEW,0.7159,0.0,,5235205052,0.2994,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,686,left,೨ಂ,೨ಂ,ಎಂ.ಸ.,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.622,0.0,,1,0.5112,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,687,left,ಬೀನ್ಸ್,ಬೀನಸ್,ಬೀನ್ಸ್,0.9091,ok,unique,1,50,0.9809,1.0,50,77,0.4065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,688,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ ನನೀಲ್ಬೀನಸ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.8,ok,unique,1,50,0.8198,0.9999,50,57,0.256,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,689,left,ಇರಗ್ ಬೀನಸ್ ಮಣನನಕಾಂಲು,ಇರಗ್ ಬೀನಸ್ ಮಣನನಕಾಂಲು,ಮಣನನಕಾು,0.5185,REVIEW_NAME,unique,1,25,0.6871,1.0,25,161,0.3393,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,690,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಯು,ಸೌತೆಕಾಯಿ,0.8571,ok,unique,1,15,0.8858,0.8499,1.5,181,0.4127,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,691,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,20,0.9651,1.0,20,22,0.3579,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,692,left,೬೦,೬೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.685,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test26.jpeg,693,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,7,0.9264,0.9983,7,78,0.5079,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,694,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,REVIEW_DUPLICATE,DUPLICATE_NAME,2,6,1.0,0.9994,6,5,0.3077,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,695,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,25,0.9973,0.9795,2.5,121,0.3388,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,696,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯ,ಕಂಬಳಕಾಯಿ,0.9333,ok,unique,1,10,0.9963,1.0,10,17,0.4657,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,697,left,ಏ೩,ಏ೩,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6846,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test26.jpeg,698,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಯು,ಹೀರೆಕಾಯಿ,0.875,ok,unique,1,22,0.8831,0.9999,22,166,0.3053,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,699,left,ಈ೦,ಈ೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7183,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test26.jpeg,700,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,30,0.9998,1.0,30,22,0.2575,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,701,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡೆಕಾಯು,ತೊಂಡೆಕಾಯಿ,1.0,ok,unique,1,15,0.9778,0.9696,1.5,15,0.5139,paddleocr,ok_paddle_digit_weak,agree
+test26.jpeg,702,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.7185,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test26.jpeg,703,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,22,0.9995,0.9998,22,62,0.4077,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,704,left,೩೩?,೩೩?,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8535,0.0,,6,0.3101,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,705,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,22,0.9254,1.0,22,7261,0.3811,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,706,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,21,0.9376,1.0,21,25,0.3083,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,707,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9129,0.0,,28,0.409,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,708,right,ಪೃg್wsa Gsa?,ಪೃg್wsa Gsa?,ಪೇರ್ 1ಕೆ,0.3,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6269,0.0,,1,0.5248,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,709,right,ದಪ್ಪ ಮೆಣಸು,ದಷಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.6667,REVIEW_NAME,unique,1,27,0.9152,1.0,27,24,0.3071,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,710,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,12,0.8946,1.0,12,12,0.5171,paddleocr,ok_paddle_digit_weak,agree
+test26.jpeg,711,right,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,30,0.9985,0.9999,30,130,0.3086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,712,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,7,0.962,0.9991,7,71,0.3591,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,713,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,6,0.9798,0.9995,6,6,0.5057,paddleocr,ok_paddle_digit_weak,agree
+test26.jpeg,714,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನ,ಸೀಮು ಬದನೆ,0.8571,ok,unique,1,18,0.8999,1.0,18,73,0.3109,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,715,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,15,0.9196,0.9999,15,151,0.4782,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,716,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ-ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,13,0.9997,0.9911,1.3,3,0.5076,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,717,right,ಇ೦,ಇ೦,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5661,0.0,,7,0.5135,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,718,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಕಾಯು,ಬೆಂಡೆಕಾಯಿ,0.9412,ok,unique,1,30,0.9964,0.9998,30,37,0.2573,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test26.jpeg,719,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,14,0.9335,0.9999,14,14,0.5114,paddleocr,ok_paddle_digit_weak,agree
+test26.jpeg,720,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9204,0.0,,117,0.441,pending_review,REVIEW_PRICE_MISSING,digit_only
+test26.jpeg,721,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9984,0.0,,11,0.5074,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,722,left,ಕಾಸತ,ಕಾಸತ,ಯರಕಾನ,0.4444,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6269,0.0,,27557052245,0.3448,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,723,left,ಬೀನ್ಸ್,ಬೀನಸ್,ಬೀನ್ಸ್,0.9091,REVIEW_DUPLICATE,DUPLICATE_NAME,2,65,0.9945,0.9999,65,55,0.3559,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,724,left,ಪೋಲ್ ಬೀನ್ಸ್,ನೋಲಾರ್ ಪನೀಲ್ಬೀನಸ್,ಪೋಲ್ ಬೀನ್ಸ್,0.7407,ok,unique,1,60,0.8081,0.9999,60,50,0.3578,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,725,left,೨೦,೨೦,೨ೀರೆಕಾಯು,0.2,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4536,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test27.jpeg,726,left,ಬೀನ್ಸ್,ಇಂಗ್ಬೀನಸ್,ಬೀನ್ಸ್,0.6667,REVIEW_NAME,DUPLICATE_NAME,2,28,0.8602,1.0,28,701,0.3392,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,727,left,೩೯,೩೯,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9715,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test27.jpeg,728,left,ಮೆಣಸಿನಕಾಯಿ,ಮಣಸನಕಾಯು,ಮೆಣಸಿನಕಾಯಿ,0.8,ok,unique,1,PENDING_REVIEW,0.9649,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test27.jpeg,729,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಂು,ಸೌತೆಕಾಯಿ,1.0,ok,unique,1,23,0.9085,1.0,23,161,0.3389,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,730,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,18,0.9619,1.0,18,13,0.4654,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,731,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,12,0.9928,0.9999,12,162,0.4455,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,732,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,10,0.9827,1.0,10,12,0.5145,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,733,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನ,ಗುಂಡು ಬದನೆ,0.9412,ok,unique,1,PENDING_REVIEW,0.9996,0.0,,1174,0.4078,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,734,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,10,0.9774,1.0,10,12,0.4126,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,735,left,ಹೀರೆಕಾಯಿ,ಹರಕಾಯು,ಹೀರೆಕಾಯಿ,0.7143,REVIEW_NAME,unique,1,22,0.9453,1.0,22,7261,0.3311,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,736,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,0,0.9975,0.6381,HO,112,0.4452,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,737,left,ಏ೬,ಏ೬,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.483,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test27.jpeg,738,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಯು,ತೊಂಡೆಕಾಯಿ,0.9412,ok,unique,1,26,0.9465,0.9995,26,725,0.3399,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,739,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,22,0.9899,0.9983,22,22,0.4065,paddleocr,ok_paddle_digit_weak,agree
+test27.jpeg,740,left,ಗೆ,ಗೆ,ಗುಂಡುಬದನೆ,0.3636,REVIEW_NAME,unique,1,22,0.8874,1.0,22,7224,0.3819,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,741,left,೩೩,೩೩,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9859,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test27.jpeg,742,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,PENDING_REVIEW,0.9209,0.0,,211,0.4105,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,743,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,21,0.9827,1.0,21,61,0.4603,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,744,right,ಪೃg್ wsolದl60,ಪೃg್ wsolದl60,ಪೇರ್ 1ಕೆ,0.2857,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5372,0.0,,11,0.5232,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,745,right,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,27,0.944,1.0,27,44,0.4065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,746,right,ಸೋರೆಕಾಯಿ,ಸೋರೆಕಾಯು,ಸೋರೆಕಾಯಿ,0.875,ok,unique,1,10,0.9385,1.0,10,162,0.3548,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,747,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,40,0.972,1.0,40,110,0.4789,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,748,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತ,ಕೋಸು-ಚಪಾತಿ,0.9474,ok,unique,1,8,0.9718,0.9999,8,4,0.2048,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,749,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂಿ ನೀವಬದನ,ಕೋಸು-ನ್ಯಾ.ಂ,0.6667,REVIEW_NAME,unique,1,6,0.8895,0.9999,6,5,0.5065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,750,right,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ-ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,20,0.9767,1.0,20,101,0.2727,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,751,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,15,0.9851,1.0,15,15,0.4146,paddleocr,ok_paddle_digit_weak,agree
+test27.jpeg,752,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಯು,ಬೆಂಡೆಕಾಯಿ,1.0,ok,unique,1,30,0.9891,0.9999,30,27,0.2571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,753,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.8889,ok,unique,1,22,0.9521,1.0,22,145,0.3058,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test27.jpeg,754,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,PENDING_REVIEW,0.9932,0.0,,11,0.3568,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,755,right,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9996,0.0,,11,0.3576,pending_review,REVIEW_PRICE_MISSING,digit_only
+test27.jpeg,756,right,೫೩,೫೩,ಆಪ,0.0,REVIEW_NAME,unique,1,PENDING_REVIEW,0.3708,0.0,,7,0.3119,pending_review,REVIEW_PRICE_MISSING,digit_only
+test28.jpeg,757,left,ಪೋಲ್ ಬೀನ್ಸ್,Jಸaeeಾt ಸನೀಲ್ಬೀನಸ್,ಪೋಲ್ ಬೀನ್ಸ್,0.6429,REVIEW_NAME,unique,1,55,0.5775,0.9999,55,711,0.3734,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,758,left,ದಪ್ಪ ಮೆಣಸು,ದಪಮಣಸು,ದಪ್ಪ ಮೆಣಸು,0.8333,ok,unique,1,PENDING_REVIEW,0.8956,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,759,left,ad ಬೀನನ,ad ಬೀನನ,ಬೀನ್ಸ್,0.4615,REVIEW_NAME,unique,1,40,0.5239,0.9995,40,12,0.3078,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,760,left,ಸೋರೆಕಾಯಿ,ಸೋರಕಾಯು,ಸೋರೆಕಾಯಿ,0.8,ok,unique,1,PENDING_REVIEW,0.9951,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,761,left,ಸೌತೆಕಾಯಿ,ಸೌತಕಾಂು,ಸೌತೆಕಾಯಿ,1.0,ok,unique,1,10,0.9646,1.0,10,17,0.4649,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,762,left,ಎಂ.ಸಿ.,ಎಂ.ಸ.,ಎಂ.ಸಿ.,1.0,ok,unique,1,9,0.8072,1.0,9,51,0.3104,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,763,left,ಸುನಾಮಿ,ಸುನಾಖು,ಸುನಾಮಿ,0.8333,ok,unique,1,3,0.9712,0.9997,3,3,0.5106,paddleocr,ok_paddle_digit_weak,agree
+test28.jpeg,764,left,ದುಷಾಗ,ದುಷಾಗ,ಸುನಾವು,0.3636,REVIEW_NAME,unique,1,2,0.7044,0.9995,2,22,0.5097,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,765,left,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,PENDING_REVIEW,0.9822,0.0,,15420,0.3493,pending_review,REVIEW_PRICE_MISSING,digit_only
+test28.jpeg,766,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,8,0.9888,0.9991,8,5,0.3046,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,767,left,ಬಜ್ಜಿ-ನಾಟಿ,ಬಜಿ--ನಾಟಿ,ಬಜ್ಜಿ-ನಾಟಿ,1.0,ok,unique,1,PENDING_REVIEW,0.979,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,768,left,ಕಂಬಳಕಾಯಿ,ಕಂಬಳಕಾಯು,ಕಂಬಳಕಾಯಿ,1.0,ok,unique,1,10,0.924,1.0,10,12,0.4657,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,769,left,ಹೀರೆಕಾಯಿ,ಹೀರೆಕಾಂಬು,ಹೀರೆಕಾಯಿ,0.7059,REVIEW_NAME,unique,1,03,0.8806,0.5854,03,668700,0.3914,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,770,left,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡೆಕಾಂ,ಬೆಂಡೆಕಾಯಿ,0.8235,ok,unique,1,PENDING_REVIEW,0.8985,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,771,left,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,16,0.9789,1.0,16,16,0.5175,paddleocr,ok_paddle_digit_weak,agree
+test28.jpeg,772,left,ತೊಂಡೆಕಾಯಿ,ತೊಂಡಕಾಯು,ತೊಂಡೆಕಾಯಿ,0.9412,ok,unique,1,825,0.9118,0.784,82.5,125,0.3065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,773,left,ಹಾಗಲ-ವೈಟ್,ಹಾಗಲ--ವೈಟ್,ಹಾಗಲ-ವೈಟ್,1.0,ok,unique,1,22,0.9882,0.9999,22,201,0.3382,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,774,left,ಬೀಟರೂಟ್,ಬೀಟ್ರೋಟ್,ಬೀಟರೂಟ್,1.0,ok,unique,1,PENDING_REVIEW,0.9511,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,775,left,ಹಾಗಲ-ಗ್ರೀನ್,ಹಾಗಲ--ೋೀನ್,ಹಾಗಲ-ಗ್ರೀನ್,0.8421,ok,unique,1,22,0.9143,0.9997,22,2161,0.3063,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,776,left,ಕಾಲಿಫ್ಲವರ್,ಕಾಲಿಪವರ್,ಕಾಲಿಫ್ಲವರ್,1.0,ok,unique,1,14,0.996,0.9999,14,74,0.3584,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,777,left,ತಾll,ತಾll,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.8978,0.0,,271,0.4107,pending_review,REVIEW_PRICE_MISSING,digit_only
+test28.jpeg,778,right,ಏೀಹ ಕ.ತಾ,ಏೀಹ ಕ.ತಾ,೨ೀರೆಕಾಯು,0.375,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6839,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,779,right,ಬದನೆ-ವೈಟ್,ಬದನೆ--ವೈಟ್,ಬದನೆ-ವೈಟ್,1.0,ok,unique,1,5,0.9846,0.9979,5,3,0.2073,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,780,right,ಮcಷ ಾಗ,ಮcಷ ಾಗ,ಮಣನನಕಾು,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.4734,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,781,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸು--ಚಪಾತಿ,ಕೋಸು-ಚಪಾತಿ,1.0,ok,unique,1,6,0.9323,0.9999,6,5,0.5074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,782,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸು--ಸಾೈಂ,ಕೋಸು-ನ್ಯಾ.ಂ,0.9474,ok,unique,1,5,0.9838,0.9996,5,11,0.4086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,783,right,ಸೀಮು ಬದನೆ,ಸೀವುಬದನೆ,ಸೀಮು ಬದನೆ,0.9333,ok,unique,1,13,0.8638,0.9999,13,13,0.5163,paddleocr,ok_paddle_digit_weak,agree
+test28.jpeg,784,right,ಬಜ್ಜಿ-ಯುಕೋನ,ಬಜಿ--ಯಕೋನ,ಬಜ್ಜಿ-ಯುಕೋನ,0.9412,ok,unique,1,26,0.9907,1.0,26,65,0.4576,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,785,right,ಟೊಮೋಟೋ-ಹುಳಿ,ಟವೋಟ--ಹುಳಿ,ಟೊಮೋಟೋ-ಹುಳಿ,0.9474,ok,unique,1,12,0.9655,0.9999,12,12,0.515,paddleocr,ok_paddle_digit_weak,agree
+test28.jpeg,786,right,ಅಂಗೆ,ಅಂಗೆ,ಗುಂಡುಬದನೆ,0.3077,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9163,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test28.jpeg,787,right,ಬುಲೆಟ್ ಮೆಣಸು,ಬುಲೆಟ್ಮಣಸು,ಬುಲೆಟ್ ಮೆಣಸು,1.0,ok,unique,1,330,0.957,0.7122,330,02,0.2572,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test28.jpeg,788,right,ನೆತಂ,ನೆತಂ,ಸೌತಕಾಂು,0.3636,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6311,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test29.jpeg,789,left,Theಡh ವbಣlನuಾea,Theಡh ವbಣlನuಾea,ಮಣನನಕಾು,0.2727,REVIEW_NAME,unique,1,550,0.6229,0.8727,55/0,5,0.2061,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,790,left,ಮೆಣಸಿನಕಾಯಿ,ಉದಮಣಸನಕಾಯ,ಮೆಣಸಿನಕಾಯಿ,0.7368,ok,unique,1,5810,0.9916,0.9323,5810,2,0.3086,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,791,left,ಸೋಲಾರ್ ಬೀನ್ಸ್,ಸೋಲಾರ್ಬನ್,ಸೋಲಾರ್ ಬೀನ್ಸ್,0.8182,ok,unique,1,480,0.9986,0.9792,48/0,11,0.4571,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,792,left,ನಾಟಿಬನ್,ನಾಟಿಬನ್,ಬಜಿ-ನಾಟಿ,0.5333,REVIEW_NAME,unique,1,37,0.9418,0.854,37%,34,0.4606,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,793,left,ಪೋಲ್ ಬೀನ್ಸ್,ಪಏಲ್ಬೋನ್,ಪೋಲ್ ಬೀನ್ಸ್,0.6667,REVIEW_NAME,unique,1,430,0.8595,0.9934,43/0,11,0.3589,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,794,left,ಬೀಟರೂಟ್,ಬೀಟೋಟ್,ಬೀಟರೂಟ್,0.8571,ok,unique,1,080,0.911,0.9394,08/0,142,0.3732,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,795,left,ಗುಂಡು ಬದನೆ,ಗುಂಡುಬದನೆ,ಗುಂಡು ಬದನೆ,1.0,ok,unique,1,PENDING_REVIEW,0.961,0.0,,11,0.4968,pending_review,REVIEW_PRICE_MISSING,digit_only
+test29.jpeg,796,left,ಉಧಬದನ,ಉಧಬದನ,ಸೀವಬದನೆ,0.5,REVIEW_NAME,unique,1,1010,0.905,0.9962,1010,126,0.3971,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,797,left,ಚಷರದಿಅವರಕಾಯ,ಚಷರದಿಅವರಕಾಯ,೨ೀರೆಕಾಯು,0.4211,REVIEW_NAME,unique,1,2010,0.9317,0.6866,2010,28,0.3065,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,798,left,ಎಂ.ಸಿ.,ಎehಸ.,ಎಂ.ಸಿ.,0.6,REVIEW_NAME,unique,1,050,0.6492,0.9989,05/0,01,0.2604,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,799,left,ಸೌತೆಕಾಯಿ,ಸೌತೆಕಾಯು,ಸೌತೆಕಾಯಿ,0.875,ok,unique,1,2010,0.9437,0.9393,2010,24,0.3617,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,800,right,ಗಂಡಪೀaತ ತರಶಾಶವಾರಕಲ ಊಟ-ಪaಸೂರಾ ರಸ. ಎ.ತ.ಎo.ಸ. ಗುeದಾಪಟsll. ಆosಾans gd,ಗಂಡಪೀaತ ತರಶಾಶವಾರಕಲ ಊಟ--ಪaಸೂರಾ ರಸ. ಎ.ತ.ಎo.ಸ. ಗುeದಾಪಟsll. ಆosಾans gd,ಗುಂಡುಬದನೆ,0.1351,REVIEW_NAME,unique,1,PENDING_REVIEW,0.5383,0.0,,1,0.5172,pending_review,REVIEW_PRICE_MISSING,digit_only
+test29.jpeg,801,right,ಕೋಸು-ಚಪಾತಿ,ಕೋಸುಚಷಾತ,ಕೋಸು-ಚಪಾತಿ,0.7778,ok,unique,1,0710,0.8991,0.9867,0710,940,0.4455,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,802,right,ಕೋಸು-ನ್ಯಾ.ಂ,ಕೋಸುಟಾಂಡಕ,ಕೋಸು-ನ್ಯಾ.ಂ,0.6316,REVIEW_NAME,unique,1,0510,0.908,0.9978,0510,046,0.4114,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,803,right,ಕೋಸುರಡ್,ಕೋಸುರಡ್,ಕೋಸು-ನ್ಯಾ.ಂ,0.5556,REVIEW_NAME,unique,1,PENDING_REVIEW,0.9189,0.0,,,0.0,pending_review,REVIEW_PRICE_MISSING,none
+test29.jpeg,804,right,ಯಳವನ,ಯಳವನ,ಯಳವನ,1.0,ok,unique,1,0510,0.9997,0.891,0510,56,0.3567,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,805,right,ಸುನಾಮಿ,ಸುನಾವ,ಸುನಾಮಿ,0.9091,ok,unique,1,0510,0.8845,0.8983,0510,345,0.4409,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,806,right,ಪಡವಲ,ಪಡವಲ,ಪಡವಲ,1.0,ok,unique,1,190,0.9993,0.9887,19/0,742,0.4074,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,807,right,ಪೈರು,ಪೈರು,ದಪವಣಸು,0.4,REVIEW_NAME,unique,1,380,0.9285,0.9741,38/0,84,0.205,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,808,right,ಹೀರೆಕಾಯಿ,ಜರೇಕಾಯ,ಹೀರೆಕಾಯಿ,0.5714,REVIEW_NAME,unique,1,2360,0.8737,0.9632,2360,35361,0.4556,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,809,right,ಬೆಂಡೆಕಾಯಿ,ಬೆಂಡಕಾಯ,ಬೆಂಡೆಕಾಯಿ,0.875,ok,unique,1,2410,0.9433,0.9907,2410,211,0.4843,paddleocr,REVIEW_PRICE_DISAGREE,disagree
+test29.jpeg,810,right,ಕಾಲಿಫ್ಲವರ್,ಖಾಲಿಫವರ್,ಕಾಲಿಫ್ಲವರ್,0.7778,ok,unique,1,1110,0.8926,0.9801,1110,1110,0.5204,paddleocr,ok_paddle_digit_weak,agree
+test29.jpeg,811,right,ಟಪೋಟೊ,ಟಪೋಟೊ,ಬೀಟ್ರೋಟ್,0.4615,REVIEW_NAME,unique,1,1710,0.7141,0.9665,1710,176,0.5435,paddleocr,REVIEW_PRICE_DISAGREE,disagree

@@ -65,8 +65,8 @@ def _fallback_lines(image: np.ndarray) -> tuple[list[int], list[int]]:
     h, w = image.shape[:2]
     left = int(w * 0.12)
     right = int(w * 0.86)
-    top = int(h * 0.20)
-    bottom = int(h * 0.88)
+    top = int(h * 0.14)
+    bottom = int(h * 0.82)
     xs = [
         left,
         int(left + (right - left) * 0.30),
@@ -106,9 +106,9 @@ def detect_grid_cell_boxes(image_path: Path, min_rows: int = 8, expected_rows: i
         if row_h < 14:
             continue
         row_center = (top + bottom) / 2.0
-        if row_center < image.shape[0] * 0.20:
+        if row_center < image.shape[0] * 0.10:
             continue
-        if row_center > image.shape[0] * 0.84:
+        if row_center > image.shape[0] * 0.80:
             continue
         row_intervals.append((top, bottom))
 

@@ -1,0 +1,31 @@
+﻿No.,Side,Vegetable,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Yolo_Name_Confidence,Yolo_Price_Confidence
+1,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,,0.0,pending_review,1.0,1.0
+2,left,mu. u Ifu.,33,0.3952,0.4999,33,757,0.4786,paddleocr,1.0,1.0
+3,left,Hheu i theieu? Iih tiirr'.,30,0.4152,1.0,30,20,0.2599,paddleocr,1.0,1.0
+4,left,Heefuhe? ಸttuuul,3012,0.5082,0.9997,30 12,16816162,0.4569,paddleocr,1.0,1.0
+5,left,u.Hi. ಸeಗ.,1015,0.4168,0.9253,10 15,12,0.4213,paddleocr,1.0,1.0
+6,left,Ih,1515,0.3646,0.7906,15 1.5,211112,0.4463,paddleocr,1.0,1.0
+7,left,"Ilunl, tiw? Fuuneet?",2014,0.5494,0.9997,20 14,662161,0.4678,paddleocr,1.0,1.0
+8,left,Fuheett? ಕ,2020,0.3452,0.8066,20 20,623,0.3793,paddleocr,1.0,1.0
+9,left,Eauel t?,015,0.5348,0.9085,α0 1.5,542165,0.3641,paddleocr,1.0,1.0
+10,left,. Le te?,2522,0.5016,0.923,2.5 22,666665,0.4125,paddleocr,1.0,1.0
+11,left,PENDING_REVIEW,30111,0.0,0.8846,30 IC ll,0674240,0.3541,paddleocr,1.0,1.0
+12,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,24444,0.3102,pending_review,1.0,1.0
+13,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,2,0.2094,pending_review,1.0,1.0
+14,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.3566,d,0,0.4038,pending_review,1.0,1.0
+15,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.5229,Y,900,0.3455,pending_review,1.0,1.0
+16,right,PENDING_REVIEW,4,0.0,0.8738,4YS-ARMC,4240,0.3333,paddleocr,1.0,1.0
+17,right,PENDING_REVIEW,525,0.0,0.9849,MYS-APMC 5G/25,2104,0.257,paddleocr,1.0,1.0
+18,right,Iueuuleu,3710,0.4223,0.7756,37 1/0,6170,0.3393,paddleocr,1.0,1.0
+19,right,Ieheeu? ಬದನ್ವೈಲ್,7425,0.676,0.848,74 2.5,215150,0.3821,paddleocr,1.0,1.0
+20,right,lelulLetue.,1010,0.3065,0.9558,10 10,110,0.3803,paddleocr,1.0,1.0
+21,right,At illa.,7010,0.4094,0.8332,70 10,110,0.3938,paddleocr,1.0,1.0
+22,right,Tni u! unuiiel.,2620,0.4547,0.949,26 20,00,0.2171,paddleocr,1.0,1.0
+23,right,Heeal. Ie si.,1010,0.4321,0.866,10 10,1211,0.4579,paddleocr,1.0,1.0
+24,right,Wuile tn.,12,0.4552,0.7923,12 B 一,150,0.3487,paddleocr,1.0,1.0
+25,right,Lelutelttt? Gi-,130,0.615,0.7717,1 30,2971,0.3893,paddleocr,1.0,1.0
+26,right,PENDING_REVIEW,2025,0.0,0.6087,一 L.2025,001,0.28,paddleocr,1.0,1.0
+27,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,08444272,0.3736,pending_review,1.0,1.0
+28,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,7,0.5104,pending_review,1.0,1.0
+29,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,38,0.3559,pending_review,1.0,1.0
+30,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,,0.0,pending_review,1.0,1.0

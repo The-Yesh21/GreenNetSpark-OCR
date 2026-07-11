@@ -9,3 +9,17 @@ paddle_output*.csv
 *_output.csv
 digit_samples/
 runs/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+
+# Review crop folders
+*review_crops*/
+
+# Training dataset images (keep text labels)
+train_data/kannada_rec/images/
+
+# Temporary web overlays
+temp_web/

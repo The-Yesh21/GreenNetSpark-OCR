@@ -1,0 +1,173 @@
+images/test22_01_left_name.png	UNCORRECTED_B
+images/test22_02_left_name.png	UNCORRECTED_IIhet i..
+images/test22_03_left_name.png	UNCORRECTED_.?
+images/test22_04_left_name.png	ಬೀನ್ಸ್
+images/test22_05_left_name.png	UNCORRECTED_Ibo.
+images/test22_06_left_name.png	ಸುನಾಮಿ
+images/test22_07_left_name.png	ಯಳವನ
+images/test22_08_left_name.png	ಗುಂಡು ಬದನೆ
+images/test22_09_left_name.png	UNCORRECTED_Iteooಳoo.
+images/test22_10_left_name.png	UNCORRECTED_I teoo.
+images/test22_11_left_name.png	ಪಡವಲ
+images/test22_12_left_name.png	UNCORRECTED_eೊnಂ.o
+images/test22_13_left_name.png	ಹಾಗಲ-ವೈಟ್
+images/test22_14_left_name.png	ಹಾಗಲ-ಗ್ರೀನ್
+images/test22_15_left_name.png	ಕಾಲಿಫ್ಲವರ್
+images/test22_01_right_name.png	UNCORRECTED_s .- m
+images/test22_02_right_name.png	UNCORRECTED_ws
+images/test22_03_right_name.png	ಎಂ.ಸಿ.
+images/test22_04_right_name.png	ಬದನೆ-ವೈಟ್
+images/test22_05_right_name.png	ಹಾಗಲ-ವೈಟ್
+images/test22_06_right_name.png	UNCORRECTED_Eೋಗ-.
+images/test22_07_right_name.png	ಸೀಮು ಬದನೆ
+images/test22_08_right_name.png	UNCORRECTED_ಬಳ-
+images/test22_09_right_name.png	ಬಜ್ಜಿ-ಯುಕೋನ
+images/test22_10_right_name.png	ಬೆಂಡೆಕಾಯಿ
+images/test22_11_right_name.png	ಟೊಮೋಟೋ-ಹುಳಿ
+images/test22_12_right_name.png	ಬುಲೆಟ್ ಮೆಣಸು
+images/test22_13_right_name.png	UNCORRECTED_Wೋ್
+images/test22_14_right_name.png	UNCORRECTED_hh.
+images/test28_03_left_name.png	ಎಂ.ಸಿ.
+images/test28_04_left_name.png	UNCORRECTED_Iat.ಪ
+images/test28_05_left_name.png	UNCORRECTED_ಮnisno
+images/test28_06_left_name.png	UNCORRECTED_Fino.
+images/test28_07_left_name.png	ಎಂ.ಸಿ.
+images/test28_08_left_name.png	ಯಳವನ
+images/test28_09_left_name.png	ಗುಂಡು ಬದನೆ
+images/test28_10_left_name.png	ಎಂ.ಸಿ.
+images/test28_11_left_name.png	UNCORRECTED_To.
+images/test28_12_left_name.png	ಪಡವಲ
+images/test28_13_left_name.png	ಬೆಂಡೆಕಾಯಿ
+images/test28_14_left_name.png	ಹಾಗಲ-ವೈಟ್
+images/test28_15_left_name.png	ಕಾಲಿಫ್ಲವರ್
+images/test28_18_right_name.png	UNCORRECTED_Fl M.
+images/test28_19_right_name.png	UNCORRECTED_Tus l?
+images/test28_20_right_name.png	UNCORRECTED_T
+images/test28_21_right_name.png	UNCORRECTED_ವೈ.
+images/test28_22_right_name.png	ಎಂ.ಸಿ.
+images/test28_23_right_name.png	UNCORRECTED_ಗ.ನ
+images/test28_24_right_name.png	UNCORRECTED_... I.
+images/test28_25_right_name.png	UNCORRECTED_ಪiಗೋನ
+images/test28_26_right_name.png	UNCORRECTED_To.
+images/test28_27_right_name.png	UNCORRECTED_I-
+images/test28_28_right_name.png	ದಪ್ಪ ಮೆಣಸು
+images/test28_29_right_name.png	UNCORRECTED_Tn
+images/test28_30_right_name.png	GH
+images/test2_01_left_name.png	ಬೀನ್ಸ್
+images/test2_02_left_name.png	ಪೋಲ್ ಬೀನ್ಸ್
+images/test2_03_left_name.png	ಮೆಣಸಿನಕಾಯಿ
+images/test2_04_left_name.png	ಸೌತೆಕಾಯಿ
+images/test2_05_left_name.png	ಎಂ.ಸಿ.
+images/test2_06_left_name.png	ಸುನಾಮಿ
+images/test2_07_left_name.png	ಯಳವನ
+images/test2_08_left_name.png	ಗುಂಡು ಬದನೆ
+images/test2_09_left_name.png	ಕಂಬಳಕಾಯಿ
+images/test2_10_left_name.png	ಹೀರೆಕಾಯಿ
+images/test2_11_left_name.png	ಪಡವಲ
+images/test2_12_left_name.png	ತೊಂಡೆಕಾಯಿ
+images/test2_13_left_name.png	ಹಾಗಲ-ವೈಟ್
+images/test2_14_left_name.png	ಹಾಗಲ-ಗ್ರೀನ್
+images/test2_15_left_name.png	ಕಾಲಿಫ್ಲವರ್
+images/test2_16_right_name.png	ಪೇರ್ 1ಕೆ
+images/test2_17_right_name.png	ದಪ್ಪ ಮೆಣಸು
+images/test2_18_right_name.png	ಸೋರೆಕಾಯಿ
+images/test2_19_right_name.png	ಬದನೆ-ವೈಟ್
+images/test2_20_right_name.png	ಕೋಸು-ಚಪಾತಿ
+images/test2_21_right_name.png	ಕೋಸು-ನ್ಯಾ.ಂ
+images/test2_22_right_name.png	ಸೀಮು ಬದನೆ
+images/test2_23_right_name.png	ಬಜ್ಜಿ-ನಾಟಿ
+images/test2_24_right_name.png	ಬಜ್ಜಿ-ಯುಕೋನ
+images/test2_25_right_name.png	ಬೆಂಡೆಕಾಯಿ
+images/test2_26_right_name.png	ಟೊಮೋಟೋ-ಹುಳಿ
+images/test2_27_right_name.png	ಬುಲೆಟ್ ಮೆಣಸು
+images/test2_28_right_name.png	ಬೀಟರೂಟ್
+images/test2_29_right_name.png	GH
+images/test3_01_left_name.png	ಬೀನ್ಸ್
+images/test3_02_left_name.png	ಪೋಲ್ ಬೀನ್ಸ್
+images/test3_03_left_name.png	ಮೆಣಸಿನಕಾಯಿ
+images/test3_04_left_name.png	ಸೌತೆಕಾಯಿ
+images/test3_05_left_name.png	ಎಂ.ಸಿ.
+images/test3_06_left_name.png	ಸುನಾಮಿ
+images/test3_07_left_name.png	ಯಳವನ
+images/test3_08_left_name.png	ಗುಂಡು ಬದನೆ
+images/test3_09_left_name.png	ಕಂಬಳಕಾಯಿ
+images/test3_10_left_name.png	ಹೀರೆಕಾಯಿ
+images/test3_11_left_name.png	ಪಡವಲ
+images/test3_12_left_name.png	ತೊಂಡೆಕಾಯಿ
+images/test3_13_left_name.png	ಹಾಗಲ-ವೈಟ್
+images/test3_14_left_name.png	ಹಾಗಲ-ಗ್ರೀನ್
+images/test3_15_left_name.png	ಕಾಲಿಫ್ಲವರ್
+images/test3_16_right_name.png	ಪೇರ್ 1ಕೆ
+images/test3_17_right_name.png	ದಪ್ಪ ಮೆಣಸು
+images/test3_18_right_name.png	ಸೋರೆಕಾಯಿ
+images/test3_19_right_name.png	ಬದನೆ-ವೈಟ್
+images/test3_20_right_name.png	ಕೋಸು-ಚಪಾತಿ
+images/test3_21_right_name.png	ಕೋಸು-ನ್ಯಾ.ಂ
+images/test3_22_right_name.png	ಸೀಮು ಬದನೆ
+images/test3_23_right_name.png	ಬಜ್ಜಿ-ನಾಟಿ
+images/test3_24_right_name.png	ಬಜ್ಜಿ-ಯುಕೋನ
+images/test3_25_right_name.png	ಬೆಂಡೆಕಾಯಿ
+images/test3_26_right_name.png	ಟೊಮೋಟೋ-ಹುಳಿ
+images/test3_27_right_name.png	ಬುಲೆಟ್ ಮೆಣಸು
+images/test3_28_right_name.png	ಬೀಟರೂಟ್
+images/test3_29_right_name.png	GH
+images/test4_01_left_name.png	ಬೀನ್ಸ್
+images/test4_02_left_name.png	ವೆನಿಲ್ ಬೀನ್ಸ್
+images/test4_03_left_name.png	ಮೆಣಸಿನಕಾಯಿ
+images/test4_04_left_name.png	ಸೌತೆಕಾಯಿ
+images/test4_05_left_name.png	ಎಂ.ಸಿ.
+images/test4_06_left_name.png	ಸುನಾಮಿ
+images/test4_07_left_name.png	ಯಳವನ
+images/test4_08_left_name.png	ಗುಂಡು ಬದನೆ
+images/test4_09_left_name.png	ಕಂಬಳಕಾಯಿ
+images/test4_10_left_name.png	ಹೀರೆಕಾಯಿ
+images/test4_11_left_name.png	ಪಡವಲ
+images/test4_12_left_name.png	ತೊಂಡೆಕಾಯಿ
+images/test4_13_left_name.png	ಹಾಗಲ-ವೈಟ್
+images/test4_14_left_name.png	ಹಾಗಲ-ಗ್ರೀನ್
+images/test4_15_left_name.png	ಕಾಲಿಫ್ಲವರ್
+images/test4_16_right_name.png	ಪೈರ್
+images/test4_17_right_name.png	ದಪ್ಪ ಮೆಣಸು
+images/test4_18_right_name.png	ಸೋರೆಕಾಯಿ
+images/test4_19_right_name.png	ಬದನೆ-ವೈಟ್
+images/test4_20_right_name.png	ಕೋಸು-ಚಪಾತಿ
+images/test4_21_right_name.png	ಕೋಸು-ನ್ಯಾ.ಂ
+images/test4_22_right_name.png	ಸೀಮು ಬದನೆ
+images/test4_23_right_name.png	ಬಜ್ಜಿ-ನಾಟಿ
+images/test4_24_right_name.png	ಬಜ್ಜಿ-ಯುಕೋನ
+images/test4_25_right_name.png	ಬೆಂಡೆಕಾಯಿ
+images/test4_26_right_name.png	ಟೊಮೋಟೋ-ಹುಳಿ
+images/test4_27_right_name.png	ಬುಲೆಟ್ ಮೆಣಸು
+images/test4_28_right_name.png	ಬೀಟರೂಟ್
+images/test4_29_right_name.png	G4
+images/test4_30_right_name.png	-
+images/test5_01_left_name.png	ಬೀನ್ಸ್
+images/test5_02_left_name.png	ವೆನಿಲ್ ಬೀನ್ಸ್
+images/test5_03_left_name.png	ಮೆಣಸಿನಕಾಯಿ
+images/test5_04_left_name.png	ಸೌತೆಕಾಯಿ
+images/test5_05_left_name.png	ಎಂ.ಸಿ.
+images/test5_06_left_name.png	ಸುನಾಮಿ
+images/test5_07_left_name.png	ಯಳವನ
+images/test5_08_left_name.png	ಗುಂಡು ಬದನೆ
+images/test5_09_left_name.png	ಕಂಬಳಕಾಯಿ
+images/test5_10_left_name.png	ಹೀರೆಕಾಯಿ
+images/test5_11_left_name.png	ಪಡವಲ
+images/test5_12_left_name.png	ತೊಂಡೆಕಾಯಿ
+images/test5_13_left_name.png	ಹಾಗಲ-ವೈಟ್
+images/test5_14_left_name.png	ಹಾಗಲ-ಗ್ರೀನ್
+images/test5_15_left_name.png	ಕಾಲಿಫ್ಲವರ್
+images/test5_16_right_name.png	ಪೈರ್
+images/test5_17_right_name.png	ದಪ್ಪ ಮೆಣಸು
+images/test5_18_right_name.png	ಸೋರೆಕಾಯಿ
+images/test5_19_right_name.png	ಬದನೆ-ವೈಟ್
+images/test5_20_right_name.png	ಕೋಸು-ಚಪಾತಿ
+images/test5_21_right_name.png	ಕೋಸು-ನ್ಯಾ.ಂ
+images/test5_22_right_name.png	ಸೀಮು ಬದನೆ
+images/test5_23_right_name.png	ಬಜ್ಜಿ-ನಾಟಿ
+images/test5_24_right_name.png	ಬಜ್ಜಿ-ಯುಕೋನ
+images/test5_25_right_name.png	ಬೆಂಡೆಕಾಯಿ
+images/test5_26_right_name.png	ಟೊಮೋಟೋ-ಹುಳಿ
+images/test5_27_right_name.png	ಬುಲೆಟ್ ಮೆಣಸು
+images/test5_28_right_name.png	ಬೀಟರೂಟ್
+images/test5_29_right_name.png	G4
+images/test5_30_right_name.png	-

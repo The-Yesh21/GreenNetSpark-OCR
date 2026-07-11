@@ -1,0 +1,31 @@
+﻿No.,Side,Vegetable,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Yolo_Name_Confidence,Yolo_Price_Confidence
+1,left,PENDING_REVIEW,PENDING_REVIEW,0.0,0.0,,7777,0.4285,pending_review,1.0,1.0
+2,left,ಕ ಕeeee ets? ಮee್ewn,35,0.4114,0.9967,35,000,0.2431,paddleocr,1.0,1.0
+3,left,ಂe ಕeಸ್ದ Wmsneeu?,45,0.5118,0.8589,45,0215,0.2079,paddleocr,1.0,1.0
+4,left,ಸೌತೆಕಾಯಿ,18,0.8953,0.9999,18,117,0.5126,paddleocr,1.0,1.0
+5,left,ಎಂ.ಸಿ.,4,0.9295,0.7493,4,0,0.307,paddleocr,1.0,1.0
+6,left,ಸುನಾಮಿ,9,0.9767,0.319,H9,10,0.4095,paddleocr,1.0,1.0
+7,left,ಯಳವನ,3,0.9996,0.9997,3,30,0.2078,paddleocr,1.0,1.0
+8,left,ಗುಂಡು ಬದನೆ,5,0.9548,0.9993,5,770,0.3741,paddleocr,1.0,1.0
+9,left,ಕಂಬಳಕಾಯಿ,8,0.9897,0.9997,8,10,0.2573,paddleocr,1.0,1.0
+10,left,ಹೀರೆಕಾಯಿ,18,0.9093,1.0,18,760,0.3077,paddleocr,1.0,1.0
+11,left,ಪಡವಲ,15,0.9693,0.9881,1.5,7100,0.3333,paddleocr,1.0,1.0
+12,left,ತೊಂಡೆಕಾಯಿ,20,0.9445,0.9999,20,920,0.3073,paddleocr,1.0,1.0
+13,left,ಹಾಗಲ-ವೈಟ್,20,0.9973,0.9999,20,971,0.3091,paddleocr,1.0,1.0
+14,left,ಹಾಗಲ-ಗ್ರೀನ್,20,0.9699,0.9999,20,0002,0.1845,paddleocr,1.0,1.0
+15,left,ಕಾಲಿಫ್ಲವರ್,11,0.9387,0.9958,11,000,0.2078,paddleocr,1.0,1.0
+16,right,ಕ ಕ I.,PENDING_REVIEW,0.412,0.0,,77774,0.3634,pending_review,1.0,1.0
+17,right,ವೈರ್j,30,0.6827,0.7971,G/.30,03007,0.2886,paddleocr,1.0,1.0
+18,right,ಸೋರೆಕಾಯಿ,PENDING_REVIEW,0.5376,0.0,,00010,0.2494,pending_review,1.0,1.0
+19,right,ಬದನೆ-ವೈಟ್,2,0.7928,0.5809,2,000,0.2422,paddleocr,1.0,1.0
+20,right,ಕೋಸು-ಚಪಾತಿ,PENDING_REVIEW,0.8918,0.0,,105,0.2091,pending_review,1.0,1.0
+21,right,ಕೋಸು-ನ್ಯಾ.ಂ,5,0.9882,0.9526,.5,2000,0.2343,paddleocr,1.0,1.0
+22,right,ಸೀಮು ಬದನೆ,15,0.8219,1.0,15,2050,0.2331,paddleocr,1.0,1.0
+23,right,ಬಜ್ಜಿ-ನಾಟಿ,25,0.463,1.0,25,00050,0.2091,paddleocr,1.0,1.0
+24,right,ಬಜ್ಜಿ-ಯುಕೋನ,16,0.9524,1.0,16,0060,0.2837,paddleocr,1.0,1.0
+25,right,ಬೆಂಡೆಕಾಯಿ,24,0.9604,0.9999,24,12110,0.3506,paddleocr,1.0,1.0
+26,right,ಟೊಮೋಟೋ-ಹುಳಿ,18,0.9945,1.0,18,0770,0.3328,paddleocr,1.0,1.0
+27,right,ಬುಲೆಟ್ ಮೆಣಸು,PENDING_REVIEW,0.9041,0.8922,一,0055,0.236,pending_review,1.0,1.0
+28,right,ಬೀಟರೂಟ್,PENDING_REVIEW,0.9556,0.5557,一,00000,0.2107,pending_review,1.0,1.0
+29,right,T!,50,0.6696,0.9999,50,1001110,0.2972,paddleocr,1.0,1.0
+30,right,PENDING_REVIEW,PENDING_REVIEW,0.0,0.3584,-,00000,0.2102,pending_review,1.0,1.0

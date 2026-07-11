@@ -43,6 +43,10 @@ def import_manifest(manifest_path: Path, output_dir: Path, overwrite: bool) -> t
             warnings.append(f"Missing crop: {crop_value}")
             continue
 
+        # Apply 2x upscaling and 10px white padding to match recognition pipeline preprocessing
+        crop = cv2.resize(crop, (0, 0), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+        crop = cv2.copyMakeBorder(crop, 10, 10, 10, 10, cv2.BORDER_CONSTANT, value=[255, 255, 255])
+
         segments = segment_digits(crop)
         if len(segments) != len(price):
             skipped += 1

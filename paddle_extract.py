@@ -295,7 +295,7 @@ def _pair_side(
 
         if not final_price:
             price_status = "REVIEW_PRICE_MISSING"
-        elif paddle_price and digit_price and paddle_price != digit_price and digit_confidence >= digit_model_min_confidence:
+        elif paddle_price and digit_price and paddle_price != digit_price:
             price_status = "REVIEW_PRICE_DISAGREE"
         elif price_score and price_score < 0.85:
             price_status = "REVIEW_PRICE_LOW_CONF"

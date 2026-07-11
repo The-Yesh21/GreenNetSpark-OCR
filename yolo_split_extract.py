@@ -30,7 +30,11 @@ def crop_box(image, box: list[float], pad: int = 4):
     y1 = max(0, y1 - pad)
     x2 = min(w, x2 + pad)
     y2 = min(h, y2 + pad)
-    return image[y1:y2, x1:x2]
+    crop = image[y1:y2, x1:x2]
+    if crop.size > 0:
+        crop = cv2.resize(crop, (0, 0), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+        crop = cv2.copyMakeBorder(crop, 10, 10, 10, 10, cv2.BORDER_CONSTANT, value=[255, 255, 255])
+    return crop
 
 
 def read_crop_ocr(ocr: PaddleOCR, crop) -> tuple[str, float]:

@@ -1,0 +1,19 @@
+﻿Image,No.,Side,Vegetable,Raw_Vegetable_OCR,Vegetable_Dictionary_Match,Vegetable_Dictionary_Confidence,Vegetable_Status,Vegetable_Duplicate_Status,Vegetable_Duplicate_Count,Price,Vegetable_Confidence,Price_Confidence,Raw_Price_OCR,Digit_Model_Price,Digit_Model_Confidence,Price_Source,Price_Status,Price_Agreement
+test2.jpeg,1,left,Heuru.,Heuru.,GH,0.25,REVIEW_NAME,unique,1,45,0.4699,1.0,45,5,0.308,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,2,left,ie t uu Hhieetthhifu?,ie t uu Hhieetthhifu?,GH,0.087,REVIEW_NAME,unique,1,45,0.3361,0.9997,45,315,0.4409,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,3,left,H re uuuu?,H re uuuu?,GH,0.1667,REVIEW_NAME,unique,1,40,0.5433,0.9994,40,107,0.4808,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,4,left,Fifenntu.,Fifenntu.,ಎಂ.ಸ.,0.1429,REVIEW_NAME,unique,1,15,0.3691,0.9077,1.5,15,0.4857,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,5,left,Fuun,Fuun,ವೈo್IJ.Bo GnIBD,0.1053,REVIEW_NAME,unique,1,18,0.5626,1.0,18,163,0.4559,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,6,left,uihtuh,uihtuh,ಆಪ,0.0,REVIEW_NAME,unique,1,17,0.3501,0.9999,17,17,0.4158,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,7,left,Tu unn?,Tu unn?,ವೈo್IJ.Bo GnIBD,0.1818,REVIEW_NAME,unique,1,20,0.6245,1.0,20,1662,0.4394,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,8,left,uuu?,uuu?,ಆಪ,0.0,REVIEW_NAME,unique,1,18,0.4779,1.0,18,18,0.5187,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,9,left,Heteuu?,Heteuu?,GH,0.2222,REVIEW_NAME,unique,1,15,0.4216,1.0,15,124715,0.4878,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,10,right,Big wst hhst?,Big wst hhst?,ವೈo್IJ.Bo GnIBD,0.1429,REVIEW_NAME,unique,1,PENDING_REVIEW,0.659,0.0,,43,0.2603,pending_review,REVIEW_PRICE_MISSING,digit_only
+test2.jpeg,11,right,Wyrru,Wyrru,ಆಪ,0.0,REVIEW_NAME,unique,1,40,0.3764,1.0,40,10,0.4123,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,12,right,Hah u.,Hah u.,GH,0.25,REVIEW_NAME,unique,1,27,0.4049,0.9999,27,551,0.3108,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,13,right,Beru-ure.,Beru-ure.,ಕೋಸು-ನ್ಯಾ.ಂ,0.2,REVIEW_NAME,unique,1,8,0.5237,0.9998,8,623,0.3787,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,14,right,Teri -u,Teri -u,ರd aನಸ್,0.1429,REVIEW_NAME,unique,1,7,0.2981,0.9993,7,96,0.3132,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,15,right,Fuy uun?,Fuy uun?,ವೈo್IJ.Bo GnIBD,0.1739,REVIEW_NAME,unique,1,18,0.4698,1.0,18,18,0.4645,paddleocr,ok_paddle_digit_weak,agree
+test2.jpeg,16,right,ಪn u,ಪn u,ಆಪ,0.3333,REVIEW_NAME,unique,1,52,0.2454,1.0,52,566,0.4447,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,17,right,Liee ui.,Liee ui.,ಎಂ.ಸ.,0.1538,REVIEW_NAME,unique,1,30,0.5365,1.0,30,272,0.3767,paddleocr,ok_paddle_digit_weak,disagree
+test2.jpeg,18,right,Wu hy ahat?,Wu hy ahat?,ರd aನಸ್,0.2222,REVIEW_NAME,unique,1,PENDING_REVIEW,0.6,0.0,,777,0.4115,pending_review,REVIEW_PRICE_MISSING,digit_only
