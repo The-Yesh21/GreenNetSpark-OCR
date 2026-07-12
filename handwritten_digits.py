@@ -49,8 +49,30 @@ def segment_digits(crop: np.ndarray) -> list[tuple[np.ndarray, list[int]]]:
     if crop.size == 0:
         return []
     gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY) if crop.ndim == 3 else crop.copy()
-    gray = cv2.GaussianBlur(gray, (3, 3), 0)
-    _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    
+    h, w = gray.shape[:2]
+    has_white_border = False
+    if h > 20 and w > 20:
+        top_mean = np.mean(gray[:10, :])
+        bottom_mean = np.mean(gray[-10:, :])
+        left_mean = np.mean(gray[:, :10])
+        right_mean = np.mean(gray[:, -10:])
+        if top_mean > 248 and bottom_mean > 248 and left_mean > 248 and right_mean > 248:
+            has_white_border = True
+            
+    if has_white_border:
+        inner_gray = gray[10:-10, 10:-10]
+    else:
+        inner_gray = gray
+        
+    inner_gray = cv2.GaussianBlur(inner_gray, (3, 3), 0)
+    _, binary_inner = cv2.threshold(inner_gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    
+    if has_white_border:
+        binary = cv2.copyMakeBorder(binary_inner, 10, 10, 10, 10, cv2.BORDER_CONSTANT, value=0)
+    else:
+        binary = binary_inner
+        
     binary = cv2.morphologyEx(binary, cv2.MORPH_OPEN, np.ones((2, 2), np.uint8))
 
     contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
